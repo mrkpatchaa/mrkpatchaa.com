@@ -36,6 +36,7 @@ export const BlogPostTemplate = ({ content, contentComponent, description, tags,
                 </ul>
               </div>
             ) : null}
+            <hr style={{ margin: '2.5rem 0 1rem', border: '1px solid hsl(0, 0%, 87%)' }} />
             <DiscussionEmbed
               shortname={social.disqus}
               config={{ identifier: id, title: `${title} by @${social.twitter}` }}
