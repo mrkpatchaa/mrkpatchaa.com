@@ -4,7 +4,7 @@ path: /about
 title: About me
 ---
 
-### Hi there
+# Hi there
 
 I am Raymond Médédé KPATCHAA, a Software Engineer with over 6 years of experience solving problems and having fun.
 
