@@ -5,6 +5,7 @@ import 'typeface-fira-mono'
 
 import Navbar from './Navbar'
 import './all.sass'
+import './prism.sass'
 
 const TemplateWrapper = ({ children }) => (
   <StaticQuery
