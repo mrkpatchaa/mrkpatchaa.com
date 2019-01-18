@@ -27,19 +27,19 @@ function SEO({ meta, image, title, description, slug, lang = 'en' }) {
       render={data => {
         const { siteMetadata } = data.site
         const metaDescription = description || siteMetadata.description
-        const metaImage = image ? `${siteMetadata.siteUrl}/${image}` : logo
+        const metaImage = image ? `${siteMetadata.siteUrl}/${image}` : `${siteMetadata.siteUrl}/${logo}`
         const url = `${siteMetadata.siteUrl}${slug}`
         return (
           <Helmet
             htmlAttributes={{ lang }}
             {...(title
               ? {
-                titleTemplate: `%s - ${siteMetadata.title}`,
-                title,
-              }
+                  titleTemplate: `%s - ${siteMetadata.title}`,
+                  title,
+                }
               : {
-                title: siteMetadata.title,
-              })}
+                  title: siteMetadata.title,
+                })}
           >
             <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/icons/apple-touch-icon-57x57.png" />
             <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/icons/apple-touch-icon-114x114.png" />
