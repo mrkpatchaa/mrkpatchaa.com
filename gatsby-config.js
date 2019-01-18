@@ -115,7 +115,7 @@ module.exports = {
                   .replace(/,\s*\/static\//g, `,${siteUrl}/static/`)
 
                 return Object.assign({}, edge.node.frontmatter, {
-                  description: edge.node.frontmatter.spoiler,
+                  description: edge.node.frontmatter.descirption,
                   date: edge.node.fields.date,
                   url: site.siteMetadata.siteUrl + edge.node.fields.slug,
                   guid: site.siteMetadata.siteUrl + edge.node.fields.slug,
@@ -127,7 +127,6 @@ module.exports = {
                 allMarkdownRemark(
                   limit: 1000,
                   sort: { order: DESC, fields: [frontmatter___date] }
-                  filter: {fields: { langKey: {eq: "en"}}}
                 ) {
                   edges {
                     node {
@@ -139,7 +138,7 @@ module.exports = {
                       frontmatter {
                         title
                         date
-                        spoiler
+                        description
                       }
                     }
                   }
