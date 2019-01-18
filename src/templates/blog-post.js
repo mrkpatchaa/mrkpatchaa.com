@@ -65,7 +65,12 @@ const BlogPost = ({ data }) => {
 
   return (
     <Layout>
-      <SEO title={post.frontmatter.title} description={post.frontmatter.description} slug={post.fields.slug} />
+      <SEO
+        title={post.frontmatter.title}
+        description={post.frontmatter.description}
+        slug={post.fields.slug}
+        image={post.frontmatter.image ? post.frontmatter.image.childImageSharp.fluid.src : ''}
+      />
       <BlogPostTemplate
         content={post.html}
         contentComponent={HTMLContent}
@@ -98,6 +103,13 @@ export const pageQuery = graphql`
         title
         description
         tags
+        image {
+          childImageSharp {
+            fluid(maxWidth: 2048, quality: 100) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
       fields {
         slug

@@ -2,6 +2,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import PropTypes from 'prop-types'
 import { StaticQuery, graphql } from 'gatsby'
+import logo from '../img/Logo.png'
 
 const query = graphql`
   query {
@@ -26,68 +27,19 @@ function SEO({ meta, image, title, description, slug, lang = 'en' }) {
       render={data => {
         const { siteMetadata } = data.site
         const metaDescription = description || siteMetadata.description
-        const metaImage = image ? `${siteMetadata.siteUrl}/${image}` : null
+        const metaImage = image ? `${siteMetadata.siteUrl}/${image}` : logo
         const url = `${siteMetadata.siteUrl}${slug}`
         return (
           <Helmet
             htmlAttributes={{ lang }}
             {...(title
               ? {
-                  titleTemplate: `%s - ${siteMetadata.title}`,
-                  title,
-                }
+                titleTemplate: `%s - ${siteMetadata.title}`,
+                title,
+              }
               : {
-                  title: siteMetadata.title,
-                })}
-            meta={[
-              {
-                name: 'description',
-                content: metaDescription,
-              },
-              {
-                property: 'og:url',
-                content: url,
-              },
-              {
-                property: 'og:title',
-                content: title || siteMetadata.title,
-              },
-              {
-                name: 'og:description',
-                content: metaDescription,
-              },
-              {
-                name: 'twitter:card',
-                content: 'summary',
-              },
-              {
-                name: 'twitter:creator',
-                content: siteMetadata.social.twitter,
-              },
-              {
-                name: 'twitter:title',
-                content: title || siteMetadata.title,
-              },
-              {
-                name: 'twitter:description',
-                content: metaDescription,
-              },
-            ]
-              .concat(
-                metaImage
-                  ? [
-                      {
-                      property: 'og:image',
-                        content: metaImage,
-                    },
-                      {
-                      name: 'twitter:image',
-                        content: metaImage,
-                    },
-                    ]
-                  : []
-              )
-              .concat(meta)}
+                title: siteMetadata.title,
+              })}
           >
             <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/icons/apple-touch-icon-57x57.png" />
             <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/icons/apple-touch-icon-114x114.png" />
@@ -109,6 +61,20 @@ function SEO({ meta, image, title, description, slug, lang = 'en' }) {
             <meta name="msapplication-square150x150logo" content="/icons/mstile-150x150.png" />
             <meta name="msapplication-wide310x150logo" content="/icons/mstile-310x150.png" />
             <meta name="msapplication-square310x310logo" content="/icons/mstile-310x310.png" />
+
+            <meta property="og:locale" content={lang} />
+            <meta property="og:site_name" content={siteMetadata.siteTitle} />
+            <meta property="og:url" content={url} />
+            <meta property="og:type" content="website" />
+            <meta property="og:title" content={title || siteMetadata.title} />
+            <meta property="og:description" content={metaDescription} />
+            <meta property="og:image" content={metaImage} />
+
+            <meta name="twitter:card" content="summary" />
+            <meta name="twitter:creator" content={`@${siteMetadata.social.twitter}`} />
+            <meta name="twitter:title" content={title || siteMetadata.title} />
+            <meta name="twitter:description" content={metaDescription} />
+            <meta name="twitter:image" content={metaImage} />
           </Helmet>
         )
       }}

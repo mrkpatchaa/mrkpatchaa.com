@@ -11,7 +11,7 @@ tags:
   - Application
   - Javascript
   - Health
-thumbnail: /img/blinker.png
+image: /img/blinker.png
 ---
 
 A week ago, I discovered a very useful website and I thought I should make it an application.

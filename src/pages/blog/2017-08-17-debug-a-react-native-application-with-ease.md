@@ -13,7 +13,7 @@ tags:
   - Javascript
   - Debug
   - Mobile
-thumbnail: /img/React-Native-Debugger.png
+image: /img/React-Native-Debugger.png
 ---
 
 Debugging on React Native is not as ease as we think. Facebook officially provides [**documentation**](https://facebook.github.io/react-native/docs/debugging.html) on debugging a RN application in Google Chrome taking advantages of Chrome Developer Tools.

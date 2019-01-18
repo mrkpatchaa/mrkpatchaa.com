@@ -11,7 +11,7 @@ tags:
   - Containers
   - Dockerfile
   - Docker compose
-thumbnail: /img/docker-logo-moby.png
+image: /img/docker-logo-moby.png
 # ![chemex](/img/chemex.jpg)
 ---
 
