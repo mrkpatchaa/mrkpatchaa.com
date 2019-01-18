@@ -1,7 +1,15 @@
+const siteTitle = "Raymond Médédé KPATCHAA, a learner's blog"
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby + Netlify CMS Starter',
-    description: 'This repo contains an example business website that is built with Gatsby, and Netlify CMS.It follows the JAMstack architecture by using Git as a single source of truth, and Netlify for continuous deployment, and CDN distribution.',
+    title: siteTitle,
+    author: 'Raymond Médédé KPATCHAA',
+    siteUrl: 'https://rmkpatchaa.com',
+    description: siteTitle,
+    social: {
+      disqus: 'rmkpatchaa',
+      twitter: 'rmkpatchaa',
+      gitHub: 'rmkpatchaa',
+    },
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -53,8 +61,94 @@ module.exports = {
             resolve: 'gatsby-remark-copy-linked-files',
             options: {
               destinationDir: 'static',
+            },
+          },
+          {
+            resolve: `gatsby-remark-prismjs`,
+            options: {
+              classPrefix: 'language-',
+              inlineCodeMarker: null,
+              aliases: {},
+              showLineNumbers: false,
+              noInlineHighlight: true,
+            },
+          },
+        ],
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: `UA-35702610-1`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-feed`,
+      options: {
+        query: `
+          {
+            site {
+              siteMetadata {
+                title
+                description
+                siteUrl
+                site_url: siteUrl
+              }
             }
           }
+        `,
+        feeds: [
+          {
+            serialize: ({ query: { site, allMarkdownRemark } }) =>
+              allMarkdownRemark.edges.map(edge => {
+                const siteUrl = site.siteMetadata.siteUrl
+                const postText = `
+                <div style="margin-top=55px; font-style: italic;">(This is an article posted to my blog at https://rmkpatchaa.com. You can read it online by <a href="${siteUrl +
+                  edge.node.fields.slug}">clicking here</a>.)</div>
+              `
+                let html = edge.node.html
+                // Hacky workaround for https://github.com/gaearon/overreacted.io/issues/65
+                html = html
+                  .replace(/href="\//g, `href="${siteUrl}/`)
+                  .replace(/src="\//g, `src="${siteUrl}/`)
+                  .replace(/"\/static\//g, `"${siteUrl}/static/`)
+                  .replace(/,\s*\/static\//g, `,${siteUrl}/static/`)
+
+                return Object.assign({}, edge.node.frontmatter, {
+                  description: edge.node.frontmatter.spoiler,
+                  date: edge.node.fields.date,
+                  url: site.siteMetadata.siteUrl + edge.node.fields.slug,
+                  guid: site.siteMetadata.siteUrl + edge.node.fields.slug,
+                  custom_elements: [{ 'content:encoded': html + postText }],
+                })
+              }),
+            query: `
+              {
+                allMarkdownRemark(
+                  limit: 1000,
+                  sort: { order: DESC, fields: [frontmatter___date] }
+                  filter: {fields: { langKey: {eq: "en"}}}
+                ) {
+                  edges {
+                    node {
+                      excerpt(pruneLength: 250)
+                      html
+                      fields { 
+                        slug   
+                      }
+                      frontmatter {
+                        title
+                        date
+                        spoiler
+                      }
+                    }
+                  }
+                }
+              }
+            `,
+            output: '/rss.xml',
+            title: siteTitle,
+          },
         ],
       },
     },
@@ -64,13 +158,13 @@ module.exports = {
         modulePath: `${__dirname}/src/cms/cms.js`,
       },
     },
-    {
-      resolve:'gatsby-plugin-purgecss', // purges all unused/unreferenced css rules
-      options: {
-        develop: true,            // Activates purging in npm run develop
-        purgeOnly: ['/all.sass'], // applies purging only on the bulma css file
-      },
-    }, // must be after other CSS plugins
+    // {
+    //   resolve:'gatsby-plugin-purgecss', // purges all unused/unreferenced css rules
+    //   options: {
+    //     develop: true,            // Activates purging in npm run develop
+    //     purgeOnly: ['/all.sass'], // applies purging only on the bulma css file
+    //   },
+    // }, // must be after other CSS plugins
     'gatsby-plugin-netlify', // make sure to keep it last in the array
   ],
 }

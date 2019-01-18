@@ -1,0 +1,7 @@
+{
+  "files.autoSave": "onFocusChange",
+  "eslint.autoFixOnSave": true,
+  "typescript.format.enable": false,
+  "javascript.validate.enable": false,
+  "standard.enable": false
+}

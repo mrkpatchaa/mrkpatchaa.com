@@ -1,16 +1,73 @@
+// =============================================================================
+// String Replace
+// =============================================================================
+
+@function str-replace($string, $search, $replace: "")
+  $index: str-index($string, $search)
+  @if $index
+    @return str-slice($string, 1, $index - 1)+$replace+str-replace(str-slice($string, $index + str-length($search)), $search, $replace)
+
+  @return $string
+
+// =============================================================================
+// Font Face
+// =============================================================================
+
+@mixin font-face($name, $path, $weight: null, $style: null, $exts: eot woff2 woff ttf svg)
+  $src: null;
+
+  $extmods: (eot: "?", svg: "#"+ str-replace($name, " ", "_"))
+
+  $formats: (otf: "opentype", ttf: "truetype")
+
+  @each $ext in $exts
+    $extmod: if(map-has-key($extmods, $ext), $ext + map-get($extmods, $ext), $ext);
+    $format: if(map-has-key($formats, $ext), map-get($formats, $ext), $ext);
+    $src: append($src, url(quote($path + "." + $extmod)) format(quote($format)), comma);
+
+  @font-face 
+    font-family: quote($name);
+    font-style: $style;
+    font-weight: $weight;
+    src: $src;
+
 @import "~bulma/sass/utilities/initial-variables"
 
+@include font-face("Space Text", fonts/space-text/SpaceGrotesk-Light, 300, null, woff2 woff);
+@include font-face("Space Text", fonts/space-text/SpaceGrotesk-Regular, 400, null, woff2 woff);
+@include font-face("Space Text", fonts/space-text/SpaceGrotesk-Medium, 500, null, woff2 woff);
+@include font-face("Space Text", fonts/space-text/SpaceGrotesk-SemiBold, 600, null, woff2 woff);
+@include font-face("Space Text", fonts/space-text/SpaceGrotesk-Bold, 700, null, woff2 woff);
+
 // Config vars
-// Kalidi logo brand color: #FD461E
-$kaldi-red: #D64000
-$kaldi-red-invert: #fff
-
-$primary: $kaldi-red
-$primary-invert: $kaldi-red-invert
+// Bulma config
 $body-color: #333
+$body-background-color: rgba(0,0,0,.0175)
+$primary: $blue
+$body-size: 1.05rem
+$body-line-height: 1.6
+$size-normal: 1.05rem
+// $family-sans-serif: system-ui, "Barlow", BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+$family-monospace: "Fira Mono", monospace
+$code: $grey-darker
+$code-weight: 400
+$code-background: hsl(0, 0%, 93%)
+$navbar-breakpoint: 300px
 
-.navbar .navbar-menu
-  box-shadow:none !important
+// .title, .font-title
+//   font-family: "Space Text", $family-sans-serif
+
+@import "~bulma"
+@import "./prism.sass"
+
+.navbar
+  background: transparent
+.navbar 
+  .navbar-menu
+    box-shadow:none !important
+  // > .container 
+  //   padding-left: $gap / 8
+  //   padding-right: $gap / 8
 
 .content .taglist
   list-style: none
@@ -44,4 +101,8 @@ $body-color: #333
 .margin-top-0
   margin-top: 0 !important
 
-@import "~bulma"
+.icon
+  svg 
+    fill: currentColor
+    height: 1.5rem
+    width: 1.5rem

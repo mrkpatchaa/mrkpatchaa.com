@@ -5,8 +5,10 @@
   "author": "Austin Green",
   "dependencies": {
     "bulma": "^0.7.0",
+    "disqus-react": "^1.0.5",
     "gatsby": "^2.0.66",
     "gatsby-image": "^2.0.23",
+    "gatsby-plugin-feed": "^2.0.11",
     "gatsby-plugin-netlify": "^2.0.6",
     "gatsby-plugin-netlify-cms": "^3.0.9",
     "gatsby-plugin-purgecss": "^3.1.0",
@@ -15,19 +17,23 @@
     "gatsby-plugin-sharp": "^2.0.15",
     "gatsby-remark-copy-linked-files": "^2.0.7",
     "gatsby-remark-images": "^3.0.1",
+    "gatsby-remark-prismjs": "^3.2.0",
     "gatsby-remark-relative-images": "^0.2.1",
     "gatsby-source-filesystem": "^2.0.12",
-    "gatsby-transformer-remark": "^2.1.15",
+    "gatsby-transformer-remark": "^2.2.0",
     "gatsby-transformer-sharp": "^2.1.9",
     "lodash": "^4.17.5",
     "lodash-webpack-plugin": "^0.11.4",
     "netlify-cms": "^2.3.2",
     "node-sass": "^4.11.0",
     "parcel-bundler": "^1.9.4",
+    "prismjs": "^1.15.0",
     "prop-types": "^15.6.0",
     "react": "^16.2.0",
     "react-dom": "^16.4.1",
     "react-helmet": "^5.2.0",
+    "simple-icons": "^1.9.18",
+    "typeface-fira-mono": "^0.0.54",
     "uuid": "^3.2.1"
   },
   "keywords": [
@@ -46,8 +52,17 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
+    "babel-eslint": "10.0.1",
+    "babel-preset-gatsby": "^0.1.6",
+    "eslint": "5.12.0",
+    "eslint-config-airbnb": "17.1.0",
+    "eslint-config-prettier": "3.5.0",
+    "eslint-plugin-import": "2.14.0",
+    "eslint-plugin-jsx-a11y": "6.1.2",
+    "eslint-plugin-prettier": "3.0.1",
+    "eslint-plugin-react": "7.12.4",
     "gh-pages": "^2.0.1",
     "prettier": "^1.15.3",
-    "rimraf": "^2.6.2"
+    "rimraf": "^2.6.3"
   }
 }

@@ -2,22 +2,22 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { v4 } from 'uuid'
 
-const Testimonials = ({ testimonials }) => (
+const Projects = ({ projects }) => (
   <div>
-    {testimonials.map(testimonial => (
+    {projects.map(project => (
       <article key={v4()} className="message">
         <div className="message-body">
-          {testimonial.quote}
+          {project.title}
           <br />
-          <cite> – {testimonial.author}</cite>
+          <cite> – {project.description}</cite>
         </div>
       </article>
     ))}
   </div>
 )
 
-Testimonials.propTypes = {
-  testimonials: PropTypes.arrayOf(
+Projects.propTypes = {
+  projects: PropTypes.arrayOf(
     PropTypes.shape({
       quote: PropTypes.string,
       author: PropTypes.string,
@@ -25,4 +25,4 @@ Testimonials.propTypes = {
   ),
 }
 
-export default Testimonials
+export default Projects
