@@ -101,12 +101,12 @@ module.exports = {
           {
             serialize: ({ query: { site, allMarkdownRemark } }) =>
               allMarkdownRemark.edges.map(edge => {
-                const siteUrl = site.siteMetadata.siteUrl
+                const { siteUrl } = site.siteMetadata
                 const postText = `
                 <div style="margin-top=55px; font-style: italic;">(This is an article posted to my blog at https://rmkpatchaa.com. You can read it online by <a href="${siteUrl +
                   edge.node.fields.slug}">clicking here</a>.)</div>
               `
-                let html = edge.node.html
+                let { html } = edge.node
                 // Hacky workaround for https://github.com/gaearon/overreacted.io/issues/65
                 html = html
                   .replace(/href="\//g, `href="${siteUrl}/`)
@@ -114,13 +114,14 @@ module.exports = {
                   .replace(/"\/static\//g, `"${siteUrl}/static/`)
                   .replace(/,\s*\/static\//g, `,${siteUrl}/static/`)
 
-                return Object.assign({}, edge.node.frontmatter, {
+                return {
+                  ...edge.node.frontmatter,
                   description: edge.node.frontmatter.descirption,
                   date: edge.node.fields.date,
                   url: site.siteMetadata.siteUrl + edge.node.fields.slug,
                   guid: site.siteMetadata.siteUrl + edge.node.fields.slug,
                   custom_elements: [{ 'content:encoded': html + postText }],
-                })
+                }
               }),
             query: `
               {
@@ -132,8 +133,8 @@ module.exports = {
                     node {
                       excerpt(pruneLength: 250)
                       html
-                      fields { 
-                        slug   
+                      fields {
+                        slug
                       }
                       frontmatter {
                         title
@@ -164,12 +165,12 @@ module.exports = {
       },
     },
     'gatsby-plugin-react-helmet',
-    {
-      resolve: 'gatsby-plugin-netlify-cms',
-      options: {
-        modulePath: `${__dirname}/src/cms/cms.js`,
-      },
-    },
+    // {
+    //   resolve: 'gatsby-plugin-netlify-cms',
+    //   options: {
+    //     modulePath: `${__dirname}/src/cms/cms.js`,
+    //   },
+    // },
     {
       resolve: 'gatsby-plugin-purgecss', // purges all unused/unreferenced css rules
       options: {
@@ -177,6 +178,6 @@ module.exports = {
         purgeOnly: ['/all.sass'], // applies purging only on the bulma css file
       },
     }, // must be after other CSS plugins
-    'gatsby-plugin-netlify', // make sure to keep it last in the array
+    // 'gatsby-plugin-netlify', // make sure to keep it last in the array
   ],
 }
