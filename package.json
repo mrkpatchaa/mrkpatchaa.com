@@ -11,7 +11,7 @@
     "gatsby-plugin-feed": "^2.0.11",
     "gatsby-plugin-google-analytics": "^2.0.9",
     "gatsby-plugin-manifest": "^2.0.13",
-    "gatsby-plugin-purgecss": "4.0.0",
+    "gatsby-plugin-purgecss": "^4.0.1",
     "gatsby-plugin-react-helmet": "^3.0.4",
     "gatsby-plugin-sass": "^2.0.7",
     "gatsby-plugin-sharp": "^2.0.15",
@@ -53,9 +53,9 @@
     "upgradeDeps": "david update && yarn"
   },
   "devDependencies": {
-    "babel-eslint": "10.0.2",
-    "babel-preset-gatsby": "0.2.10",
-    "eslint": "6.2.1",
+    "babel-eslint": "^10.0.3",
+    "babel-preset-gatsby": "^0.2.11",
+    "eslint": "^6.2.2",
     "eslint-config-airbnb": "18.0.1",
     "eslint-config-prettier": "6.1.0",
     "eslint-plugin-import": "2.18.2",
