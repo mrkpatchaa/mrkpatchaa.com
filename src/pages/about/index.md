@@ -6,7 +6,7 @@ title: About me
 
 # Hi there
 
-I am Raymond Médédé KPATCHAA, a Software Engineer with over 6 years of experience solving problems and having fun.
+I am Médédé Raymond KPATCHAA, a Software Engineer with over 6 years of experience solving problems and having fun.
 
 Javascript experienced developer, I am in love with all the stuff related to the Web and Mobile.
 

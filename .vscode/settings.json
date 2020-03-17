@@ -3,5 +3,8 @@
   "eslint.autoFixOnSave": true,
   "typescript.format.enable": false,
   "javascript.validate.enable": false,
-  "standard.enable": false
+  "standard.enable": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
 }

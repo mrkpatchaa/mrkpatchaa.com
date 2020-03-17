@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: rmkpatchaa/rmkpatchaa.com
+  repo: mrkpatchaa/mrkpatchaa.com
   branch: master
   site_domain: compassionate-hypatia-380602.netlify.com
 

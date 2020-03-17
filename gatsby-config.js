@@ -1,15 +1,15 @@
-const siteTitle = "Raymond Médédé KPATCHAA, a learner's blog"
+const siteTitle = "Médédé Raymond KPATCHAA, a learner's blog"
 module.exports = {
   siteMetadata: {
     title: siteTitle,
-    author: 'Raymond Médédé KPATCHAA',
-    siteUrl: 'https://rmkpatchaa.com',
+    author: 'Médédé Raymond KPATCHAA',
+    siteUrl: 'https://mrkpatchaa.com',
     description: siteTitle,
     social: {
-      disqus: 'rmkpatchaa',
-      twitter: 'rmkpatchaa',
-      github: 'rmkpatchaa',
-      linkedin: 'rmkpatchaa',
+      disqus: 'mrkpatchaa',
+      twitter: 'mrkpatchaa',
+      github: 'mrkpatchaa',
+      linkedin: 'mrkpatchaa',
     },
   },
   plugins: [
@@ -103,7 +103,7 @@ module.exports = {
               allMarkdownRemark.edges.map(edge => {
                 const { siteUrl } = site.siteMetadata
                 const postText = `
-                <div style="margin-top=55px; font-style: italic;">(This is an article posted to my blog at https://rmkpatchaa.com. You can read it online by <a href="${siteUrl +
+                <div style="margin-top=55px; font-style: italic;">(This is an article posted to my blog at https://mrkpatchaa.com. You can read it online by <a href="${siteUrl +
                   edge.node.fields.slug}">clicking here</a>.)</div>
               `
                 let { html } = edge.node
@@ -155,8 +155,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Raymond Médédé KPATCHAA's blog`,
-        short_name: `rmkpatchaa's blog`,
+        name: `Médédé Raymond KPATCHAA's blog`,
+        short_name: `mrkpatchaa's blog`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#111`,

@@ -19,6 +19,6 @@ This is a quick article to share a presentation I've made months ago to introduc
 
 The text is in french, but slides are very graphical so you will have no problems to understand.
 
-<iframe src="//slides.com/rmkpatchaa/introduction-a-docker/embed" width="100%" height="420" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="//slides.com/mrkpatchaa/introduction-a-docker/embed" width="100%" height="420" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
-You can find it on my slides.com [**profile**](http://slides.com/rmkpatchaa/introduction-a-docker#/) if the embedded code is not working.
+You can find it on my slides.com [**profile**](http://slides.com/mrkpatchaa/introduction-a-docker#/) if the embedded code is not working.
