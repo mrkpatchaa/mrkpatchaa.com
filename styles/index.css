@@ -1,0 +1,22 @@
+@tailwind base;
+@layer base {
+    body {
+        @apply text-slate-700 text-base;
+    }
+    h1 {
+      @apply text-slate-900;
+    }
+    h2 {
+      @apply text-slate-900;
+    }
+    a {
+      @apply text-blue-600;
+    }
+  }
+@tailwind components;
+@tailwind utilities;
+
+nav .icon svg { width: 100%; height: 100%; fill: currentColor;}
+code[class*="language-"], pre[class*="language-"] {
+    font-family: 'Fira Code', Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+}

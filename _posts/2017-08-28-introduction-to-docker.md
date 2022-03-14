@@ -1,0 +1,29 @@
+---
+templateKey: blog-post
+title: 'Introduction to Docker'
+excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus.'
+published: true
+comments: true
+date: '2017-08-28T11:30:00.0000Z'
+readTime: 2
+author:
+  name: Tim Neutkens
+  picture: '/assets/blog/authors/tim.jpeg'
+tags:
+  - Docker
+  - Containers
+  - Dockerfile
+  - Docker compose
+coverImage: /assets/blog/docker-logo-moby.png
+ogImage:
+  url:  /assets/blog/docker-logo-moby.png
+# ![chemex](/assets/blog/chemex.jpg)
+---
+
+This is a quick article to share a presentation I've made months ago to introduce Docker to my colleagues.
+
+The text is in french, but slides are very graphical so you will have no problems to understand.
+
+<iframe src="//slides.com/mrkpatchaa/introduction-a-docker/embed" width="100%" height="420" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+You can find it on my slides.com [**profile**](http://slides.com/mrkpatchaa/introduction-a-docker#/) if the embedded code is not working.
