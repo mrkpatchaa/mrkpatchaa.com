@@ -48,7 +48,7 @@ export default function Header() {
           />
         </a>
         <a
-          href={`https://github.com/${SOCIAL.twitter}`}
+          href={`https://twitter.com/${SOCIAL.twitter}`}
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -59,7 +59,7 @@ export default function Header() {
           />
         </a>
         <a
-          href={`https://github.com/${SOCIAL.linkedin}`}
+          href={`https://linkedin.com/in/${SOCIAL.linkedin}`}
           target="_blank"
           rel="noopener noreferrer"
         >
