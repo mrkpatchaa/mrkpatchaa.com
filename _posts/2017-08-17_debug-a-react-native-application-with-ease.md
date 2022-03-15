@@ -1,14 +1,11 @@
 ---
 templateKey: blog-post
 title: 'Debug a React Native application with ease'
-excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus.'
+excerpt: 'Debugging on React Native is not as ease as we think. Facebook officially provides documentation on debugging a RN application in Google Chrome taking advantages of Chrome Developer Tools.'
 published: true
 comments: true
 date: '2017-08-17T23:45:00.0000Z'
 readTime: 5
-author:
-  name: Tim Neutkens
-  picture: '/assets/blog/authors/tim.jpeg'
 tags:
   - React Native
   - React Native Debugger

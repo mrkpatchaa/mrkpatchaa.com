@@ -1,14 +1,11 @@
 ---
 templateKey: blog-post
 title: 'My first electron app : Blinker'
-excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus.'
+excerpt: 'A week ago, I discovered a very useful website and I thought I should make it an application. The principle is simple : it reminds you to take your eyes away from your computer every 20 minutes. So here is Blinker.'
 published: true
 comments: true
 date: '2017-06-17T18:30:00.0000Z'
 readTime: 3
-author:
-  name: Tim Neutkens
-  picture: '/assets/blog/authors/tim.jpeg'
 tags:
   - Electron
   - Application

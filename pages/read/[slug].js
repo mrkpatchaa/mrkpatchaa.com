@@ -51,7 +51,6 @@ export async function getStaticProps({ params }) {
     "title",
     "date",
     "slug",
-    "author",
     "content",
     "ogImage",
     "coverImage",
@@ -70,6 +69,7 @@ export async function getStaticProps({ params }) {
 
 export async function getStaticPaths() {
   const posts = getAllPosts(["slug"]);
+  console.log(posts);
 
   return {
     paths: posts.map((post) => {

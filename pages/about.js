@@ -7,19 +7,6 @@ import { getPostBySlug } from "../lib/api";
 import PostBody from "../components/post-body";
 import markdownToHtml from "../lib/markdownToHtml";
 
-const ABOUT_CONTENT = `
-# Hi there
-
-I am Médédé Raymond KPATCHAA, a Software Engineer with over 9 years of experience solving problems and having fun.
-
-Javascript experienced developer, I am in love with all the stuff related to the Web and Mobile.
-
-I code with Javascript especially React and React Native, Java, PHP (sometimes, but when I do I like using Laravel).
-
-Data Science enthusiast, I also like reading about Docker, Kubernetes and computer security.
-
-`;
-
 export default function About({ post }) {
   return (
     <>
@@ -42,7 +29,7 @@ export default function About({ post }) {
 export async function getStaticProps() {
   const post = getPostBySlug(
     "about",
-    ["title", "date", "slug", "author", "content", "ogImage", "coverImage"],
+    ["title", "date", "slug", "content", "ogImage"],
     true
   );
   const content = await markdownToHtml(post.content || "");
