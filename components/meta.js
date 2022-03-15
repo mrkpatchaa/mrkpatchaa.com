@@ -1,5 +1,5 @@
-import Head from 'next/head'
-import { BLOG_TITLE, HOME_OG_IMAGE_URL } from '../lib/constants'
+import Head from "next/head";
+import { BLOG_TITLE, HOME_OG_IMAGE_URL } from "../lib/constants";
 
 export default function Meta() {
   return (
@@ -29,16 +29,13 @@ export default function Meta() {
       />
       <link rel="shortcut icon" href="/favicons/favicon.ico" />
       <link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg" />
-      <link rel="icon" type="image/png" href="/assets/images/favicon.png"/>
+      <link rel="icon" type="image/png" href="/assets/images/favicon.png" />
       <meta name="msapplication-TileColor" content="#000000" />
       <meta name="msapplication-config" content="/favicons/browserconfig.xml" />
       <meta name="theme-color" content="#000" />
       <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
-      <meta
-        name="description"
-        content={BLOG_TITLE}
-      />
+      <meta name="description" content={BLOG_TITLE} />
       <meta property="og:image" content={HOME_OG_IMAGE_URL} />
     </Head>
-  )
+  );
 }

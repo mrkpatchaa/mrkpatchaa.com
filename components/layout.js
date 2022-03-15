@@ -1,5 +1,5 @@
-import Alert from '../components/alert'
-import Meta from '../components/meta'
+import Alert from "../components/alert";
+import Meta from "../components/meta";
 
 export default function Layout({ preview, children }) {
   return (
@@ -10,5 +10,5 @@ export default function Layout({ preview, children }) {
         <main>{children}</main>
       </div>
     </>
-  )
+  );
 }

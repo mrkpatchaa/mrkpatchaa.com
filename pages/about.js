@@ -1,11 +1,11 @@
-import Container from '../components/container'
-import Header from '../components/header'
-import Layout from '../components/layout'
-import Head from 'next/head'
-import { BLOG_TITLE } from '../lib/constants'
-import { getPostBySlug } from '../lib/api'
-import PostBody from '../components/post-body'
-import markdownToHtml from '../lib/markdownToHtml'
+import Container from "../components/container";
+import Header from "../components/header";
+import Layout from "../components/layout";
+import Head from "next/head";
+import { BLOG_TITLE } from "../lib/constants";
+import { getPostBySlug } from "../lib/api";
+import PostBody from "../components/post-body";
+import markdownToHtml from "../lib/markdownToHtml";
 
 const ABOUT_CONTENT = `
 # Hi there
@@ -18,36 +18,34 @@ I code with Javascript especially React and React Native, Java, PHP (sometimes, 
 
 Data Science enthusiast, I also like reading about Docker, Kubernetes and computer security.
 
-`
+`;
 
-export default function About({post}) {
+export default function About({ post }) {
   return (
     <>
-    <Layout>
+      <Layout>
         <Head>
-        <title>{post.title} | {BLOG_TITLE}</title>
+          <title>
+            {post.title} | {BLOG_TITLE}
+          </title>
           {/* <meta property="og:image" content={post.ogImage.url} /> */}
         </Head>
-      <Container>
-        <Header />
-        <PostBody content={post.content} />
-      </Container>
-    </Layout>
+        <Container>
+          <Header />
+          <PostBody content={post.content} />
+        </Container>
+      </Layout>
     </>
-  )
+  );
 }
 
 export async function getStaticProps() {
-  const post = getPostBySlug('about', [
-    'title',
-    'date',
-    'slug',
-    'author',
-    'content',
-    'ogImage',
-    'coverImage',
-  ], true)
-  const content = await markdownToHtml(post.content || '')
+  const post = getPostBySlug(
+    "about",
+    ["title", "date", "slug", "author", "content", "ogImage", "coverImage"],
+    true
+  );
+  const content = await markdownToHtml(post.content || "");
 
   return {
     props: {
@@ -56,5 +54,5 @@ export async function getStaticProps() {
         content,
       },
     },
-  }
+  };
 }

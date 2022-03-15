@@ -1,6 +1,6 @@
-import DateFormatter from '../components/date-formatter'
-import CoverImage from '../components/cover-image'
-import Link from 'next/link'
+import DateFormatter from "../components/date-formatter";
+import CoverImage from "../components/cover-image";
+import Link from "next/link";
 
 export default function HeroPost({
   title,
@@ -25,7 +25,9 @@ export default function HeroPost({
         <div>
           <h3 className="mb-4 text-4xl lg:text-6xl leading-tight">
             <Link href={`/read/${slug}`}>
-              <a className="hover:underline text-slate-900 font-semibold">{title}</a>
+              <a className="hover:underline text-slate-900 font-semibold">
+                {title}
+              </a>
             </Link>
           </h3>
           <div className="mb-4 md:mb-0 text-lg">
@@ -37,5 +39,5 @@ export default function HeroPost({
         </div>
       </div>
     </section>
-  )
+  );
 }
