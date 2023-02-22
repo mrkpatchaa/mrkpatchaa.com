@@ -13,19 +13,16 @@ export default function Header() {
     <div className="flex flex-row flex-nowrap justify-between mb-20 mt-8 items-center">
       <div className="flex flex-row flex-nowrap justify-end items-center">
         <h2 className="mr-4 leading-none">
-          <Link href="/">
-            <a className="inline-block icon w-16 h-8 relative">
-              <Image
-                unoptimized
-                src={"/assets/mrk.svg"}
-                alt={"Logo"}
-                layout="fill"
-              />
-            </a>
+          <Link
+            href="/"
+            className="inline-block icon w-16 h-8 relative"
+            passHref
+          >
+            <Image src={"/assets/mrk.svg"} alt={"Logo"} layout="fill" />
           </Link>
         </h2>
-        <Link href="/about">
-          <a className="text-neutral-900">About</a>
+        <Link href="/about" className="text-neutral-900">
+          About
         </Link>
       </div>
       <nav className="flex flex-row flex-nowrap justify-end">
