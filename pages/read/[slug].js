@@ -29,13 +29,13 @@ export default function Post({ post, morePosts, preview }) {
                 <title>
                   {post.title} | {BLOG_TITLE}
                 </title>
-                <meta property="og:image" content={post.ogImage.url} />
+                <meta property="og:image" content={post.cover} />
               </Head>
               <PostHeader
                 title={post.title}
-                coverImage={post.coverImage}
-                date={post.date}
-                author={post.author}
+                coverImage={post.cover}
+                date={post.createdAt}
+                // author={post.author}
               />
               <PostBody content={post.content} />
             </article>
@@ -47,15 +47,8 @@ export default function Post({ post, morePosts, preview }) {
 }
 
 export async function getStaticProps({ params }) {
-  const post = getPostBySlug(params.slug, [
-    "title",
-    "date",
-    "slug",
-    "content",
-    "ogImage",
-    "coverImage",
-  ]);
-  const content = await markdownToHtml(post.content || "");
+  const post = await getPostBySlug(params.slug);
+  const content = await markdownToHtml(post.body || "");
 
   return {
     props: {
@@ -68,8 +61,7 @@ export async function getStaticProps({ params }) {
 }
 
 export async function getStaticPaths() {
-  const posts = getAllPosts(["slug"]);
-  console.log(posts);
+  const posts = await getAllPosts();
 
   return {
     paths: posts.map((post) => {

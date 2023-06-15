@@ -27,12 +27,9 @@ export default function About({ post }) {
 }
 
 export async function getStaticProps() {
-  const post = getPostBySlug(
-    "about",
-    ["title", "date", "slug", "content", "ogImage"],
-    true
-  );
-  const content = await markdownToHtml(post.content || "");
+  const post = await getPostBySlug("about", true);
+  console.log(post);
+  const content = await markdownToHtml(post.body || "");
 
   return {
     props: {

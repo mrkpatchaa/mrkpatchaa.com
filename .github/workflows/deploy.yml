@@ -13,6 +13,10 @@ jobs:
       - name: Checkout 🛎️
         uses: actions/checkout@v3
 
+      - name: create env file
+        run: |
+          touch .env.local
+          echo GH_TOKEN=${{ secrets.GH_TOKEN }} >> .env
       - name: Install and Build
         run: |
           npm ci
