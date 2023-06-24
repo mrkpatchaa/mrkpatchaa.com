@@ -1,5 +1,5 @@
 const { Octokit } = require("@octokit/rest");
-import * as constants from "../lib/constants";
+const constants = require("../lib/constants");
 
 /**
  * https://stackoverflow.com/questions/9045868/javascript-date-getweek
