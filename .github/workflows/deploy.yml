@@ -24,11 +24,15 @@ jobs:
       - name: Install and Build
         run: |
           npm ci
-          npm run build
-          touch out/.nojekyll
+          # npm run build
+          # touch out/.nojekyll
 
-      - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@v4.2.5
-        with:
-          branch: gh-pages # The branch the action should deploy to.
-          folder: out # The folder the action should deploy.
+      # - name: Deploy 🚀
+      #   uses: JamesIves/github-pages-deploy-action@v4.2.5
+      #   with:
+      #     branch: gh-pages # The branch the action should deploy to.
+      #     folder: out # The folder the action should deploy.
+
+      - name: Create new issue for current week
+        run: |
+          npm run create-week-digest
