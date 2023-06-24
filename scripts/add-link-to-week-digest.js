@@ -1,5 +1,7 @@
 require("dotenv").config();
 const { Octokit } = require("@octokit/rest");
+const fetch = require("node-fetch");
+const cheerio = require("cheerio");
 
 const REPO = "mrkpatchaa.com";
 const REPO_OWNER = "mrkpatchaa";
@@ -24,21 +26,38 @@ async function addLink() {
       console.log("No Issue found");
       return;
     }
+    try {
+      let title = process.env.TITLE;
+      let description = process.env.DESCRIPTION;
+      if (!title || !description) {
+        const response = await fetch(process.env.LINK);
+        const html = await response.text();
+        const $ = cheerio.load(html);
 
-    // Update issue with new link
-    await octokit.issues.update({
-      owner: REPO_OWNER,
-      repo: REPO,
-      issue_number: process.env.ISSUE_NUMBER,
-      body:
-        body +
-        `
+        title = $("head title").text();
+        description =
+          process.env.DESCRIPTION ||
+          $('head meta[name="description"]').attr("content");
+      }
+
+      // Update issue with new link
+      await octokit.issues.update({
+        owner: REPO_OWNER,
+        repo: REPO,
+        issue_number: process.env.ISSUE_NUMBER,
+        body:
+          body +
+          `
 ㅤ
-### [${process.env.TITLE}](${process.env.LINK})
-${process.env.DESCRIPTION}`,
-    });
-    // NOTE: The invisible space is very important
-    console.log("Issue updated, link added");
+### [${title}](${process.env.LINK})
+${description}`,
+      });
+      // NOTE: The invisible space is very important
+      console.log("Issue updated, link added");
+    } catch (error) {
+      console.error("Error fetching the link:", error);
+      return;
+    }
   } catch (error) {
     console.error("Error creating the issue:", error);
   }

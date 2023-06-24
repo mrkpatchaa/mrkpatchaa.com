@@ -7,10 +7,10 @@ on:
         required: true
       title:
         description: 'Enter the title'
-        required: true
+        required: false
       description:
         description: 'Enter the description'
-        required: true
+        required: false
 jobs:
   add-link-to-week-digest:
     concurrency:
@@ -26,7 +26,6 @@ jobs:
           touch .env
           echo GH_TOKEN=${{ secrets.GH_TOKEN }} >> .env
           echo LINK=${{ github.event.inputs.link }} >> .env
-          echo TITLE=${{ github.event.inputs.title }} >> .env
           echo DESCRIPTION=${{ github.event.inputs.description }} >> .env
       - name: Install deps
         run: npm ci
