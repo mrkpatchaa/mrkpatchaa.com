@@ -4,9 +4,9 @@ on:
     # Publish new articles every monday at 9:30 AM
     - cron:  '30 09 * * 1'
   workflow_dispatch:
-  push:
-    branches:
-      - main
+  # push:
+  #   branches:
+  #     - main
 jobs:
   build-and-deploy:
     concurrency:
@@ -17,7 +17,7 @@ jobs:
       - name: Checkout 🛎️
         uses: actions/checkout@v3
 
-      - name: create env file
+      - name: create env
         run: |
           touch .env.local
           echo GH_TOKEN=${{ secrets.GH_TOKEN }} >> .env
@@ -27,11 +27,11 @@ jobs:
           # npm run build
           # touch out/.nojekyll
 
-      # - name: Deploy 🚀
-      #   uses: JamesIves/github-pages-deploy-action@v4.2.5
-      #   with:
-      #     branch: gh-pages # The branch the action should deploy to.
-      #     folder: out # The folder the action should deploy.
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4.2.5
+        with:
+          branch: gh-pages # The branch the action should deploy to.
+          folder: out # The folder the action should deploy.
 
       - name: Create new issue for current week
         run: |

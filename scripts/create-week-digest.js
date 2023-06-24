@@ -1,9 +1,9 @@
-const { Octokit } = require("@octokit/rest");
 require("dotenv").config();
+const fs = require("fs");
+const { Octokit } = require("@octokit/rest");
 
 const REPO = "mrkpatchaa.com";
 const REPO_OWNER = "mrkpatchaa";
-const GH_TOKEN = process.env.GH_TOKEN;
 
 // This script is released to the public domain and may be used, modified and
 // distributed without restrictions. Attribution not necessary but appreciated.
@@ -30,7 +30,7 @@ Date.prototype.getWeek = function () {
 };
 
 // Authenticate using a personal access token
-const octokit = new Octokit({ auth: GH_TOKEN });
+const octokit = new Octokit({ auth: process.env.GH_TOKEN });
 
 // Define the issue title, tag, and content
 const issueTitle = `Digest - Week ${new Date().getFullYear()}/${new Date().getWeek()}`;
@@ -57,6 +57,12 @@ async function createIssue() {
 
     if (existingIssue) {
       console.log("Issue already exists:", existingIssue.html_url);
+      try {
+        fs.appendFileSync("./.env", `\nISSUE_NUMBER=${existingIssue.number}`);
+        console.log("Content appended to the file successfully.");
+      } catch (err) {
+        console.error("An error occurred while appending to the file:", err);
+      }
       return;
     }
 
