@@ -1,5 +1,8 @@
 const { Octokit } = require("@octokit/rest");
-const constants = require("../lib/constants");
+
+const REPO = "mrkpatchaa.com";
+const REPO_OWNER = "mrkpatchaa";
+const GH_TOKEN = process.env.GH_TOKEN;
 
 /**
  * https://stackoverflow.com/questions/9045868/javascript-date-getweek
@@ -42,7 +45,7 @@ Date.prototype.getWeek = function (dowOffset) {
 };
 
 // Authenticate using a personal access token
-const octokit = new Octokit({ auth: constants.GH_TOKEN });
+const octokit = new Octokit({ auth: GH_TOKEN });
 
 // Define the issue title, tag, and content
 const issueTitle = `Digest - Week ${new Date().getFullYear()}/${new Date().getWeek()}`;
@@ -57,10 +60,10 @@ async function createIssue() {
   try {
     // Check if the issue already exists with the given title
     const { data: issues } = await octokit.issues.listForRepo({
-      owner: constants.REPO_OWNER,
-      repo: constants.REPO,
+      owner: REPO_OWNER,
+      repo: REPO,
       state: "open",
-      creator: constants.REPO_OWNER,
+      creator: REPO_OWNER,
       per_page: 100,
       milestone: 1,
     });
@@ -74,8 +77,8 @@ async function createIssue() {
 
     // Create a new issue with the specified title, tag, and content
     const { data: newIssue } = await octokit.issues.create({
-      owner: constants.REPO_OWNER,
-      repo: constants.REPO,
+      owner: REPO_OWNER,
+      repo: REPO,
       title: issueTitle,
       body: content,
       labels: [tag],
