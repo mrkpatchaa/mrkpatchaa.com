@@ -1,47 +1,32 @@
 const { Octokit } = require("@octokit/rest");
+require("dotenv").config();
 
 const REPO = "mrkpatchaa.com";
 const REPO_OWNER = "mrkpatchaa";
 const GH_TOKEN = process.env.GH_TOKEN;
 
-/**
- * https://stackoverflow.com/questions/9045868/javascript-date-getweek
- * Returns the week number for this date.  dowOffset is the day of week the week
- * "starts" on for your locale - it can be from 0 to 6. If dowOffset is 1 (Monday),
- * the week returned is the ISO 8601 week number.
- * @param int dowOffset
- * @return int
- */
-Date.prototype.getWeek = function (dowOffset) {
-  /*getWeek() was developed by Nick Baicoianu at MeanFreePath: http://www.meanfreepath.com */
+// This script is released to the public domain and may be used, modified and
+// distributed without restrictions. Attribution not necessary but appreciated.
+// Source: https://weeknumber.com/how-to/javascript
 
-  dowOffset = typeof dowOffset == "number" ? dowOffset : 0; //default dowOffset to zero
-  var newYear = new Date(this.getFullYear(), 0, 1);
-  var day = newYear.getDay() - dowOffset; //the day of week the year begins on
-  day = day >= 0 ? day : day + 7;
-  var daynum =
-    Math.floor(
-      (this.getTime() -
-        newYear.getTime() -
-        (this.getTimezoneOffset() - newYear.getTimezoneOffset()) * 60000) /
-        86400000
-    ) + 1;
-  var weeknum;
-  //if the year starts before the middle of a week
-  if (day < 4) {
-    weeknum = Math.floor((daynum + day - 1) / 7) + 1;
-    if (weeknum > 52) {
-      nYear = new Date(this.getFullYear() + 1, 0, 1);
-      nday = nYear.getDay() - dowOffset;
-      nday = nday >= 0 ? nday : nday + 7;
-      /*if the next year starts before the middle of
-                  the week, it is week #1 of that year*/
-      weeknum = nday < 4 ? 1 : 53;
-    }
-  } else {
-    weeknum = Math.floor((daynum + day - 1) / 7);
-  }
-  return weeknum;
+// Returns the ISO week of the date.
+Date.prototype.getWeek = function () {
+  var date = new Date(this.getTime());
+  date.setHours(0, 0, 0, 0);
+  // Thursday in current week decides the year.
+  date.setDate(date.getDate() + 3 - ((date.getDay() + 6) % 7));
+  // January 4 is always in week 1.
+  var week1 = new Date(date.getFullYear(), 0, 4);
+  // Adjust to Thursday in week 1 and count number of weeks from date to week1.
+  return (
+    1 +
+    Math.round(
+      ((date.getTime() - week1.getTime()) / 86400000 -
+        3 +
+        ((week1.getDay() + 6) % 7)) /
+        7
+    )
+  );
 };
 
 // Authenticate using a personal access token
