@@ -20,7 +20,7 @@ async function addLink() {
       issue_number: process.env.ISSUE_NUMBER,
     });
 
-    console.log(body);
+    // console.log(body);
 
     if (!body) {
       console.log("No Issue found");
