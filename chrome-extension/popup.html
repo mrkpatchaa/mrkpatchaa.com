@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GitHub Action Trigger</title>
+  <script defer src="popup.js" type="module"></script>
+  <style>
+    .hidden {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>GitHub Action Trigger</h1>
+  <button id="triggerButton">Trigger Workflow</button>
+  <div id="loadingIndicator" class="hidden">Loading...</div>
+  <div id="successMessage" class="hidden">Workflow triggered successfully.</div>
+  <div id="errorMessage" class="hidden"></div>
+</body>
+</html>

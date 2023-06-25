@@ -32,7 +32,3 @@ jobs:
         with:
           branch: gh-pages # The branch the action should deploy to.
           folder: out # The folder the action should deploy.
-
-      - name: Create new issue for current week
-        run: |
-          npm run create-week-digest

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Options</title>
+  <script defer src="options.js" type="module"></script>
+  <style>
+    label {
+      display: block;
+      margin: 1rem 0 .25rem;
+    }
+  </style>
+</head>
+<body>
+  <h1>Extension Options</h1>
+  <form id="optionsForm">
+    <label for="owner">Repository Owner:</label>
+    <input type="text" id="owner" name="owner" required>
+    <label for="repo">Repository Name:</label>
+    <input type="text" id="repo" name="repo" required>
+    <label for="githubToken">GitHub Token:</label>
+    <input type="text" id="githubToken" name="githubToken" required>
+    <label for="workflowFile">Workflow File:</label>
+    <input type="text" id="workflowFile" name="workflowFile" required>
+    <button type="submit">Save</button>
+  </form>
+</body>
+</html>
