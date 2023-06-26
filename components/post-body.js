@@ -11,7 +11,7 @@ import markdownStyles from "./markdown-styles.module.css";
 
 export default function PostBody({ content }) {
   useEffect(() => {
-    console.log("body mounted");
+    // console.log("body mounted");
     Prism.highlightAll();
   }, []);
 

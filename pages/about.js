@@ -28,7 +28,6 @@ export default function About({ post }) {
 
 export async function getStaticProps() {
   const post = await getPostBySlug("about", true);
-  console.log(post);
   const content = await markdownToHtml(post.body || "");
 
   return {
