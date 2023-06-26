@@ -26,6 +26,7 @@ jobs:
           touch .env
           echo GH_TOKEN=${{ secrets.GH_TOKEN }} >> .env
           echo LINK=${{ github.event.inputs.link }} >> .env
+          echo TITLE=${{ github.event.inputs.title }} >> .env
           echo DESCRIPTION=${{ github.event.inputs.description }} >> .env
       - name: Install deps
         run: npm ci
