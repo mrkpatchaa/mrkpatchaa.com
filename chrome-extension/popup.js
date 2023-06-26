@@ -12,13 +12,20 @@ document
     errorMessage.classList.add("hidden");
 
     try {
+      if (!activeTab.url || !activeTab.url.startsWith("http")) {
+        throw new Error("Url not supported");
+      }
       const { owner, repo, token, workflowFile } = await getExtensionData();
       const url = `https://api.github.com/repos/${owner}/${repo}/actions/workflows/${workflowFile}/dispatches`;
+
+      const { title, description } = await getTabMetadata(activeTab.id);
 
       const data = {
         ref: "main", // Replace with the branch name where your workflow is defined
         inputs: {
           link: activeTab.url,
+          title: title,
+          description: description,
         },
       };
 
@@ -46,6 +53,33 @@ document
       loadingIndicator.classList.add("hidden");
     }
   });
+
+async function getTabMetadata(tabId) {
+  return new Promise((resolve, reject) => {
+    chrome.scripting.executeScript(
+      {
+        target: { tabId: tabId },
+        function: () => {
+          const title = document.querySelector("title").innerText.trim();
+          const description = document
+            .querySelector('meta[name="description"]')
+            .content.trim();
+          return {
+            title: title,
+            description: description,
+          };
+        },
+      },
+      (results) => {
+        if (chrome.runtime.lastError) {
+          reject(chrome.runtime.lastError);
+        } else {
+          resolve(results[0].result);
+        }
+      }
+    );
+  });
+}
 
 async function getActiveTab() {
   return new Promise((resolve, reject) => {

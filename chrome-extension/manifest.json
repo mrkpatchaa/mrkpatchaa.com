@@ -10,20 +10,24 @@
             "128": "icon128.png"
         }
     },
+    "background": {
+        "service_worker": "background.js"
+    },
     "options_ui": {
         "page": "options.html",
         "open_in_tab": true
     },
     "permissions": [
         "tabs",
-        "storage"
+        "storage",
+        "scripting"
+    ],
+    "host_permissions": [
+        "*://*/*"
     ],
     "icons": {
         "16": "icon16.png",
         "48": "icon48.png",
         "128": "icon128.png"
-    },
-    "background": {
-        "service_worker": "background.js"
     }
 }

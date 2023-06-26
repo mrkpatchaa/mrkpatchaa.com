@@ -40,6 +40,11 @@ async function addLink() {
           $('head meta[name="description"]').attr("content");
       }
 
+      // For some reason We couldn't get the title or description.
+      // (Article behind a paywall like Medium, ...)
+      if (!description || !title) {
+        return;
+      }
       // Update issue with new link
       await octokit.issues.update({
         owner: REPO_OWNER,
