@@ -77,6 +77,12 @@ async function createIssue() {
     });
 
     console.log("New issue created:", newIssue.html_url);
+    try {
+      fs.appendFileSync("./.env", `\nISSUE_NUMBER=${newIssue.number}`);
+      console.log("Content appended to the file successfully.");
+    } catch (err) {
+      console.error("An error occurred while appending to the file:", err);
+    }
   } catch (error) {
     console.error("Error creating the issue:", error);
   }
