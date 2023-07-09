@@ -61,9 +61,14 @@ async function getTabMetadata(tabId) {
         target: { tabId: tabId },
         function: () => {
           const title = document.querySelector("title").innerText.trim();
-          const description = document
-            .querySelector('meta[name="description"]')
-            .content.trim();
+          const description =
+            document
+              .querySelector('meta[name="description"]')
+              ?.content?.trim() ||
+            document
+              .querySelector('meta[property="og:description"]')
+              ?.content?.trim() ||
+            "";
           return {
             title: title,
             description: description,
