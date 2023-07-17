@@ -38,7 +38,7 @@ const tag = "blog:published";
 const content = `/*----
 slug: digest-week-${new Date().getFullYear()}${new Date().getWeek()}
 excerpt: Weekly digest of my readings and interesting topics. Week ${new Date().getWeek()} of ${new Date().getFullYear()}.
-tags:
+tags: Digest
 ----*/`;
 
 async function createIssue() {
