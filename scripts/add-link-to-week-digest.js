@@ -28,8 +28,8 @@ async function addLink() {
     }
     try {
       let title = process.env.TITLE;
-      let description = process.env.DESCRIPTION;
-      if (!title || !description) {
+      let description = process.env.DESCRIPTION || process.env.TITLE;
+      if (!title && !description) {
         const response = await fetch(process.env.LINK);
         const html = await response.text();
         const $ = cheerio.load(html);
@@ -42,7 +42,7 @@ async function addLink() {
 
       // For some reason We couldn't get the title or description.
       // (Article behind a paywall like Medium, ...)
-      if (!description || !title) {
+      if (!description && !title) {
         return;
       }
       // Update issue with new link
