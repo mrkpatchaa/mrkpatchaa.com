@@ -5,10 +5,17 @@
   <script defer src="popup.js" type="module"></script>
   <style>
     body {
-      width: 250px;
+      width: 320px;
     }
     .hidden {
       display: none;
+    }
+    #titleContent, #descriptionContent {
+      width: 98%;
+      display: block;
+    }
+    #descriptionContent {
+      margin: 1rem 0;
     }
     #errorMessage {
       color: red;
@@ -17,9 +24,14 @@
 </head>
 <body>
   <h1>GitHub Action Trigger</h1>
-  <button id="triggerButton">Trigger Workflow</button>
+  <div id="defaultContainer" class="hidden">
+    <input type="text" id="titleContent" />
+    <textarea name="descriptionContent" id="descriptionContent" cols="30" rows="10"></textarea>
+  </div>
+  <div id="defaultLoading">Loading default values...</div>
   <div id="loadingIndicator" class="hidden">Loading...</div>
   <div id="successMessage" class="hidden">Workflow triggered successfully.</div>
   <div id="errorMessage" class="hidden"></div>
+  <button id="triggerButton">Trigger Workflow</button>
 </body>
 </html>
