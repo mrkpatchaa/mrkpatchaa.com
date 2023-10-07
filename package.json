@@ -37,7 +37,7 @@
     "eslint-config-next": "latest",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-prettier": "^5.0.0",
-    "postcss": "^8.4.26",
+    "postcss": "^8.4.31",
     "prettier": "3.0.0"
   }
 }
