@@ -1,18 +1,19 @@
-const { graphql } = require("@octokit/graphql");
-import * as constants from "./constants";
+import * as constants from './constants'
+
+const { graphql } = require('@octokit/graphql')
 
 const graphqlWithAuth = graphql.defaults({
   headers: {
     authorization: `token ${constants.GH_TOKEN}`,
   },
-});
+})
 
-export async function getPostBySlug(slug, isPage) {
-  const allPosts = await getAllPosts(isPage);
-  return allPosts.filter((item) => item.slug === slug)[0];
+export async function getPostBySlug(slug, isPage, digest) {
+  const allPosts = await getAllPosts(isPage, digest)
+  return allPosts.filter((item) => item.slug === slug)[0]
 }
 
-export async function getAllPosts(isPage) {
+export async function getAllPosts(isPage, digest) {
   try {
     const { repository } = await graphqlWithAuth(
       `
@@ -48,29 +49,25 @@ export async function getAllPosts(isPage) {
       {
         owner: constants.REPO_OWNER,
         repo: constants.REPO,
-        labels: isPage ? ["page:published"] : ["blog:published"],
-      },
-    );
+        labels: isPage ? ['page:published'] : digest ? ['blog:digest'] : ['blog:published'],
+      }
+    )
 
     return repository.issues.edges.map((edge) => {
-      const metadataRaw = edge.node?.body.match(
-        /(\/\*----)([\s\S]*)(----\*\/)/,
-      )?.[2];
-      const metadata = metadataRaw
-        .split(metadataRaw.indexOf("\r\n") > -1 ? "\r\n" : "\n")
-        .reduce((prev, curr) => {
-          if (curr) {
-            const content = curr.split(": ");
-            prev[content[0]] = content[1];
-          }
-          return prev;
-        }, {});
+      const metadataRaw = edge.node?.body.match(/(\/\*----)([\s\S]*)(----\*\/)/)?.[2]
+      const metadata = metadataRaw.split(metadataRaw.indexOf('\r\n') > -1 ? '\r\n' : '\n').reduce((prev, curr) => {
+        if (curr) {
+          const content = curr.split(': ')
+          prev[content[0]] = content[1]
+        }
+        return prev
+      }, {})
       return {
         ...edge.node,
         ...metadata,
-        body: edge.node.body.replace(/(\/\*----)([\s\S]*)(----\*\/)/, ""),
-      };
-    });
+        body: edge.node.body.replace(/(\/\*----)([\s\S]*)(----\*\/)/, ''),
+      }
+    })
   } catch (error) {
     // if (error instanceof GraphqlResponseError) {
     // do something with the error, allowing you to detect a graphql response error,
@@ -91,11 +88,11 @@ export async function getAllPosts(isPage) {
     //  }]
     // }
 
-    console.log("Request failed:", error.request); // { query, variables: {}, headers: { authorization: 'token secret123' } }
-    console.log(error.message); // Field 'bioHtml' doesn't exist on type 'User'
+    console.log('Request failed:', error.request) // { query, variables: {}, headers: { authorization: 'token secret123' } }
+    console.log(error.message) // Field 'bioHtml' doesn't exist on type 'User'
     // } else {
     // handle non-GraphQL error
     // }
-    return [];
+    return []
   }
 }
