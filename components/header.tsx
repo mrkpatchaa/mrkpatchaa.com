@@ -7,7 +7,7 @@ import { SOCIAL } from '../lib/constants'
 
 export default function Header() {
   return (
-    <div className="mb-20 mt-8 flex flex-row flex-nowrap items-center justify-between">
+    <div className="mb-10 mt-8 flex flex-row flex-nowrap items-center justify-between md:mb-20">
       <div className="flex flex-row flex-nowrap items-center justify-end">
         <h2 className="relative mr-4 h-8 w-16 leading-none">
           <Link href="/" className="icon relative inline-block h-8 w-16">
@@ -20,8 +20,8 @@ export default function Header() {
             />
           </Link>
         </h2>
-        <Link href="/digest" className="text-neutral-900 underline underline-offset-4 lg:mr-4">
-          Weekly Digests
+        <Link href="/digest" className="mr-4 flex text-neutral-900 underline underline-offset-4">
+          <span className="hidden md:inline">Weekly&nbsp;</span>Digests
         </Link>
         <Link href="/about" className="text-neutral-900 underline underline-offset-4">
           About
