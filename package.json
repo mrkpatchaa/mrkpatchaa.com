@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "dev": "next",
-    "build": "next build && next export",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint --fix",
     "deploy": "npm run build && gh-pages -d public",

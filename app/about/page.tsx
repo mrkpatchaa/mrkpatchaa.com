@@ -12,7 +12,7 @@ export const generateMetadata = async () => {
 }
 
 export default async function About() {
-  const post = await getPostBySlug('about', true)
+  const post = await getPostBySlug('about', true, false)
   if (!post || !post.body) return <div></div>
   const content = await markdownToHtml(post.body || '')
   return <PostBody content={content} />

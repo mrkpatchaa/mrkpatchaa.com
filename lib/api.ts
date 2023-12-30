@@ -1,5 +1,6 @@
 import * as constants from './constants'
 
+// eslint-disable-next-line @typescript-eslint/no-var-requires
 const { graphql } = require('@octokit/graphql')
 
 const graphqlWithAuth = graphql.defaults({
@@ -8,12 +9,12 @@ const graphqlWithAuth = graphql.defaults({
   },
 })
 
-export async function getPostBySlug(slug, isPage, digest) {
+export async function getPostBySlug(slug, isPage = false, digest = false) {
   const allPosts = await getAllPosts(isPage, digest)
   return allPosts.filter((item) => item.slug === slug)[0]
 }
 
-export async function getAllPosts(isPage, digest) {
+export async function getAllPosts(isPage = false, digest = false) {
   try {
     const { repository } = await graphqlWithAuth(
       `

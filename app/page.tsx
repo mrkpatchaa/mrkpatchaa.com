@@ -26,7 +26,7 @@ export default async function Index() {
           <PostPreview
             key={heroPost.slug}
             title={heroPost.title}
-            coverImage={heroPost.cover}
+            // coverImage={heroPost.cover}
             date={heroPost.createdAt}
             // author={post.author}
             slug={heroPost.slug}

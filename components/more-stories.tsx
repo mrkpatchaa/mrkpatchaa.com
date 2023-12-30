@@ -1,6 +1,6 @@
 import PostPreview from './post-preview'
 
-export default function MoreStories({ posts, title }) {
+export default function MoreStories({ posts, title = undefined }) {
   return (
     <section>
       <h2 className="mb-8 text-6xl font-bold leading-tight tracking-tighter md:text-7xl">{title ?? 'More Articles'}</h2>
@@ -9,7 +9,7 @@ export default function MoreStories({ posts, title }) {
           <PostPreview
             key={post.slug}
             title={post.title}
-            coverImage={post.cover}
+            // coverImage={post.cover}
             date={post.createdAt}
             // author={post.author}
             slug={post.slug}

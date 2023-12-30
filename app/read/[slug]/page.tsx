@@ -25,7 +25,7 @@ export async function generateMetadata(
       openGraph: {
         ...parentOg,
         title: post.title,
-        canonical: `${process.env.NEXT_PUBLIC_SITE_URL}/read/${slug}`,
+        // canonical: `${process.env.NEXT_PUBLIC_SITE_URL}/read/${slug}`,
         // description: listingSeoMeta.description,
         // images: listingSeoMeta.images?.length
         //   ? listingSeoMeta.images.map((image) => getListingImageUrl(supabase, image, 'full'))
@@ -51,7 +51,7 @@ export default async function Post({ params: { slug } }: { params: { slug: strin
       {/* <meta property="og:image" content={post.cover} /> */}
       <PostHeader
         title={post.title}
-        coverImage={post.cover}
+        // coverImage={post.cover}
         date={post.createdAt}
         // author={post.author}
       />
@@ -62,7 +62,7 @@ export default async function Post({ params: { slug } }: { params: { slug: strin
 
 export async function generateStaticParams() {
   const posts = await getAllPosts()
-  return posts.map((post: string) => ({
+  return posts.map((post: { slug: string }) => ({
     slug: post.slug,
   }))
 }

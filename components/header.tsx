@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 
-import { siGithub, siLinkedin, siTwitter } from 'simple-icons/icons'
+import { siGithub, siLinkedin, siTwitter } from 'simple-icons'
 
 import { SOCIAL } from '../lib/constants'
 
