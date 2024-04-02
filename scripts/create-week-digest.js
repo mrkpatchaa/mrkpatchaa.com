@@ -26,7 +26,7 @@ const octokit = new Octokit({ auth: process.env.GH_TOKEN })
 
 // Define the issue title, tag, and content
 const issueTitle = `Digest - Week ${new Date().getFullYear()}/${new Date().getWeek()}`
-const tags = ['blog:published', 'blog:digest']
+const tags = ['blog:digest']
 const content = `/*----
 slug: digest-week-${new Date().getFullYear()}${new Date().getWeek()}
 excerpt: Weekly digest of my readings and interesting topics. Week ${new Date().getWeek()} of ${new Date().getFullYear()}.
