@@ -1,7 +1,7 @@
-import * as constants from './constants'
-
 // eslint-disable-next-line @typescript-eslint/no-var-requires
-const { graphql } = require('@octokit/graphql')
+import { graphql } from '@octokit/graphql'
+
+import * as constants from './constants'
 
 const graphqlWithAuth = graphql.defaults({
   headers: {

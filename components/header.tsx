@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 
-import { siGithub, siLinkedin, siTwitter } from 'simple-icons'
+import { siGithub, siLinkedin, siX } from 'simple-icons'
 
 import { SOCIAL } from '../lib/constants'
 
@@ -45,8 +45,8 @@ export default function Header() {
         <a href={`https://twitter.com/${SOCIAL.twitter}`} target="_blank" rel="noopener noreferrer">
           <span
             className="icon inline-block h-8 w-12"
-            style={{ color: '#55acee' }}
-            dangerouslySetInnerHTML={{ __html: siTwitter.svg }}
+            style={{ color: '#000000' }}
+            dangerouslySetInnerHTML={{ __html: siX.svg }}
           />
         </a>
         <a href={`https://linkedin.com/in/${SOCIAL.linkedin}`} target="_blank" rel="noopener noreferrer">
