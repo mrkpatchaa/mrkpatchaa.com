@@ -3,6 +3,13 @@ import { graphql } from '@octokit/graphql'
 
 import * as constants from './constants'
 
+interface Edge {
+  node: { title: string; body: string; slug: string; createdAt: string; excerpt: string }
+}
+interface RepositoryType {
+  repository: { issues: { edges: Edge[] } }
+}
+
 const graphqlWithAuth = graphql.defaults({
   headers: {
     authorization: `token ${constants.GH_TOKEN}`,
@@ -16,7 +23,7 @@ export async function getPostBySlug(slug, isPage = false, digest = false) {
 
 export async function getAllPosts(isPage = false, digest = false) {
   try {
-    const { repository } = await graphqlWithAuth(
+    const { repository } = await graphqlWithAuth<RepositoryType>(
       `
       query lastIssues($owner: String!, $repo: String!, $labels: [String!] $num: Int = 100) {
         repository(owner: $owner, name: $repo) {
@@ -54,6 +61,7 @@ export async function getAllPosts(isPage = false, digest = false) {
       }
     )
 
+    // console.log(repository)
     return repository.issues.edges.map((edge) => {
       const metadataRaw = edge.node?.body.match(/(\/\*----)([\s\S]*)(----\*\/)/)?.[2]
       const metadata = metadataRaw.split(metadataRaw.indexOf('\r\n') > -1 ? '\r\n' : '\n').reduce((prev, curr) => {
