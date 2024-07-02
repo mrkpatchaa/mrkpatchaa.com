@@ -29,7 +29,7 @@ jobs:
           echo TITLE="${{ github.event.inputs.title }}" >> .env
           echo DESCRIPTION="${{ github.event.inputs.description }}" >> .env
       - name: Install deps
-        run: npm ci
+        run: npm ci --legacy-peer-deps
 
       - name: Make sure issue for current week is created
         run: |

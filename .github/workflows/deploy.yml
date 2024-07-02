@@ -23,7 +23,7 @@ jobs:
           echo GH_TOKEN=${{ secrets.GH_TOKEN }} >> .env
       - name: Install and Build
         run: |
-          npm ci
+          npm ci --legacy-peer-deps
           npm run build
           touch out/.nojekyll
 
