@@ -1,6 +1,6 @@
 require('dotenv').config()
 const fs = require('fs')
-const { Octokit } = require('@octokit/rest')
+import { Octokit } from "@octokit/rest";
 
 const REPO = 'mrkpatchaa.com'
 const REPO_OWNER = 'mrkpatchaa'

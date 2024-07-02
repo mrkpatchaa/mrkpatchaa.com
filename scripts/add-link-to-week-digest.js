@@ -1,5 +1,5 @@
 require("dotenv").config();
-const { Octokit } = require("@octokit/rest");
+import { Octokit } from "@octokit/rest";
 const fetch = (...args) =>
   import("node-fetch").then(({ default: fetch }) => fetch(...args));
 const cheerio = require("cheerio");
