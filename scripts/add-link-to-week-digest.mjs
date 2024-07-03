@@ -1,4 +1,4 @@
-require("dotenv").config();
+import 'dotenv/config';
 import { Octokit } from "@octokit/rest";
 const fetch = (...args) =>
   import("node-fetch").then(({ default: fetch }) => fetch(...args));
