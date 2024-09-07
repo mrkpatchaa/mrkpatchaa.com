@@ -2,7 +2,7 @@ import 'dotenv/config';
 import { Octokit } from "@octokit/rest";
 const fetch = (...args) =>
   import("node-fetch").then(({ default: fetch }) => fetch(...args));
-import cheerio from "cheerio";
+import * as cheerio from 'cheerio';
 
 const REPO = "mrkpatchaa.com";
 const REPO_OWNER = "mrkpatchaa";
