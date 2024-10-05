@@ -38,7 +38,7 @@ async function addLink() {
         title = $("head title").text();
         description =
           process.env.DESCRIPTION ||
-          $('head meta[name="description"]').attr("content");
+          $('head meta[name="description"]').attr("content") || $('head meta[property="og:description"]').attr("content");
       }
 
       // For some reason We couldn't get the title or description.
