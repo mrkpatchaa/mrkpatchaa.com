@@ -43,7 +43,10 @@ export async function generateMetadata(
   }
 }
 
-export default async function Post({ params: { slug } }: { params: { slug: string } }) {
+export default async function Post(props: { params: Promise<{ slugs: string[] }> }) {
+  const {
+    params: { slug },
+  } = await props.params
   const post = await getPostBySlug(slug, false, true)
   const content = await markdownToHtml(post.body || '')
   return (
