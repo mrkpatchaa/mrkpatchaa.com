@@ -6,10 +6,11 @@ import { getAllPosts, getPostBySlug } from '@/lib/api'
 import markdownToHtml from '@/lib/markdownToHtml'
 
 export async function generateMetadata(
-  { params: { slug } }: { params: { slug: string } },
+  { params }: { params: Promise<{ slug: string }> },
   parent: ResolvingMetadata
 ): Promise<Metadata> {
   // TODO: MRK - Add SEO meta data
+  const slug = (await params).slug
   const parentOg = (await parent).openGraph
   try {
     const post = await getPostBySlug(slug, false, true)
