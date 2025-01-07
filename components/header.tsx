@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 
-import { siGithub, siLinkedin, siX } from 'simple-icons'
+import { GithubLogo, LinkedinLogo, XLogo } from '@phosphor-icons/react/dist/ssr'
 
 import { SOCIAL } from '../lib/constants'
 
@@ -36,25 +36,19 @@ export default function Header() {
                           />
                         </a> */}
         <a href={`https://github.com/${SOCIAL.github}`} target="_blank" rel="noopener noreferrer">
-          <span
-            className="icon inline-block h-8 w-12"
-            style={{ color: '#263238' }}
-            dangerouslySetInnerHTML={{ __html: siGithub.svg }}
-          />
+          <span className="inline-flex h-8 w-12 items-center justify-center">
+            <GithubLogo color="#263238" size={32}></GithubLogo>
+          </span>
         </a>
         <a href={`https://twitter.com/${SOCIAL.twitter}`} target="_blank" rel="noopener noreferrer">
-          <span
-            className="icon inline-block h-8 w-12"
-            style={{ color: '#000000' }}
-            dangerouslySetInnerHTML={{ __html: siX.svg }}
-          />
+          <span className="inline-flex h-8 w-12 items-center justify-center">
+            <XLogo color="#000000" size={32}></XLogo>
+          </span>
         </a>
         <a href={`https://linkedin.com/in/${SOCIAL.linkedin}`} target="_blank" rel="noopener noreferrer">
-          <span
-            className="icon inline-block h-8 w-12"
-            style={{ color: '#0077B5' }}
-            dangerouslySetInnerHTML={{ __html: siLinkedin.svg }}
-          />
+          <span className="inline-flex h-8 w-12 items-center justify-center">
+            <LinkedinLogo color="#0077B5" size={32}></LinkedinLogo>
+          </span>
         </a>
       </nav>
     </div>

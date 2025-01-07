@@ -4,9 +4,9 @@ on:
     # Publish new articles every monday at 9:30 AM
     - cron:  '30 09 * * 1'
   workflow_dispatch:
-  # push:
-  #   branches:
-  #     - main
+  push:
+    branches:
+      - main
 jobs:
   build-and-deploy:
     concurrency:
@@ -28,6 +28,7 @@ jobs:
           touch out/.nojekyll
 
       - name: Deploy 🚀
+        if: ${{ github.event_name == 'workflow_dispatch' || github.event_name == 'schedule' }}
         uses: JamesIves/github-pages-deploy-action@v4.2.5
         with:
           branch: gh-pages # The branch the action should deploy to.
