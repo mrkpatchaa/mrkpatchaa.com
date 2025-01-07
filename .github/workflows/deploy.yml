@@ -15,12 +15,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout 🛎️
-        uses: actions/checkout@v3
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
 
       - name: create env
         run: |
           touch .env.local
           echo GH_TOKEN=${{ secrets.GH_TOKEN }} >> .env
+      - name: 🏗 Setup Node
+        uses: actions/setup-node@39370e3970a6d050c480ffad4ff0ed4d3fdee5af # v4
+        with:
+          node-version: 22
+          cache: npm
       - name: Install and Build
         run: |
           npm ci --legacy-peer-deps
