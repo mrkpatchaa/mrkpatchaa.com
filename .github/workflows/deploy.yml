@@ -34,7 +34,7 @@ jobs:
 
       - name: Deploy 🚀
         if: ${{ github.event_name == 'workflow_dispatch' || github.event_name == 'schedule' }}
-        uses: JamesIves/github-pages-deploy-action@v4.2.5
+        uses: JamesIves/github-pages-deploy-action@15de0f09300eea763baee31dff6c6184995c5f6a # v4.7.2
         with:
           branch: gh-pages # The branch the action should deploy to.
           folder: out # The folder the action should deploy.
