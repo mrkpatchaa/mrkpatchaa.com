@@ -33,7 +33,7 @@ export default async function Index() {
             excerpt={heroPost.excerpt}
           />
         )}
-        <div className="relative flex h-60 flex-col justify-between rounded bg-black px-4 py-8">
+        <div className="relative flex h-60 flex-col justify-between rounded-sm bg-black px-4 py-8">
           <Link href={'/digest'} className="absolute inset-0 cursor-pointer"></Link>
           <p className="text-xl text-white">{'>_'}</p>
           <h2 className="text-3xl leading-snug text-white">Weekly digests</h2>
