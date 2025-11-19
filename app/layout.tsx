@@ -37,7 +37,7 @@ export const metadata = {
     creator: '@mrkpatchaa',
   },
   icons: {
-    icon: '/favicon.ico',
+    icon: '/icon.png',
   },
 }
 
