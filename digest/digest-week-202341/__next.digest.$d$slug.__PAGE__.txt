@@ -1,0 +1,32 @@
+1:"$Sreact.fragment"
+2:I[15248,["https://mrkpatchaa.com/_next/static/chunks/a2b37c4a3a2a518f.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js"],"default"]
+3:I[82309,["https://mrkpatchaa.com/_next/static/chunks/a2b37c4a3a2a518f.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js"],"default"]
+5:I[97367,["https://mrkpatchaa.com/_next/static/chunks/ff1a16fafef87110.js","https://mrkpatchaa.com/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
+:HL["https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","style"]
+4:T9d1,<p>ㅤ</p>
+<h3><a href="https://github.com/sallar/github-contributions-chart">sallar/github-contributions-chart: :octocat: Generate an image of all your Github contributions</a></h3>
+<p>Generate an image of all your Github contributions
+ㅤ</p>
+<h3><a href="https://resources.github.com/learn/certifications/">Highlight your expertise with GitHub Certifications - GitHub Resources</a></h3>
+<p>Getting GitHub certified is a resounding endorsement and a signal to the marketplace that provides validation of your skills, credibility,  trust, and knowledge of the technologies and developer tools that are used by over 100 million developers worldwide.
+ㅤ</p>
+<h3><a href="https://github.com/readme/featured/open-source-minimalism?mc_cid=4f788c11a5">Marie Kondo your software stack with open source</a></h3>
+<p>Minimalism in software development is not only a desirable design goal—but also a survival strategy. @rwwmike explains how to Marie Kondo your software stack:
+ㅤ</p>
+<h3><a href="https://publication.octo.com/culture-test-vol-1">Culture Test vol. 1 : apprivoisez la complexité</a></h3>
+<p>Développez vos connaissances des tests et améliorer vos codes et vos perfomances grâce à Culture Test vol. 1 !
+ㅤ</p>
+<h3><a href="https://www.rhino-inquisitor.com/the-createorders-api-in-sfcc/">Unraveling the createOrders API: Create Orders in Salesforce Commerce Cloud Platform Effortlessly</a></h3>
+<p>As a brand, you want multiple touchpoints customers can interact with. But how can a third-party system push in orders with the createOrders API?
+ㅤ</p>
+<h3><a href="https://github.com/readme/guides/adaptive-leadership?mc_cid=b6d5d2c7fb">Turbulent times call for adaptive leadership</a></h3>
+<p>Learn what adaptive leadership is, how it compares to other leadership styles, and how you can adopt its principles.
+ㅤ</p>
+<h3><a href="https://www.infoq.com/news/2023/09/reddit-feed-server-driven-ui/">Reddit Adopts Server-Driven UI for Its New Feed Architecture across Mobile Apps</a></h3>
+<p>Reddit reworked its feeds functionality in the iOS mobile app and introduced it to the Android app. In both cases, they used the Server-Driven UI (SDUI) as their communication approach, which allows l
+ㅤ</p>
+<h3><a href="https://github.com/chasemccoy/museo">chasemccoy/museo: 🏛 Museo is a tool for finding images in the public domain from some of the best museums in the world.</a></h3>
+<p>🏛 Museo is a tool for finding images in the public domain from some of the best museums in the world.</p>
+0:{"buildId":"mQ7_TZm9ByqkjGn8vXPv8","rsc":["$","$1","c",{"children":[["$","article",null,{"children":[["$","$L2",null,{"title":"Digest - Week 2023/41","date":"2023-10-10T15:19:36Z"}],["$","$L3",null,{"content":"$4"}]]}],[["$","link","0",{"rel":"stylesheet","href":"https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","precedence":"next"}],["$","script","script-0",{"src":"https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","async":true}],["$","script","script-1",{"src":"https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js","async":true}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"loading":null,"isPartial":false}
+7:null

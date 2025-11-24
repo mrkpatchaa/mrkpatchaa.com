@@ -1,0 +1,23 @@
+1:"$Sreact.fragment"
+2:I[15248,["https://mrkpatchaa.com/_next/static/chunks/a2b37c4a3a2a518f.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js"],"default"]
+3:I[82309,["https://mrkpatchaa.com/_next/static/chunks/a2b37c4a3a2a518f.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js"],"default"]
+5:I[97367,["https://mrkpatchaa.com/_next/static/chunks/ff1a16fafef87110.js","https://mrkpatchaa.com/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
+:HL["https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","style"]
+4:T6fc,<p>ㅤ</p>
+<h3><a href="https://fullystacked.net/formatting-dates-and-times/">Formatting dates and times in JavaScript with Temporal and the Internationalization API</a></h3>
+<p>Human-readable dates and times without a library
+ㅤ</p>
+<h3><a href="https://tomaspozo.com/articles/secure-api-calls-supabase-pg-net-vault">Secure API Calls from DB Functions with Supabase pg_net and Vault - Tomas Pozo</a></h3>
+<p>In this post, we’ll walk through a more general approach: using the  extension for PostgreSQL to make HTTP requests from your database triggers, and storing sensitive information (like your webhook URL or API keys) securely with Supabase Vault.
+ㅤ</p>
+<h3><a href="https://expo.dev/blog/why-expo-is-a-great-fit-for-new-and-existing-react-native-apps">Why Expo is a great fit for new and existing React Native apps</a></h3>
+<p>If you're exploring React Native, you've likely heard of Expo or tried a quick test project. But what exactly is Expo, and how can it fit your needs?
+ㅤ</p>
+<h3><a href="https://blog.swmansion.com/reanimated-4-is-new-but-also-very-familiar-b926dd59aa40">Reanimated 4 is new, but also very familiar | by Krzysztof Magiera | Jan, 2025 | Software Mansion</a></h3>
+<p>Today, we are publishing the first beta version of Reanimated 4 — the next generation of our library for building smooth, high-performance animations and dynamic user interactions in React Native. We…
+ㅤ</p>
+<h3><a href="https://tailwindcss.com/blog/tailwindcss-v4">Tailwind CSS v4.0 - Tailwind CSS</a></h3>
+<p>We just released Tailwind CSS v4.0 — an all-new version of the framework optimized for performance and flexibility, with a reimagined configuration and customization experience, and taking full advantage of the latest advancements the web platform has to offer.</p>
+0:{"buildId":"mQ7_TZm9ByqkjGn8vXPv8","rsc":["$","$1","c",{"children":[["$","article",null,{"children":[["$","$L2",null,{"title":"Digest - Week 2025/4","date":"2025-01-21T16:59:53Z"}],["$","$L3",null,{"content":"$4"}]]}],[["$","link","0",{"rel":"stylesheet","href":"https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","precedence":"next"}],["$","script","script-0",{"src":"https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","async":true}],["$","script","script-1",{"src":"https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js","async":true}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"loading":null,"isPartial":false}
+7:null

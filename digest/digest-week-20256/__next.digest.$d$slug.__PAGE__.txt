@@ -1,0 +1,29 @@
+1:"$Sreact.fragment"
+2:I[15248,["https://mrkpatchaa.com/_next/static/chunks/a2b37c4a3a2a518f.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js"],"default"]
+3:I[82309,["https://mrkpatchaa.com/_next/static/chunks/a2b37c4a3a2a518f.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js"],"default"]
+5:I[97367,["https://mrkpatchaa.com/_next/static/chunks/ff1a16fafef87110.js","https://mrkpatchaa.com/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
+:HL["https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","style"]
+4:Ta65,<p>ㅤ</p>
+<h3><a href="https://tympanus.net/codrops/2025/02/01/nim-nextjs-react-tailwind-motion-template/">Nim is a free and open-source personal website template built with Next.js 15, React 19 and Motion-Primitives.</a></h3>
+<p>Nim is a free, open-source personal website template built with Next.js 15, React 19, Tailwind CSS v4, and Motion-Primitives, featuring subtle, pre-built animations.
+ㅤ</p>
+<h3><a href="https://tkdodo.eu/blog/ref-callbacks-react-19-and-the-compiler">Ref Callbacks, React 19 and the Compiler | TkDodo's blog</a></h3>
+<p>Reflecting on useCallback, how the Compiler changed my thinking about it, and what React 19 has in store for Ref Callbacks...
+ㅤ</p>
+<h3><a href="https://github.com/orgs/supabase/discussions/32925">Enhanced Type Inference for JSON Fields in supabase-js · supabase · Discussion</a></h3>
+<p>Enhanced Type Inference for JSON Fields in supabase-js
+ㅤ</p>
+<h3><a href="https://reactnative.dev/docs/security">Security · React Native</a></h3>
+<p>Security is often overlooked when building apps. It is true that it is impossible to build software that is completely impenetrable—we’ve yet to invent a completely impenetrable lock (bank vaults do, after all, still get broken into). However, the probability of falling victim to a malicious attack or being exposed for a security vulnerability is inversely proportional to the effort you’re willing to put in to protecting your application against any such eventuality. Although an ordinary padlock is pickable, it is still much harder to get past than a cabinet hook!
+ㅤ</p>
+<h3><a href="https://ire.notion.site/Frontend-Developer-Learning-Guide-39e189f4a49b4fcb9a6304ebf1f327a9">Frontend Developer Learning Guide</a></h3>
+<p>A new tool that blends your everyday work apps into one. It's the all-in-one workspace for you and your team
+ㅤ</p>
+<h3><a href="https://web.stanford.edu/class/cs253/">CS253 - Web Security</a></h3>
+<p>Principles of web security. The fundamentals and state-of-the-art in web security. Attacks and countermeasures. Topics include: the browser security model, web app vulnerabilities, injection, denial-of-service, TLS attacks, privacy, fingerprinting, same-origin policy, cross site scripting, authentication, JavaScript security, emerging threats, defense-in-depth, and techniques for writing secure code. Course projects include writing security exploits, defending insecure web apps, and implementing emerging web standards.
+ㅤ</p>
+<h3><a href="https://www.jacobparis.com/content/react-ts">Essential Typescript for React</a></h3>
+<p>The minimum set of typescript knowledge to be effective at product development with React</p>
+0:{"buildId":"mQ7_TZm9ByqkjGn8vXPv8","rsc":["$","$1","c",{"children":[["$","article",null,{"children":[["$","$L2",null,{"title":"Digest - Week 2025/6","date":"2025-02-03T08:37:07Z"}],["$","$L3",null,{"content":"$4"}]]}],[["$","link","0",{"rel":"stylesheet","href":"https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","precedence":"next"}],["$","script","script-0",{"src":"https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","async":true}],["$","script","script-1",{"src":"https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js","async":true}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"loading":null,"isPartial":false}
+7:null

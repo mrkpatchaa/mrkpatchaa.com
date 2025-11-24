@@ -1,0 +1,70 @@
+1:"$Sreact.fragment"
+2:I[15248,["https://mrkpatchaa.com/_next/static/chunks/a2b37c4a3a2a518f.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js"],"default"]
+3:I[82309,["https://mrkpatchaa.com/_next/static/chunks/a2b37c4a3a2a518f.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js"],"default"]
+9:I[97367,["https://mrkpatchaa.com/_next/static/chunks/ff1a16fafef87110.js","https://mrkpatchaa.com/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+a:"$Sreact.suspense"
+:HL["https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","style"]
+4:Tff6,<p>A week ago, I discovered a very useful website and I thought I should make it an application.
+This is the website : <a href="http://www.blynker.com/" target="blank" rel="noopener">http://www.blynker.com/</a>.<br/>
+The principle is simple : it reminds you to take your eyes away from your computer every 20 minutes. So here is <strong>Blinker</strong>.</p>
+<p>I do a lot of stuff on my computer and I don't always take a break to rest. We can see it like a <a href="https://cirillocompany.de/pages/pomodoro-technique" target="blank" rel="noopener">pomodoro</a>, but not just when you want to concentrate on something.</p>
+<h3><strong>Planning the application</strong></h3>
+<p><strong>The idea is simple</strong> : Every x (20) minutes you notify the user that he should take a break. 20 seconds later, he can go back to work.</p>
+<p><strong>The technology</strong> : I do a lot of Javascript so I decided to go with a tool that could help me create my <em>native</em> application in Javascript. With no doubt I decided to go with <a href="https://electron.atom.io/" target="blank" rel="noopener">Electron</a>. Many applications, including Slack, Atom, VS Code, are built on top of Electron. And it has the advantage to help you build cross platform applications.</p>
+<h3><strong>Creating the application</strong></h3>
+<p>Electron provides a quick start to help you understand the concept.</p>
+<pre><code class="language-bash"># Clone the Quick Start repository
+$ git clone https://github.com/electron/electron-quick-start
+
+# Go into the repository
+$ cd electron-quick-start
+
+# Install the dependencies and run
+$ npm install &#x26;&#x26; npm start
+</code></pre>
+<p>Blinker is a "window less" application (as it just shows a tray icon) so I deleted the <code>index.html</code> and <code>renderer.js</code> files.</p>
+<p>Electron provides a <a href="https://electron.atom.io/docs/api/tray/" target="blank" rel="noopener">Tray</a> item that helps you add icons and context menus to the system’s notification area.</p>
+<pre><code class="language-javascript">const electron = require('electron')
+const { app, Tray, Menu, BrowserWindow } = require('electron')
+</code></pre>
+<p>Here is the list of dependencies :</p>
+<p><a href="https://github.com/mikaelbr/node-notifier" target="blank" rel="noopener"><strong>node-notifier</strong></a> : to display system notifications. I first used the HTML5 native Notification API, but it didn't work as our application doesn't run in a window.</p>
+<pre><code class="language-javascript">notifier.notify({
+  title: 'Startup status changed',
+  message: launchOnStartup
+    ? 'You will have to launch the application every time you log in'
+    : 'Great! Application will launch on system startup',
+  icon: path.join(__dirname, 'icons/eye.png'),
+  contentImage: '',
+  sound: playSound, // true of false
+})
+</code></pre>
+<p><a href="https://github.com/Teamwork/node-auto-launch/" target="blank" rel="noopener"><strong>auto-launch</strong></a> : to launch application on startup ;)</p>
+<pre><code class="language-javascript">const appAutoLauncher = new AutoLaunch({
+  name: 'Blinker',
+  isHidden: true,
+  mac: {
+    useLaunchAgent: true,
+  },
+})
+</code></pre>
+<p><a href="https://github.com/sindresorhus/electron-store" target="blank" rel="noopener"><strong>electron-store</strong></a> : to save application specific configuration (like sound, autostart)</p>
+<pre><code class="language-javascript">const store = new Store({
+  defaults: {
+    config: {
+      launchOnStartup: true,
+      playSound: true,
+    },
+  },
+})
+const config = store.get('config')
+</code></pre>
+<p>I have released the <a href="https://github.com/mrkpatchaa/blinker/releases/tag/v01" target="" rel="noopener">first version</a> for Linux and MacOS. If you are on windows, you can just checkout the code and build for windows.</p>
+<p>Feel free to checkout the code on <a href="https://github.com/mrkpatchaa/blinker/" target="blank" rel="noopener">github</a>, submit pull requests or open issues if something is not working as expected.</p>
+<p>Cheers.</p>
+0:{"buildId":"mQ7_TZm9ByqkjGn8vXPv8","rsc":["$","$1","c",{"children":[["$","article",null,{"children":[["$","$L2",null,{"title":"My first electron app : Blinker","date":"2023-06-15T10:49:04Z"}],["$","$L3",null,{"content":"$4"}]]}],["$L5","$L6","$L7"],"$L8"]}],"loading":null,"isPartial":false}
+5:["$","link","0",{"rel":"stylesheet","href":"https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","precedence":"next"}]
+6:["$","script","script-0",{"src":"https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","async":true}]
+7:["$","script","script-1",{"src":"https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js","async":true}]
+8:["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
+b:null

@@ -1,0 +1,72 @@
+1:"$Sreact.fragment"
+2:I[15248,["https://mrkpatchaa.com/_next/static/chunks/a2b37c4a3a2a518f.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js"],"default"]
+3:I[82309,["https://mrkpatchaa.com/_next/static/chunks/a2b37c4a3a2a518f.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js"],"default"]
+9:I[97367,["https://mrkpatchaa.com/_next/static/chunks/ff1a16fafef87110.js","https://mrkpatchaa.com/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+a:"$Sreact.suspense"
+:HL["https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","style"]
+4:T14e0,<p>ㅤ</p>
+<h3><a href="https://voideditor.com/">Void</a></h3>
+<p>Void is an open source Cursor alternative. Full privacy. Fully-featured.
+ㅤ</p>
+<h3><a href="https://www.typeonce.dev/course/xstate-complete-getting-started-guide">XState: Complete Getting Started Guide | Typeonce</a></h3>
+<p>Learn how to leverage actors, state machines and state charts to manage the state of your app. Starting from the basics we explore all the features of XState through concrete examples of real UIs.
+ㅤ</p>
+<h3><a href="https://andrei-calazans.com/posts/how-to-global-catch-errors/">How to listen to uncaught/unhandled errors in React Native • Andrei Calazans</a></h3>
+<p>A guide on how to listen to uncaught/unhandled errors in React Native
+ㅤ</p>
+<h3><a href="https://rubenerd.com/the-email-is-authentication-pattern/">Rubenerd - The “email is authentication” pattern</a></h3>
+<p>Rubenerd - The “email is authentication” pattern
+ㅤ</p>
+<h3><a href="https://kettanaito.com/blog/dont-sleep-on-abort-controller">Don't Sleep on AbortController - kettanaito.com</a></h3>
+<p>Learn how to make anything abortable in JavaScript.
+ㅤ</p>
+<h3><a href="https://frontendatscale.com/courses/frontend-architecture">Fundamentals of Frontend Architecture — FREE Course</a></h3>
+<p>Learn how to build frontend applications at scale using the fundamentals of software design and architecture.
+ㅤ</p>
+<h3><a href="https://buildui.com/posts/global-progress-in-nextjs">Global progress in Next.js</a></h3>
+<p>The new App Router in Next.js doesn't expose router events, which makes it tricky to wire up libraries like NProgress to show global pending UI during page navigations. The following demo uses a transition-aware Hook and a custom link component to show a progress bar while new pages are being loaded.
+ㅤ</p>
+<h3><a href="https://github.com/aws-amplify/amplify-ui/issues/5731">StorageBrowser RFC · Issue</a></h3>
+<p>Overview StorageBrowser for Amazon S3 is an open source Amplify UI React component customers can add to their web applications to provide end-users with a simple interface for data stored in Amazon S3. Using StorageBrowser for S3, custom...
+ㅤ</p>
+<h3><a href="https://mxstbr.com/thoughts/graphql">You probably don't need GraphQL | Max Stoiber (@mxstbr)</a></h3>
+<p>It might be surprising to hear the co-founder of a GraphQL company say you probably don't need it. Let me explain.
+ㅤ</p>
+<h3><a href="https://addyo.substack.com/p/the-debuggers-toolkit">The Debugger's Toolkit - by Addy Osmani - Elevate</a></h3>
+<p>Understanding the thoughtful art of debugging code
+ㅤ</p>
+<h3><a href="https://muffinman.io/blog/node-script-to-run-multiple-commands-in-parallel/">Node.js script to run multiple commands in parallel · Muffin Man</a></h3>
+<p>I made a poor man's .
+ㅤ</p>
+<h3><a href="https://dotenvx.com/blog/2024/06/24/dotenvx-next-generation-config-management.html">From dotenv to dotenvx: Next Generation Config Management | dotenvx</a></h3>
+<p>A leap forward in configuration management for dotenv
+ㅤ</p>
+<h3><a href="https://dbushell.com/2024/06/22/no-no-javascript/">No No-JavaScript – David Bushell – Freelance Web Design (UK)</a></h3>
+<p>The one where I revisit an old practice
+ㅤ</p>
+<h3><a href="https://nochlin.com/blog/6-techniques-i-use-to-create-a-great-user-experience-for-shell-scripts">6 Techniques I Use to Create a Great User Experience for Shell Scripts</a></h3>
+<p>6 Techniques I Use to Create a Great User Experience for Shell Scripts
+ㅤ</p>
+<h3><a href="https://react-spectrum.adobe.com/releases/2024-09-30.html">September 30, 2024 Release – React Spectrum Releases</a></h3>
+<p>Happy fall! 🍁 We’re excited to announce that our color picker components are now generally available! We've also added a pending state for buttons in React Aria Components, advanced TreeView to beta, and added new Disclosure and DisclosureGroup components in alpha for building accordions and collapsible panels.
+ㅤ</p>
+<h3><a href="https://v2.tauri.app/blog/tauri-20/">Tauri 2.0 Stable Release | Tauri</a></h3>
+<p>The cross-platform app building toolkit
+ㅤ</p>
+<h3><a href="https://ig.ft.com/generative-ai/">Generative AI exists because of the transformer</a></h3>
+<p>The technology has resulted in a host of cutting-edge AI applications — but its real power lies beyond text generation
+ㅤ</p>
+<h3><a href="https://www.joshwcomeau.com/javascript/the-const-deception/">The “const” Deception • Josh W. Comeau</a></h3>
+<p>The “const” keyword in JavaScript is used to create constants, variables that can't change. Curiously, though, we do seem to be able to edit objects and arrays that are created using “const”. In this tutorial, we're going to dig into the incredibly-important distinction between “assignment” and “mutation” in JavaScript.
+ㅤ</p>
+<h3><a href="https://evanbacon.dev/blog/apple-settings">Apple Settings UI with Expo</a></h3>
+<p>Adding custom UI to the Apple Settings app
+ㅤ</p>
+<h3><a href="https://www.geeek.org/comment-bloquer-robots-aspirent-contenu-pour-llm/">Comment bloquer les Robots qui aspirent le contenu de votre site pour entraîner des modèles LLM ?</a></h3>
+<p>Apprenez à bloquer les robots qui aspirent le contenu de votre site pour entraîner des modèles LLM, en utilisant robots.txt, des configurations serveur ou des outils comme Cloudflare.</p>
+0:{"buildId":"mQ7_TZm9ByqkjGn8vXPv8","rsc":["$","$1","c",{"children":[["$","article",null,{"children":[["$","$L2",null,{"title":"Digest - Week 2024/40","date":"2024-09-30T08:22:11Z"}],["$","$L3",null,{"content":"$4"}]]}],["$L5","$L6","$L7"],"$L8"]}],"loading":null,"isPartial":false}
+5:["$","link","0",{"rel":"stylesheet","href":"https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","precedence":"next"}]
+6:["$","script","script-0",{"src":"https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","async":true}]
+7:["$","script","script-1",{"src":"https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js","async":true}]
+8:["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
+b:null

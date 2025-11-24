@@ -1,0 +1,34 @@
+1:"$Sreact.fragment"
+2:I[15248,["https://mrkpatchaa.com/_next/static/chunks/a2b37c4a3a2a518f.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js"],"default"]
+3:I[82309,["https://mrkpatchaa.com/_next/static/chunks/a2b37c4a3a2a518f.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js"],"default"]
+9:I[97367,["https://mrkpatchaa.com/_next/static/chunks/ff1a16fafef87110.js","https://mrkpatchaa.com/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+a:"$Sreact.suspense"
+:HL["https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","style"]
+4:Tc1a,<h3><a href="https://www.infoq.com/news/2022/04/staff-plus-manager-to-tech/">The Path to a Staff-Plus Engineer Role: from Management Back to Tech</a></h3>
+<p>When working in tech, a managerial career may not be for you. Fabiane Bizinella Nardon went from being a manager back to tech, becoming a staff plus engineer and creating a staff plus friendly company...
+ㅤ</p>
+<h3><a href="https://www.thoughtworks.com/insights/blog/continuous-delivery/managing-feature-toggles-teams">Managing feature toggles in teams</a></h3>
+<p>There are many light- and heavyweight approaches to implementing feature toggles. Some store values in a database table and offer a UI to flip them; others just put them into environment variables. Whatever approach you choose, it should always be a matter of seconds to flip your toggles..
+ㅤ</p>
+<h3><a href="https://developer.salesforce.com/blogs/2022/11/an-illustrated-introduction-to-redis">An Illustrated Introduction to Redis</a></h3>
+<p>Redis is, as the <a href="https://redis.io/docs/about">official documentation</a> puts it, “an open source (BSD licensed), in-memory data structure store used as a database, cache, message broker, and streaming engine.” That’s quite a mouthful! Let’s further explore what this means by discussing when Redis might be useful, why it can be an effective tool, and how it works behind the scenes...
+ㅤ</p>
+<h3><a href="https://www.technologyreview.com/2023/06/22/1075405/the-people-paid-to-train-ai-are-outsourcing-their-work-to-ai/">The people paid to train AI are outsourcing their work… to AI</a></h3>
+<p>Using AI-generated data to train AI could introduce further errors into already error-prone models. Large language models regularly present false information as fact. If they generate incorrect output that is itself used to train other AI models, the errors can be absorbed by those models and amplified over time...
+ㅤ</p>
+<h3><a href="https://github.com/vikas5914/google-photos-backup">vikas5914/google-photos-backup</a></h3>
+<p>Backup photos from Google Photos using Playwright.
+This project uses Playwright to open Google Photos in a headless browser. It then starts downloading all the images from the last image to the top. It also downloads images incrementally and sorts them in year and month folders. It also saves the progress in a .lastdone file...
+ㅤ</p>
+<h3><a href="https://www.cbsnews.com/pittsburgh/news/scotland-study-hydration-levels/">New Study Compares The Body's Hydration Response To Different Beverages</a></h3>
+<p>(CNN) -- When you're thirsty and in need of a drink, which beverages are best at keeping you hydrated?
+Sure, you can always reach for a glass of water -- but plain H20 isn't the most hydrating beverage around, according to a study from Scotland's St. Andrews University that compared the hydration responses of several different drinks.
+ㅤ</p>
+<h3><a href="https://www.warp.dev/">Warp: Your terminal, reimagined</a></h3>
+<p>Warp is a modern, Rust-based terminal with AI built in so you and your team can build great software, faster. Now available on MacOS.</p>
+0:{"buildId":"mQ7_TZm9ByqkjGn8vXPv8","rsc":["$","$1","c",{"children":[["$","article",null,{"children":[["$","$L2",null,{"title":"Digest - Week 2023/25","date":"2023-06-21T22:53:55Z"}],["$","$L3",null,{"content":"$4"}]]}],["$L5","$L6","$L7"],"$L8"]}],"loading":null,"isPartial":false}
+5:["$","link","0",{"rel":"stylesheet","href":"https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","precedence":"next"}]
+6:["$","script","script-0",{"src":"https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","async":true}]
+7:["$","script","script-1",{"src":"https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js","async":true}]
+8:["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
+b:null

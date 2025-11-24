@@ -1,0 +1,23 @@
+1:"$Sreact.fragment"
+2:I[15248,["https://mrkpatchaa.com/_next/static/chunks/a2b37c4a3a2a518f.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js"],"default"]
+3:I[82309,["https://mrkpatchaa.com/_next/static/chunks/a2b37c4a3a2a518f.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js"],"default"]
+5:I[97367,["https://mrkpatchaa.com/_next/static/chunks/ff1a16fafef87110.js","https://mrkpatchaa.com/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
+:HL["https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","style"]
+4:T65e,<p>ㅤ</p>
+<h3><a href="https://github.com/atlassian/pragmatic-drag-and-drop">atlassian/pragmatic-drag-and-drop: Fast drag and drop for any experience on any tech stack</a></h3>
+<p>Fast drag and drop for any experience on any tech stack - atlassian/pragmatic-drag-and-drop
+ㅤ</p>
+<h3><a href="https://www.youtube.com/watch?v=5fxf191c0jg">Amazon Drops 4 New Kindles, Including Color Model - YouTube</a></h3>
+<p>Amazon has completely turned over its Kindle e-reader line with freshly upgraded versions...
+ㅤ</p>
+<h3><a href="https://blockchainhistory.peachworlds.com/">Blockchain History | Immersive 3D Story</a></h3>
+<p>A 3D Website that embarks users on an immersive storytelling journey through the history of blockchain, where users are transported to pivotal moments in time. Made with Peach Worlds.
+ㅤ</p>
+<h3><a href="https://medium.com/salesforce-architects/whats-new-with-salesforce-diagrams-f489e3a87a74">What’s New with Salesforce Diagrams | by Kelly Zerr | Salesforce Architects | Oct, 2024 | Medium</a></h3>
+<p>Salesforce Diagrams has proven to be a valuable asset for architects to align their stakeholders and teams. We’ve seen incredible adoption of our resources and templates, with exciting ongoing…
+ㅤ</p>
+<h3><a href="https://github.com/romboHQ/tailwindcss-motion">romboHQ/tailwindcss-motion: tailwindcss-motion is a Tailwind CSS Plugin made at RomboHQ. It’s a simple, yet powerful, animation library with a simple syntax.</a></h3>
+<p>tailwindcss-motion is a Tailwind CSS Plugin made at RomboHQ. It’s a simple, yet powerful, animation library with a simple syntax. - romboHQ/tailwindcss-motion</p>
+0:{"buildId":"mQ7_TZm9ByqkjGn8vXPv8","rsc":["$","$1","c",{"children":[["$","article",null,{"children":[["$","$L2",null,{"title":"Digest - Week 2024/42","date":"2024-10-17T19:45:45Z"}],["$","$L3",null,{"content":"$4"}]]}],[["$","link","0",{"rel":"stylesheet","href":"https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","precedence":"next"}],["$","script","script-0",{"src":"https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","async":true}],["$","script","script-1",{"src":"https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js","async":true}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"loading":null,"isPartial":false}
+7:null

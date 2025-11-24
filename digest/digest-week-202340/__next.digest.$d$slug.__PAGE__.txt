@@ -1,0 +1,32 @@
+1:"$Sreact.fragment"
+2:I[15248,["https://mrkpatchaa.com/_next/static/chunks/a2b37c4a3a2a518f.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js"],"default"]
+3:I[82309,["https://mrkpatchaa.com/_next/static/chunks/a2b37c4a3a2a518f.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js"],"default"]
+5:I[97367,["https://mrkpatchaa.com/_next/static/chunks/ff1a16fafef87110.js","https://mrkpatchaa.com/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
+:HL["https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","style"]
+4:T961,<p>ㅤ</p>
+<h3><a href="https://github.blog/2023-09-21-announcing-the-github-innovation-graph/">Announcing the GitHub Innovation Graph - The GitHub Blog</a></h3>
+<p>Explore a universe of data about how the world is building software together on GitHub.
+ㅤ</p>
+<h3><a href="https://medium.com/salesforce-architects/b2c-transactional-messaging-3abd33742fc9">B2C Transactional Messaging. With Service Cloud, B2C Commerce, and… | by Nicolas Vanden Bossche | Salesforce Architects | Oct, 2023 | Medium</a></h3>
+<p>Compare approaches to implement transactional messaging a B2C scenario using B2C Commerce, Marketing Cloud, and Service Cloud.
+ㅤ</p>
+<h3><a href="https://web.dev/loading-ads-page-speed/">Effectively loading ads without impacting page speed</a></h3>
+<p>Learn how to effectively load ads without impacting your page speed, ensuring a seamless user experience, and maximizing revenue opportunities for website owners.
+ㅤ</p>
+<h3><a href="https://getbezel.app/">Bezel • Show your iPhone on your Mac</a></h3>
+<p>Bezel mirrors your iPhone onto your Mac by just plugging it in. Beautifully designed for Mac, with ease of use in mind.
+ㅤ</p>
+<h3><a href="https://medium.com/@addyosmani/photoshop-is-now-on-the-web-38d70954365a">Photoshop is now on the web!. Enabled by WebAssembly, Web Components… | by Addy Osmani | Sep, 2023 | Medium</a></h3>
+<p>Enabled by WebAssembly + Emscripten, Web Components + Lit, Service Workers + Workbox &#x26; new Web APIs. Chrome &#x26; Adobe enjoyed collaborating on it. Bringing the Photoshop desktop application to the web…
+ㅤ</p>
+<h3><a href="https://react.dev/learn/typescript">Using TypeScript – React</a></h3>
+<p>TypeScript is a popular way to add type definitions to JavaScript codebases. Out of the box, TypeScript supports JSX and you can get full React Web support by adding @types/react and @types/react-dom to your project.
+ㅤ</p>
+<h3><a href="https://huggingface.co/blog/Llama2-for-non-engineers">Non-engineers guide: Train a LLaMA 2 chatbot</a></h3>
+<p>We’re on a journey to advance and democratize artificial intelligence through open source and open science.
+ㅤ</p>
+<h3><a href="https://news.ycombinator.com/item?id=37759759">Ask HN: What software did you purchase that positively impacted your family life | Hacker News</a></h3>
+<p>Ask HN: What software did you purchase that positively impacted your family life | Hacker News</p>
+0:{"buildId":"mQ7_TZm9ByqkjGn8vXPv8","rsc":["$","$1","c",{"children":[["$","article",null,{"children":[["$","$L2",null,{"title":"Digest - Week 2023/40","date":"2023-10-08T21:17:07Z"}],["$","$L3",null,{"content":"$4"}]]}],[["$","link","0",{"rel":"stylesheet","href":"https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","precedence":"next"}],["$","script","script-0",{"src":"https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","async":true}],["$","script","script-1",{"src":"https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js","async":true}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"loading":null,"isPartial":false}
+7:null

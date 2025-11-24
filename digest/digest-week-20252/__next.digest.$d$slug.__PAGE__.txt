@@ -1,0 +1,23 @@
+1:"$Sreact.fragment"
+2:I[15248,["https://mrkpatchaa.com/_next/static/chunks/a2b37c4a3a2a518f.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js"],"default"]
+3:I[82309,["https://mrkpatchaa.com/_next/static/chunks/a2b37c4a3a2a518f.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js"],"default"]
+5:I[97367,["https://mrkpatchaa.com/_next/static/chunks/ff1a16fafef87110.js","https://mrkpatchaa.com/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
+:HL["https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","style"]
+4:T75c,<p>ㅤ</p>
+<h3><a href="https://hackaday.com/2025/01/06/thirty-years-later-the-windows-3-1-video-driver-you-needed/">Thirty Years Later, The Windows 3.1 Video Driver You Needed | Hackaday</a></h3>
+<p>Over the course of the 1990s we saw huge developments in the world of PC graphics cards, going from little more than the original IBM VGA standard through super VGA and then so-called “Window…
+ㅤ</p>
+<h3><a href="https://blog.axlight.com/posts/thoughts-on-state-management-libraries-in-the-react-compiler-era/">Thoughts on State Management Libraries in the React Compiler Era · Daishi Kato's blog</a></h3>
+<p>Introduction I’ve been developing three React state management libraries: Zustand, Jotai, and Valtio. So, how are they going to hold up in the new era with the React Compiler and React Server Components (RSCs)? This post shares my random thoughts on the topic.
+ㅤ</p>
+<h3><a href="https://expo.dev/blog/modern-sqlite-for-react-native-apps">Modern SQLite for React Native apps</a></h3>
+<p>What if I told you there’s a way to combine SQLite’s power with the simplicity and elegance of modern tools?
+ㅤ</p>
+<h3><a href="https://automattic.com/2025/01/09/aligning-automattics-sponsored-contributions-to-wordpress/">Aligning Automattic’s Sponsored Contributions to WordPress – Automattic</a></h3>
+<p>Automattic has always been deeply committed to the success of WordPress, dedicating significant resources and talent to its development for almost two decades. However, we’ve observed an imbalance in how contributions to WordPress are distributed across the ecosystem, and it’s time to address this. Additionally, we’re having to spend significant time and money to defend…
+ㅤ</p>
+<h3><a href="https://github.com/ThomasRinsma/pdftris">ThomasRinsma/pdftris</a></h3>
+<p>Contribute to ThomasRinsma/pdftris development by creating an account on GitHub.</p>
+0:{"buildId":"mQ7_TZm9ByqkjGn8vXPv8","rsc":["$","$1","c",{"children":[["$","article",null,{"children":[["$","$L2",null,{"title":"Digest - Week 2025/2","date":"2025-01-09T12:46:38Z"}],["$","$L3",null,{"content":"$4"}]]}],[["$","link","0",{"rel":"stylesheet","href":"https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","precedence":"next"}],["$","script","script-0",{"src":"https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","async":true}],["$","script","script-1",{"src":"https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js","async":true}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"loading":null,"isPartial":false}
+7:null

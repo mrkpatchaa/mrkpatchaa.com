@@ -1,0 +1,35 @@
+1:"$Sreact.fragment"
+2:I[15248,["https://mrkpatchaa.com/_next/static/chunks/a2b37c4a3a2a518f.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js"],"default"]
+3:I[82309,["https://mrkpatchaa.com/_next/static/chunks/a2b37c4a3a2a518f.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js"],"default"]
+5:I[97367,["https://mrkpatchaa.com/_next/static/chunks/ff1a16fafef87110.js","https://mrkpatchaa.com/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
+:HL["https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","style"]
+4:T974,<p>ㅤ</p>
+<h3><a href="https://github.com/exo-explore/exo">exo-explore/exo: Run your own AI cluster at home with everyday devices 📱💻 🖥️⌚</a></h3>
+<p>Run your own AI cluster at home with everyday devices 📱💻 🖥️⌚ - exo-explore/exo
+ㅤ</p>
+<h3><a href="https://www.googlecloudpresscorner.com/2025-02-24-Salesforce-and-Google-Bring-Gemini-to-Agentforce,-Enable-More-Customer-Choice-in-Major-Partnership-Expansion">Salesforce and Google Bring Gemini to Agentforce, Enable More Customer Choice in Major Partnership Expansion</a></h3>
+<p>San Francisco and Sunnyvale, Calif. – Feb. 24, 2025 – Salesforce and Google today announced a major expansion of their strategic partnership, delivering choice in the models and capabilities...
+ㅤ</p>
+<h3><a href="https://nextjs.org/blog/next-15-2">Next.js 15.2 | Next.js</a></h3>
+<p>Next.js 15.2 introduces an improved error experience, streaming metadata, Turbopack performance improvements, and more.
+ㅤ</p>
+<h3><a href="https://flags-sdk.dev/">Flags SDK</a></h3>
+<p>A free, open-source library for using feature flags in Next.js and SvelteKit.
+ㅤ</p>
+<h3><a href="https://github.com/mrousavy/nitro">mrousavy/nitro: 🔥 Insanely fast native C++, Swift or Kotlin modules with a statically compiled binding layer to JSI</a></h3>
+<p>🔥 Insanely fast native C++, Swift or Kotlin modules with a statically compiled binding layer to JSI - mrousavy/nitro
+ㅤ</p>
+<h3><a href="https://github.com/epicweb-dev/epic-stack/discussions/937">Passkeys, Helmets, and more! 🔑 🪖 · epicweb-dev/epic-stack · Discussion</a></h3>
+<p>Passkeys, Helmets, and more! 🔑 🪖
+ㅤ</p>
+<h3><a href="https://github.com/software-mansion/react-native-reanimated/releases/tag/3.17.0">Release 3.17.0 · software-mansion/react-native-reanimated</a></h3>
+<p>React Native's Animated library reimplemented. Contribute to software-mansion/react-native-reanimated development by creating an account on GitHub.
+ㅤ</p>
+<h3><a href="https://github.com/kuatsu/react-native-boost">kuatsu/react-native-boost: 🚀 Boost your React Native app's performance with a single line of code</a></h3>
+<p>kuatsu/react-native-boost: 🚀 Boost your React Native app's performance with a single line of code
+ㅤ</p>
+<h3><a href="https://www.scd31.com/posts/extreme-server-side-rendering">EXTREME SERVER SIDE RENDERING | Stephen's Site</a></h3>
+<p>EXTREME SERVER SIDE RENDERING | Stephen's Site</p>
+0:{"buildId":"mQ7_TZm9ByqkjGn8vXPv8","rsc":["$","$1","c",{"children":[["$","article",null,{"children":[["$","$L2",null,{"title":"Digest - Week 2025/9","date":"2025-02-24T22:21:01Z"}],["$","$L3",null,{"content":"$4"}]]}],[["$","link","0",{"rel":"stylesheet","href":"https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","precedence":"next"}],["$","script","script-0",{"src":"https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","async":true}],["$","script","script-1",{"src":"https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js","async":true}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"loading":null,"isPartial":false}
+7:null

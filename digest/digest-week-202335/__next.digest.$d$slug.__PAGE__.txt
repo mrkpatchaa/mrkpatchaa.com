@@ -1,0 +1,42 @@
+1:"$Sreact.fragment"
+2:I[15248,["https://mrkpatchaa.com/_next/static/chunks/a2b37c4a3a2a518f.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js"],"default"]
+3:I[82309,["https://mrkpatchaa.com/_next/static/chunks/a2b37c4a3a2a518f.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js"],"default"]
+9:I[97367,["https://mrkpatchaa.com/_next/static/chunks/ff1a16fafef87110.js","https://mrkpatchaa.com/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+a:"$Sreact.suspense"
+:HL["https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","style"]
+4:Tc87,<p>ㅤ</p>
+<h3><a href="https://omdena.com/chapter-challenges/extreme-weather-forecasting-in-togo-using-machine-learning-weatherai/">Extreme Weather Forecasting in Togo Using Machine Learning: WeatherAI</a></h3>
+<p>Develop a web application for extreme weather forecasting in Togo using machine learning, and exploratory data analysis.
+ㅤ</p>
+<h3><a href="https://gpt-trainer.com/">GPT-trainer</a></h3>
+<p>uild your own ChatGPT with no-code and embed it directly onto your website.
+ㅤ</p>
+<h3><a href="https://lightningcss.dev/">Lightning CSS</a></h3>
+<p>An extremely fast CSS parser, transformer, bundler, and minifier.
+ㅤ</p>
+<h3><a href="https://github.blog/2023-08-30-why-rust-is-the-most-admired-language-among-developers/">Why Rust is the most admired language among developers - The GitHub Blog</a></h3>
+<p>Rust continues to top the charts as the most admired and desired language by developers, and in this post, we dive a little deeper into how (and why) Rust is stealing the hearts of developers around the world.
+ㅤ</p>
+<h3><a href="https://github.com/vercel/next.js/discussions/53868">RFC: Google Tag Manager and gtag in  · vercel/next.js · Discussion</a></h3>
+<p>RFC: Google Tag Manager and gtag in
+ㅤ</p>
+<h3><a href="https://www.rhino-inquisitor.com/a-look-at-the-23-9-commerce-cloud-release/">Transforming the Future with the 23.9 Release and Custom SCAPI Endpoints</a></h3>
+<p>We are getting closer to the holiday period with 23.9, where a feature and release freeze happens every year. But what goodies are in store for us?
+ㅤ</p>
+<h3><a href="https://github.com/vantezzen/auto-form">vantezzen/auto-form: 🌟  A React component that automatically creates a @shadcn/ui form based on a zod schema.</a></h3>
+<p>🌟  A React component that automatically creates a @shadcn/ui form based on a zod schema. - vantezzen/auto-form: 🌟  A React component that automatically creates a @shadcn/ui form based on a zod schema.
+ㅤ</p>
+<h3><a href="https://github.com/getumbrel/llama-gpt">getumbrel/llama-gpt: A self-hosted, offline, ChatGPT-like chatbot. Powered by Llama 2. 100% private, with no data leaving your device. New: Code Llama support!</a></h3>
+<p>A self-hosted, offline, ChatGPT-like chatbot. Powered by Llama 2. 100% private, with no data leaving your device. New: Code Llama support! - getumbrel/llama-gpt: A self-hosted, offline, ChatGPT-like chatbot. Powered by Llama 2. 100% private, with no data leaving your device. New: Code Llama support!
+ㅤ</p>
+<h3><a href="https://opentf.org/announcement">OpenTF Foundation</a></h3>
+<p>The OpenTF Foundation. Supporting an impartial, open, and community-driven Terraform. OpenTF Announces Fork of Terraform
+ㅤ</p>
+<h3><a href="https://slack.engineering/slacks-migration-to-a-cellular-architecture/">Slack's Migration to a Cellular Architecture - Slack Engineering</a></h3>
+<p>Summary In recent years, cellular architectures have become increasingly popular for large online services as a way to increase redundancy and limit the blast radius of site failures. In pursuit of these goals, we have migrated the most critical user-facing services at Slack from a monolithic to a cell-based architecture over the last 1.5 years. …</p>
+0:{"buildId":"mQ7_TZm9ByqkjGn8vXPv8","rsc":["$","$1","c",{"children":[["$","article",null,{"children":[["$","$L2",null,{"title":"Digest - Week 2023/35","date":"2023-09-03T10:32:34Z"}],["$","$L3",null,{"content":"$4"}]]}],["$L5","$L6","$L7"],"$L8"]}],"loading":null,"isPartial":false}
+5:["$","link","0",{"rel":"stylesheet","href":"https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","precedence":"next"}]
+6:["$","script","script-0",{"src":"https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","async":true}]
+7:["$","script","script-1",{"src":"https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js","async":true}]
+8:["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
+b:null

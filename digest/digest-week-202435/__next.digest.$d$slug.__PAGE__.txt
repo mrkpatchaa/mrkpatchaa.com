@@ -1,0 +1,26 @@
+1:"$Sreact.fragment"
+2:I[15248,["https://mrkpatchaa.com/_next/static/chunks/a2b37c4a3a2a518f.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js"],"default"]
+3:I[82309,["https://mrkpatchaa.com/_next/static/chunks/a2b37c4a3a2a518f.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js"],"default"]
+5:I[97367,["https://mrkpatchaa.com/_next/static/chunks/ff1a16fafef87110.js","https://mrkpatchaa.com/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
+:HL["https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","style"]
+4:T423,<p>ㅤ</p>
+<h3><a href="https://supa.guide/">supa.guide - your dose of becoming an expert</a></h3>
+<p>A book that's here to stay, getting you from zero to expert with Supabase.
+ㅤ</p>
+<h3><a href="https://louisabraham.github.io/chessviz/">ChessViz</a></h3>
+<p>Visualize chess games. Enter a game ID or paste PGN notation to see the magic happen!
+ㅤ</p>
+<h3><a href="https://resend.com/blog/react-email-3">React Email 3.0 · Resend</a></h3>
+<p>An entire collection of pre-built components with a much faster development experience.
+ㅤ</p>
+<h3><a href="https://expo.dev/blog/what-to-do-without-codepush">What to do without CodePush</a></h3>
+<p>CodePush is set to be deprecated and will not be maintained for future versions of React Native. What are the alternatives and which is best for your project?
+ㅤ</p>
+<h3><a href="https://rspack.dev/blog/announcing-1-0">Announcing Rspack 1.0 - Rspack</a></h3>
+<p>The fast Rust-based web bundler
+ㅤ</p>
+<h3><a href="https://rsdoctor.dev/">Rsdoctor</a></h3>
+<p>A one-stop build analyzer for Rspack and Webpack.</p>
+0:{"buildId":"mQ7_TZm9ByqkjGn8vXPv8","rsc":["$","$1","c",{"children":[["$","article",null,{"children":[["$","$L2",null,{"title":"Digest - Week 2024/35","date":"2024-08-26T13:07:08Z"}],["$","$L3",null,{"content":"$4"}]]}],[["$","link","0",{"rel":"stylesheet","href":"https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","precedence":"next"}],["$","script","script-0",{"src":"https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","async":true}],["$","script","script-1",{"src":"https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js","async":true}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"loading":null,"isPartial":false}
+7:null

@@ -1,0 +1,33 @@
+1:"$Sreact.fragment"
+2:I[15248,["https://mrkpatchaa.com/_next/static/chunks/a2b37c4a3a2a518f.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js"],"default"]
+3:I[82309,["https://mrkpatchaa.com/_next/static/chunks/a2b37c4a3a2a518f.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js"],"default"]
+9:I[97367,["https://mrkpatchaa.com/_next/static/chunks/ff1a16fafef87110.js","https://mrkpatchaa.com/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+a:"$Sreact.suspense"
+:HL["https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","style"]
+4:Tc60,<p>ㅤ</p>
+<h3><a href="https://hbr.org/2023/07/the-simple-power-of-communicating-with-kindness">The Simple Power of Communicating with Kindness</a></h3>
+<p>In today’s world a host of issues are eating away at our connections with each other: Lack of focus, high-speed interactions, political polarization seeping into professional interactions, lack of trust. It’s easy to let daily civilities go by the wayside — or to approach difficult conversations with anger and ferocity — but, the author tells us, her experience as a corporate communications executive points to the benefits for leaders who double down on kindness instead. She outlines three tactics that work: Breaking down defensiveness with graciousness, giving credit, and making space.
+ㅤ</p>
+<h3><a href="https://blog.jgc.org/2023/07/unfortunately-kelly-rowland-couldnt.html">John Graham-Cumming's blog: Unfortunately, Kelly Rowland couldn't have used the =HYPERLINK() function to message Nelly</a></h3>
+<p>The Kelly Rowland/Nelly song Dilemma  features an infamous scene amongst nerds where Kelly Rowland tries to send a message to Nelly using a ...
+ㅤ</p>
+<h3><a href="https://statecraft.beehiiv.com/p/student-loan-debt-forgiveness">The Student Debt Crisis, Explained.</a></h3>
+<p>We weren't ready for a 710% increase in college tuitions from 1983 to 2023. The debt is now 1.78 trillion dollars, with 93% of that held by the government.
+ㅤ</p>
+<h3><a href="https://www.openculture.com/2023/07/download-instructions-for-more-than-6800-lego-kits-at-the-internet-archive.html">Download Instructions for More Than 6,800 LEGO Kits at the Internet Archive |  Open Culture</a></h3>
+<p>We've all come across a LEGO set from childhood and felt the temptation to try building it one more time — making the generous assumption, of course, that all the pieces are in the box, to say nothing of the instructions. Open Culture, openculture.com
+ㅤ</p>
+<h3><a href="https://medium.com/@youssefelgamrani/monitoring-java-spring-microservices-with-prometheus-and-grafana-using-helm-in-a-kubernetes-aca5c8385c73">Monitoring Java Spring Microservices with Prometheus and Grafana using Helm in a Kubernetes Environment | by Youssef EL GAMRANI | Jul, 2023 | Medium</a></h3>
+<p>Monitoring is crucial to any microservices architecture to ensure system health, performance, and reliability. This article will explore how to monitor Java Spring microservices using Prometheus and…
+ㅤ</p>
+<h3><a href="https://azure.microsoft.com/en-us/blog/dev-optimized-cloud-based-workstations-microsoft-dev-box-is-now-generally-available/">Microsoft Dev Box is now generally available</a></h3>
+<p>We’ve focused on improving developer productivity and satisfaction with the power of the cloud and today, Microsoft Dev Box is generally available. Learn more.
+ㅤ</p>
+<h3><a href="https://github.blog/2023-07-12-introducing-passwordless-authentication-on-github-com/">Introducing passwordless authentication on GitHub.com | The GitHub Blog</a></h3>
+<p>Passkeys are now available in public beta. Opting in lets you upgrade security keys to passkeys, and use those in place of both your password and your 2FA method.</p>
+0:{"buildId":"mQ7_TZm9ByqkjGn8vXPv8","rsc":["$","$1","c",{"children":[["$","article",null,{"children":[["$","$L2",null,{"title":"Digest - Week 2023/28","date":"2023-07-14T14:29:13Z"}],["$","$L3",null,{"content":"$4"}]]}],["$L5","$L6","$L7"],"$L8"]}],"loading":null,"isPartial":false}
+5:["$","link","0",{"rel":"stylesheet","href":"https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","precedence":"next"}]
+6:["$","script","script-0",{"src":"https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","async":true}]
+7:["$","script","script-1",{"src":"https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js","async":true}]
+8:["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
+b:null

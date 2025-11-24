@@ -1,0 +1,32 @@
+1:"$Sreact.fragment"
+2:I[15248,["https://mrkpatchaa.com/_next/static/chunks/a2b37c4a3a2a518f.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js"],"default"]
+3:I[82309,["https://mrkpatchaa.com/_next/static/chunks/a2b37c4a3a2a518f.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js"],"default"]
+5:I[97367,["https://mrkpatchaa.com/_next/static/chunks/ff1a16fafef87110.js","https://mrkpatchaa.com/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
+:HL["https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","style"]
+4:T726,<p>ㅤ</p>
+<h3><a href="https://firebase.blog/posts/2025/04/introducing-firebase-studio">Introducing Firebase Studio</a></h3>
+<p>Introducing Firebase Studio
+ㅤ</p>
+<h3><a href="https://blog.sentry.io/a-guide-to-logging-in-react-native/">How To: Logging in React Native | Product Blog • Sentry</a></h3>
+<p>With additional information provided by monitoring tools, you can easily identify &#x26; fix errors in React Native. Learn how to get started with logging in React Native here.
+ㅤ</p>
+<h3><a href="https://expo.dev/blog/use-expo-ship-faster">Use Expo, Ship faster: How Infinite Red ships 230% faster with Expo</a></h3>
+<p>Speed up your React Native CI/CD with EAS Workflows, Maestro, and Expo Updates—run E2E tests on every PR without waiting on native builds.
+ㅤ</p>
+<h3><a href="https://blog.octo.com/connais-tu-la-difference-entre-un-reverse-proxy-et-une-api-gateway">Connais-tu la différence entre un Reverse Proxy et une API Gateway ? - OCTO Talks !</a></h3>
+<p>Aujourd'hui, je vous partage un petit résumé sur deux technologies clés dans l'infrastructure moderne : les API Gateways et les reverse proxies.
+ㅤ</p>
+<h3><a href="https://supabase.com/blog/postgres-language-server">Postgres Language Server: Initial Release</a></h3>
+<p>Language Server Protocol and collection of language tools for Postgres
+ㅤ</p>
+<h3><a href="https://supabase.com/blog/realtime-broadcast-from-database">Realtime: Broadcast from Database</a></h3>
+<p>Use Realtime Broadcast to scale sending database changes to clients
+ㅤ</p>
+<h3><a href="https://supabase.com/blog/supabase-ui-library">Introducing the Supabase UI Library</a></h3>
+<p>Drop complex components into your projects in seconds.
+ㅤ</p>
+<h3><a href="https://supabase.com/blog/mcp-server">Supabase MCP Server</a></h3>
+<p>Connect your AI tools to Supabase using MCP</p>
+0:{"buildId":"mQ7_TZm9ByqkjGn8vXPv8","rsc":["$","$1","c",{"children":[["$","article",null,{"children":[["$","$L2",null,{"title":"Digest - Week 2025/15","date":"2025-04-09T22:25:26Z"}],["$","$L3",null,{"content":"$4"}]]}],[["$","link","0",{"rel":"stylesheet","href":"https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","precedence":"next"}],["$","script","script-0",{"src":"https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","async":true}],["$","script","script-1",{"src":"https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js","async":true}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"loading":null,"isPartial":false}
+7:null

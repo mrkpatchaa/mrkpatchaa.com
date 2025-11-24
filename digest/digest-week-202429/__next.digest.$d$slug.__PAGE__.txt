@@ -1,0 +1,32 @@
+1:"$Sreact.fragment"
+2:I[15248,["https://mrkpatchaa.com/_next/static/chunks/a2b37c4a3a2a518f.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js"],"default"]
+3:I[82309,["https://mrkpatchaa.com/_next/static/chunks/a2b37c4a3a2a518f.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js"],"default"]
+5:I[97367,["https://mrkpatchaa.com/_next/static/chunks/ff1a16fafef87110.js","https://mrkpatchaa.com/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
+:HL["https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","style"]
+4:T800,<p>ㅤ</p>
+<h3><a href="https://blog.google/technology/developers/google-gemma-2/">Google launches Gemma 2, its next generation of open models</a></h3>
+<p>Gemma 2, our next generation of open models, is now available globally for researchers and developers.
+ㅤ</p>
+<h3><a href="https://newsletter.eng-leadership.com/p/how-to-have-a-top-performing-healthy">How to have a top performing, healthy and active day as an engineer or a manager</a></h3>
+<p>Pioritize having a healthy lifestyle -> see others around you thrive 🚀
+ㅤ</p>
+<h3><a href="https://github.com/charmbracelet/freeze">charmbracelet/freeze: Generate images of code and terminal output 📸</a></h3>
+<p>Generate images of code and terminal output 📸. Contribute to charmbracelet/freeze development by creating an account on GitHub.
+ㅤ</p>
+<h3><a href="https://newsletter.systemdesign.one/p/saga-design-pattern">Saga Design Pattern - by Neo Kim - System Design Newsletter</a></h3>
+<p>How Halo Scaled to 11.6 Million Users Using the Saga Design Pattern
+ㅤ</p>
+<h3><a href="https://ishadeed.com/article/css-grid-area/">CSS Grid Areas</a></h3>
+<p>A fresh look at the CSS grid template areas and how to take advantage of its full potential today.
+ㅤ</p>
+<h3><a href="https://workspaceupdates.googleblog.com/2024/07/import-and-export-markdown-in-google-docs.html?m=1">Google Workspace Updates: Import and export Markdown in Google Docs</a></h3>
+<p>What’s changing In 2022 , we introduced expanded support for composing with Markdown in Google Docs on web. Today, we’re introducing highly-...
+ㅤ</p>
+<h3><a href="https://ui.shadcn.com/docs/components/chart">Chart - shadcn/ui</a></h3>
+<p>Beautiful charts. Built using Recharts. Copy and paste into your apps.
+ㅤ</p>
+<h3><a href="https://github.com/ibelick/motion-primitives">ibelick/motion-primitives: A collection of open-source, customizable motion components built on top of Framer Motion.</a></h3>
+<p>A collection of open-source, customizable motion components built on top of Framer Motion. - ibelick/motion-primitives</p>
+0:{"buildId":"mQ7_TZm9ByqkjGn8vXPv8","rsc":["$","$1","c",{"children":[["$","article",null,{"children":[["$","$L2",null,{"title":"Digest - Week 2024/29","date":"2024-07-17T09:02:24Z"}],["$","$L3",null,{"content":"$4"}]]}],[["$","link","0",{"rel":"stylesheet","href":"https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","precedence":"next"}],["$","script","script-0",{"src":"https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","async":true}],["$","script","script-1",{"src":"https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js","async":true}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"loading":null,"isPartial":false}
+7:null

@@ -1,0 +1,26 @@
+1:"$Sreact.fragment"
+2:I[15248,["https://mrkpatchaa.com/_next/static/chunks/a2b37c4a3a2a518f.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js"],"default"]
+3:I[82309,["https://mrkpatchaa.com/_next/static/chunks/a2b37c4a3a2a518f.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js"],"default"]
+5:I[97367,["https://mrkpatchaa.com/_next/static/chunks/ff1a16fafef87110.js","https://mrkpatchaa.com/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
+:HL["https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","style"]
+4:T5ce,<p>ㅤ</p>
+<h3><a href="https://jvns.ca/blog/2023/07/08/open-sourcing-the-nginx-playground/">Open sourcing the nginx playground</a></h3>
+<p>Open sourcing the nginx playground
+ㅤ</p>
+<h3><a href="https://github.com/immich-app/immich">immich-app/immich: Self-hosted photo and video backup solution directly from your mobile phone.</a></h3>
+<p>Self-hosted photo and video backup solution directly from your mobile phone. - immich-app/immich: Self-hosted photo and video backup solution directly from your mobile phone.
+ㅤ</p>
+<h3><a href="https://github.com/mshumer/gpt-prompt-engineer">mshumer/gpt-prompt-engineer</a></h3>
+<p>Contribute to mshumer/gpt-prompt-engineer development by creating an account on GitHub.
+ㅤ</p>
+<h3><a href="https://developer.wordpress.org/playground/">WordPress Playground</a></h3>
+<p>Experience a WordPress that runs entirely in your browser.
+ㅤ</p>
+<h3><a href="https://news.ycombinator.com/item?id=36736795">Ask HN: How to price your first enterprise customer? | Hacker News</a></h3>
+<p>We are a small SaaS company with a recently launched product. Currently we have mostly smaller customers (50+ users is large for us at the moment). We now have, somewhat unexpectedly this early, the interest of a large enterprise that wants a deal to onboard 5000+ users.
+ㅤ</p>
+<h3><a href="https://mrkpatchaa.com/read/regex-phone-numbers-togo">A regex to validate phone numbers in Togo | mrkpatchaa.com</a></h3>
+<p>I couldn't find any, so I built one. :)</p>
+0:{"buildId":"mQ7_TZm9ByqkjGn8vXPv8","rsc":["$","$1","c",{"children":[["$","article",null,{"children":[["$","$L2",null,{"title":"Digest - Week 2023/29","date":"2023-07-18T07:30:13Z"}],["$","$L3",null,{"content":"$4"}]]}],[["$","link","0",{"rel":"stylesheet","href":"https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","precedence":"next"}],["$","script","script-0",{"src":"https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","async":true}],["$","script","script-1",{"src":"https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js","async":true}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"loading":null,"isPartial":false}
+7:null

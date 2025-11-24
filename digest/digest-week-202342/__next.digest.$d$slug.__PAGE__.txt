@@ -1,0 +1,26 @@
+1:"$Sreact.fragment"
+2:I[15248,["https://mrkpatchaa.com/_next/static/chunks/a2b37c4a3a2a518f.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js"],"default"]
+3:I[82309,["https://mrkpatchaa.com/_next/static/chunks/a2b37c4a3a2a518f.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js"],"default"]
+5:I[97367,["https://mrkpatchaa.com/_next/static/chunks/ff1a16fafef87110.js","https://mrkpatchaa.com/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
+:HL["https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","style"]
+4:T685,<p>ㅤ</p>
+<h3><a href="https://servercomponents.dev/">React Server Components</a></h3>
+<p>An outline of React Server Components, what they are, why they're here, and how to use them conceptually.
+ㅤ</p>
+<h3><a href="https://francoisbest.com/posts/2023/storing-react-state-in-the-url-with-nextjs">Storing React state in the URL with Next.js | François Best</a></h3>
+<p>A peek under the hood of the next-usequerystate 1.8.x update with support for the app router.
+ㅤ</p>
+<h3><a href="https://tkdodo.eu/blog/the-uphill-battle-of-memoization">The Uphill Battle of Memoization | TkDodo's blog</a></h3>
+<p>Exploring why React.memo shouldn't be your first choice for performance optimizations
+ㅤ</p>
+<h3><a href="https://evanbacon.dev/blog/apple-settings">Apple Settings UI with Expo</a></h3>
+<p>Adding custom UI to the Apple Settings app
+ㅤ</p>
+<h3><a href="https://medium.com/agileinsider/becoming-a-successful-engineering-manager-5515c6e9bb12">Becoming a Successful Engineering Manager | by Joseph Morcos | Agile Insider | Oct, 2023 | Medium</a></h3>
+<p>Engineering Managers (EMs) play a pivotal role in software organizations. Whether you are aspiring to become an EM or have recently taken on this role, you might find yourself uncertain about the…
+ㅤ</p>
+<h3><a href="https://cloud.google.com/blog/products/identity-security/google-cloud-mitigated-largest-ddos-attack-peaking-above-398-million-rps/">Google Cloud mitigated largest DDoS attack, peaking above 398 million rps | Google Cloud Blog</a></h3>
+<p>Google Cloud stopped the largest known DDoS attack to date, which exploited HTTP/2 stream multiplexing using the new “Rapid Reset” technique.</p>
+0:{"buildId":"mQ7_TZm9ByqkjGn8vXPv8","rsc":["$","$1","c",{"children":[["$","article",null,{"children":[["$","$L2",null,{"title":"Digest - Week 2023/42","date":"2023-10-25T12:23:14Z"}],["$","$L3",null,{"content":"$4"}]]}],[["$","link","0",{"rel":"stylesheet","href":"https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","precedence":"next"}],["$","script","script-0",{"src":"https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","async":true}],["$","script","script-1",{"src":"https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js","async":true}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"loading":null,"isPartial":false}
+7:null

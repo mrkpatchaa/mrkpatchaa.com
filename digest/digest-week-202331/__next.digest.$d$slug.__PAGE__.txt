@@ -1,0 +1,26 @@
+1:"$Sreact.fragment"
+2:I[15248,["https://mrkpatchaa.com/_next/static/chunks/a2b37c4a3a2a518f.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js"],"default"]
+3:I[82309,["https://mrkpatchaa.com/_next/static/chunks/a2b37c4a3a2a518f.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js"],"default"]
+5:I[97367,["https://mrkpatchaa.com/_next/static/chunks/ff1a16fafef87110.js","https://mrkpatchaa.com/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
+:HL["https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","style"]
+4:T64c,<p>ㅤ</p>
+<h3><a href="https://github.com/vercel/next.js/discussions/46795">Props must be serializable for components in use client file · vercel/next.js · Discussion</a></h3>
+<p>Props must be serializable for components in use client file
+ㅤ</p>
+<h3><a href="https://www.salesforce.com/news/stories/starter-small-business/">Salesforce Launches Starter Suite, Simplifying CRM for Small Businesses - Salesforce News</a></h3>
+<p>Salesforce Starter is the fastest, easiest way to get started and grow with the #1 CRM Starter brings sales, service, and marketing capabilities together in a simple, out-of-the-box experience to help SMBs find, win, and keep customers Today, Salesforce announced general availability of Starter, a simple all-in-one CRM app bringing sales, service, and marketing capabilities […]
+ㅤ</p>
+<h3><a href="https://dagster.io/blog/dbt-docs-on-react">Speeding up the dbt™ docs by 20x with React Server Components | Dagster Blog</a></h3>
+<p>How we dropped page load time for a large dbt project from over 4.5s to under 220ms, a 20x improvement.
+ㅤ</p>
+<h3><a href="https://keithjgrant.com/posts/2023/04/transitioning-to-height-auto/">Transitioning to Height Auto (Two Ways)</a></h3>
+<p>Yes, there is now a way to transition an element to height auto with CSS alone.
+ㅤ</p>
+<h3><a href="https://alan.norbauer.com/articles/relay-style-graphql">Relay-style GraphQL | Alan Norbauer</a></h3>
+<p>GraphQL best practices for 2023
+ㅤ</p>
+<h3><a href="https://sqlfordevs.com/ebooks/indexing">A complete book dedicated to database indexes</a></h3>
+<p>Indexes can be easy. I promise.</p>
+0:{"buildId":"mQ7_TZm9ByqkjGn8vXPv8","rsc":["$","$1","c",{"children":[["$","article",null,{"children":[["$","$L2",null,{"title":"Digest - Week 2023/31","date":"2023-08-02T22:05:33Z"}],["$","$L3",null,{"content":"$4"}]]}],[["$","link","0",{"rel":"stylesheet","href":"https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","precedence":"next"}],["$","script","script-0",{"src":"https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","async":true}],["$","script","script-1",{"src":"https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js","async":true}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"loading":null,"isPartial":false}
+7:null

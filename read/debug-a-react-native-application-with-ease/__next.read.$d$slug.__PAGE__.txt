@@ -1,0 +1,62 @@
+1:"$Sreact.fragment"
+2:I[15248,["https://mrkpatchaa.com/_next/static/chunks/a2b37c4a3a2a518f.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js"],"default"]
+3:I[82309,["https://mrkpatchaa.com/_next/static/chunks/a2b37c4a3a2a518f.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js"],"default"]
+9:I[97367,["https://mrkpatchaa.com/_next/static/chunks/ff1a16fafef87110.js","https://mrkpatchaa.com/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+a:"$Sreact.suspense"
+:HL["https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","style"]
+4:T138c,<p>Debugging on React Native is not as ease as we think. Facebook officially provides <a href="https://facebook.github.io/react-native/docs/debugging.html"><strong>documentation</strong></a> on debugging a RN application in Google Chrome taking advantages of Chrome Developer Tools.</p>
+<p>To debug the JavaScript code in Chrome, you need to select "Debug JS Remotely" from the Developer Menu (⌘D or ⌘M depending if you are running iOS or Android simulator). This will open a new tab at <a href="http://localhost:8081/debugger-ui"><strong>http://localhost:8081/debugger-ui</strong></a> when your application launches.</p>
+<p>This is good, but not enough. It is difficult to set up React Developer Tools Chrome extension for React Native. You need a custom extension to debug Redux...</p>
+<p>You also have the choice to use standalone version of React Developer Tools to debug the component hierarchy. You can install it using <strong>npm</strong>.</p>
+<pre><code class="language-bash">$ npm install -g react-devtools
+</code></pre>
+<p>Launch it from the terminal</p>
+<pre><code class="language-bash">$ react-devtools
+</code></pre>
+<p>There is an all in one solution, called -you guessed it- <a href="https://github.com/jhen0409/react-native-debugger"><strong>React Native Debugger</strong></a>. It is a standalone application based on the official debugger of React Native which includes React inspector and Redux DevTools, offering a debugger for applications using Redux or not.</p>
+<h3>How to install React Native Debugger</h3>
+<p>The application is based on <strong>Electron</strong> :). Prebuilt binaries are available for Windows, Linux and macOS on the <a href="https://github.com/jhen0409/react-native-debugger/releases"><strong>releases</strong></a> page of the project. For macOS, you can install it via <strong>Homebrew Cask</strong>.</p>
+<pre><code class="language-bash">$ brew update &#x26;&#x26; brew cask install react-native-debugger
+</code></pre>
+<h3>Usage</h3>
+<h4>1. Manually</h4>
+<p>Using React Native Debugger doesn't require custom configuration, as it listens by default on the React Native packager port (8081) by default. Follow these steps to start debugging :</p>
+<ol>
+<li>Make sure all <a href="http://localhost:%3Cport%3E/debugger-ui">http://localhost:&#x3C;port>/debugger-ui</a> pages are closed</li>
+<li>Launch React Native Debugger</li>
+<li>Launch your application and enable <a href="https://facebook.github.io/react-native/docs/debugging.html#accessing-the-in-app-developer-menu"><strong>Debug JS Remotely</strong></a>
+<br /><br /></li>
+</ol>
+<h4>2. Automatically with react-native-debugger-open</h4>
+<p>There is a <a href="https://github.com/jhen0409/react-native-debugger/tree/master/npm-package"><strong>package</strong></a> which configures your application to automatically open React Native Debugger instead of Google Chrome when it launches. It replaces <code>open debugger-ui with Chrome</code> by <code>open React Native Debugger</code> from react-native packager</p>
+<p>To install and configure the package, follow these steps :</p>
+<ul>
+<li>Install the package :</li>
+</ul>
+<pre><code class="language-bash">$ npm i --save-dev react-native-debugger-open # or -g
+</code></pre>
+<ul>
+<li>Add this to your package.json</li>
+</ul>
+<pre><code class="language-json">"scripts": {
+    ... your current scripts configuration
+    // add this line
+    "postinstall": "rndebugger-open"
+}
+</code></pre>
+<p>It will be run after <code>npm install</code>. (You can run <code>npm run postinstall first</code>) The <code>./node_modules/react-native/local-cli/server/middleware/getDevToolsMiddleware.js</code> code will be replaced.</p>
+<p>And voilà. Now, every time your application launches, it will open React Native Debugger. If the React Native Debugger app is already opened, it will attach automatically the debugging session. But It is recommended to first close the React Native Debugger windows, just to make sure you won't have unexpected behavior.</p>
+<h3>Going further</h3>
+<p>There is a lot to read about debugging React Native applications. I gave an introduction which covers simple cases. If you need advanced configuration in the debugging process, you could read more about with the following resources.</p>
+<ul>
+<li><strong>React Native Debugger Documentation</strong> : <a href="https://github.com/jhen0409/react-native-debugger#documentation">https://github.com/jhen0409/react-native-debugger#documentation</a></li>
+<li><strong>React Native Debugger Open</strong> : <a href="https://github.com/jhen0409/react-native-debugger/tree/master/npm-package#usage">https://github.com/jhen0409/react-native-debugger/tree/master/npm-package#usage</a></li>
+<li><strong>Official React Native Debugging documentation</strong> : <a href="https://facebook.github.io/react-native/docs/debugging.html">https://facebook.github.io/react-native/docs/debugging.html</a></li>
+<li><strong>Google</strong> : <a href="http://bfy.tw/DR8k">http://bfy.tw/DR8k</a> :)</li>
+</ul>
+0:{"buildId":"mQ7_TZm9ByqkjGn8vXPv8","rsc":["$","$1","c",{"children":[["$","article",null,{"children":[["$","$L2",null,{"title":"Debug a React Native application with ease","date":"2023-06-15T11:32:31Z"}],["$","$L3",null,{"content":"$4"}]]}],["$L5","$L6","$L7"],"$L8"]}],"loading":null,"isPartial":false}
+5:["$","link","0",{"rel":"stylesheet","href":"https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","precedence":"next"}]
+6:["$","script","script-0",{"src":"https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","async":true}]
+7:["$","script","script-1",{"src":"https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js","async":true}]
+8:["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
+b:null

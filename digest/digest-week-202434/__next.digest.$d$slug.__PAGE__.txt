@@ -1,0 +1,23 @@
+1:"$Sreact.fragment"
+2:I[15248,["https://mrkpatchaa.com/_next/static/chunks/a2b37c4a3a2a518f.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js"],"default"]
+3:I[82309,["https://mrkpatchaa.com/_next/static/chunks/a2b37c4a3a2a518f.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js"],"default"]
+5:I[97367,["https://mrkpatchaa.com/_next/static/chunks/ff1a16fafef87110.js","https://mrkpatchaa.com/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
+:HL["https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","style"]
+4:T61d,<p>ㅤ</p>
+<h3><a href="https://github.com/plandex-ai/plandex">plandex-ai/plandex: AI driven development in your terminal. Designed for large, real-world tasks.</a></h3>
+<p>AI driven development in your terminal. Designed for large, real-world tasks. - plandex-ai/plandex
+ㅤ</p>
+<h3><a href="https://github.com/finaldie/auto-news">finaldie/auto-news: A personal news aggregator to pull information from multi-sources + LLM (ChatGPT/Gemini/Ollama via LangChain) to help us reading efficiently with less noises, the sources including: Tweets, RSS, YouTube, Web Articles, Reddit, and personal Journal notes.</a></h3>
+<p>A personal news aggregator to pull information from multi-sources + LLM (ChatGPT/Gemini/Ollama via LangChain) to help us reading efficiently with less noises, the sources including: Tweets, RSS, YouTube, Web Articles, Reddit, and personal Journal notes. - finaldie/auto-news
+ㅤ</p>
+<h3><a href="https://github.com/janbjorge/PgQueuer">janbjorge/pgqueuer: PgQueuer is a Python library leveraging PostgreSQL for efficient job queuing.</a></h3>
+<p>PgQueuer is a Python library leveraging PostgreSQL for efficient job queuing. - janbjorge/pgqueuer
+ㅤ</p>
+<h3><a href="https://www.formity.app/">Formity - Build the most powerful forms, without the hassle</a></h3>
+<p>Build the most powerful forms, without the hassle
+ㅤ</p>
+<h3><a href="https://github.com/Shopify/tophat">Shopify/tophat: Easily install and test mobile applications with a single click.</a></h3>
+<p>Shopify/tophat: Easily install and test mobile applications with a single click.</p>
+0:{"buildId":"mQ7_TZm9ByqkjGn8vXPv8","rsc":["$","$1","c",{"children":[["$","article",null,{"children":[["$","$L2",null,{"title":"Digest - Week 2024/34","date":"2024-08-25T10:11:22Z"}],["$","$L3",null,{"content":"$4"}]]}],[["$","link","0",{"rel":"stylesheet","href":"https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","precedence":"next"}],["$","script","script-0",{"src":"https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","async":true}],["$","script","script-1",{"src":"https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js","async":true}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"loading":null,"isPartial":false}
+7:null

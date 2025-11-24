@@ -1,0 +1,20 @@
+1:"$Sreact.fragment"
+2:I[15248,["https://mrkpatchaa.com/_next/static/chunks/a2b37c4a3a2a518f.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js"],"default"]
+3:I[82309,["https://mrkpatchaa.com/_next/static/chunks/a2b37c4a3a2a518f.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js"],"default"]
+5:I[97367,["https://mrkpatchaa.com/_next/static/chunks/ff1a16fafef87110.js","https://mrkpatchaa.com/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
+:HL["https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","style"]
+4:T4ba,<p>ㅤ</p>
+<h3><a href="https://www.uidesigndaily.com/">UI Design Daily  | Open Source UI Resources</a></h3>
+<p>A large database of 100% free UI components and design source files available in formats popular in the industry.
+ㅤ</p>
+<h3><a href="https://consulting.wenvision.com/techwaves-generative-ai-for-cios-and-ctos/">Techwaves Generative AI for CIOs and CTOs - Jan 2024 (English version) - WENVISION</a></h3>
+<p>Techwaves Generative AI for CIOs and CTOs. Our approach is based on the Techwaves methodology, which deeply analyzes market trends, technological innovations.
+ㅤ</p>
+<h3><a href="https://www.apple.com/newsroom/2024/01/apple-announces-changes-to-ios-safari-and-the-app-store-in-the-european-union/">Apple announces changes to iOS, Safari, and the App Store in the European Union - Apple</a></h3>
+<p>Apple announced changes to iOS, Safari, and the App Store impacting developers’ apps in the EU to comply with the DMA.
+ㅤ</p>
+<h3><a href="https://github.com/InkboxSoftware/excelCPU">InkboxSoftware/excelCPU: 16-bit CPU for Excel, and related files</a></h3>
+<p>16-bit CPU for Excel, and related files. Contribute to InkboxSoftware/excelCPU development by creating an account on GitHub.</p>
+0:{"buildId":"mQ7_TZm9ByqkjGn8vXPv8","rsc":["$","$1","c",{"children":[["$","article",null,{"children":[["$","$L2",null,{"title":"Digest - Week 2024/5","date":"2024-01-31T09:03:19Z"}],["$","$L3",null,{"content":"$4"}]]}],[["$","link","0",{"rel":"stylesheet","href":"https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","precedence":"next"}],["$","script","script-0",{"src":"https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","async":true}],["$","script","script-1",{"src":"https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js","async":true}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"loading":null,"isPartial":false}
+7:null

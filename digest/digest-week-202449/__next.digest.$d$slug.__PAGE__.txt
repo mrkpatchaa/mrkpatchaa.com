@@ -1,0 +1,26 @@
+1:"$Sreact.fragment"
+2:I[15248,["https://mrkpatchaa.com/_next/static/chunks/a2b37c4a3a2a518f.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js"],"default"]
+3:I[82309,["https://mrkpatchaa.com/_next/static/chunks/a2b37c4a3a2a518f.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js"],"default"]
+5:I[97367,["https://mrkpatchaa.com/_next/static/chunks/ff1a16fafef87110.js","https://mrkpatchaa.com/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
+:HL["https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","style"]
+4:T59d,<p>ㅤ</p>
+<h3><a href="https://www.tic-maroc.com/2024/12/portabilite-le-changement-d-operateur-plus-simple-code-rio.html">Portabilité: Le changement d'opérateur devient plus simple avec le code RIO        - Tic Maroc</a></h3>
+<p>L’Agence nationale de réglementation des télécommunications (ANRT) a annoncé une avancée majeure pour les abonnés des réseaux fixes et mobil...
+ㅤ</p>
+<h3><a href="https://www.trevorlasn.com/blog/oracle-javascript-trademark-saga">The Fight to Free JavaScript from Oracle's Control</a></h3>
+<p>The creator of JavaScript and Node.js are challenging Oracle's control over the JavaScript name
+ㅤ</p>
+<h3><a href="https://supabase.com/launch-week">Launch Week 13 | 2 — 6 December / 7am PT</a></h3>
+<p>Join us for a week of announcing new features, every day at 7 AM PT.
+ㅤ</p>
+<h3><a href="https://muffinman.io/blog/node-script-to-run-multiple-commands-in-parallel/">Node.js script to run multiple commands in parallel · Muffin Man</a></h3>
+<p>I made a poor man's .
+ㅤ</p>
+<h3><a href="https://react.dev/blog/2024/12/05/react-19">React v19 – React</a></h3>
+<p>The library for web and native user interfaces. React 19 is now stable!
+ㅤ</p>
+<h3><a href="https://til.jakelazaroff.com/css/swap-between-black-and-white-text-based-on-background-color/">[css] Swap between black and white text based on background color | Today I Learned</a></h3>
+<p>A collection of useful things I've learned.</p>
+0:{"buildId":"mQ7_TZm9ByqkjGn8vXPv8","rsc":["$","$1","c",{"children":[["$","article",null,{"children":[["$","$L2",null,{"title":"Digest - Week 2024/49","date":"2024-12-02T08:58:21Z"}],["$","$L3",null,{"content":"$4"}]]}],[["$","link","0",{"rel":"stylesheet","href":"https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","precedence":"next"}],["$","script","script-0",{"src":"https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","async":true}],["$","script","script-1",{"src":"https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js","async":true}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"loading":null,"isPartial":false}
+7:null

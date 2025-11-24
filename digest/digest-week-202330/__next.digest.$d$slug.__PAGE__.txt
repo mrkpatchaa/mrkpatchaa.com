@@ -1,0 +1,48 @@
+1:"$Sreact.fragment"
+2:I[15248,["https://mrkpatchaa.com/_next/static/chunks/a2b37c4a3a2a518f.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js"],"default"]
+3:I[82309,["https://mrkpatchaa.com/_next/static/chunks/a2b37c4a3a2a518f.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js"],"default"]
+9:I[97367,["https://mrkpatchaa.com/_next/static/chunks/ff1a16fafef87110.js","https://mrkpatchaa.com/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+a:"$Sreact.suspense"
+:HL["https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","style"]
+4:Te7f,<p>ㅤ</p>
+<h3><a href="https://code.visualstudio.com/blogs/2023/07/20/mangling-vscode">Shrinking VS Code with name mangling</a></h3>
+<p>A look at how we how we cut 20% off the size of VS Code's JavaScript with name mangling.
+ㅤ</p>
+<h3><a href="https://usehooks.com/">useHooks – The React Hooks Library</a></h3>
+<p>A collection of modern, server-safe React hooks – from the ui.dev team
+ㅤ</p>
+<h3><a href="https://www.rhino-inquisitor.com/how-to-use-node-18-with-sfra/">SFRA and Node 18: A Match Made in eCommerce Paradise or Hell?</a></h3>
+<p>Node has come a long way since SFRA was released, but is it compatible with Node 18? And how do I get started with the upgrade? Find out houre!
+ㅤ</p>
+<h3><a href="https://ai.meta.com/resources/models-and-libraries/llama/">Llama 2 - Resource Overview - Meta AI</a></h3>
+<p>Our latest version of Llama is now accessible to individuals, creators, researchers, and businesses of all sizes.
+ㅤ</p>
+<h3><a href="https://public.tableau.com/app/profile/akilapa.idris5302/viz/TheHenleyPassportIndexPassport2023/Dashboard3">The Henley Passport Index Passport 2023</a></h3>
+<p>The Henley Passport Index Passport 2023
+ㅤ</p>
+<h3><a href="https://www.linkedin.com/pulse/bird-martin-grasser/">The Bird | LinkedIn - Martin Grasser</a></h3>
+<p>The logo was designed to be simple, balanced, and legible at very small sizes, almost like a lowercase e.
+ㅤ</p>
+<h3><a href="https://medium.com/@sergeybevzuk/intellij-sfcc-2023-2-release-page-designer-support-forms-autocompletions-ui-ux-improvements-1260bc1b6ae2">Intellij SFCC 2023.2 Release | Page Designer support, Forms autocompletions, UI/UX improvements | by Sergey Bevzuk | Jul, 2023 | Medium</a></h3>
+<p>2023.2 was focused to bring Page Designer and SFRA Forms support to make Salesforce B2C Commerce development much easier for front-end developers. It also includes numerous UI/UX improvements and new…
+ㅤ</p>
+<h3><a href="https://techcrunch-com.cdn.ampproject.org/c/s/techcrunch.com/2023/07/26/meta-microsoft-and-amazon-release-open-map-dataset-to-rival-google-maps-apple-maps/amp/">Meta, Microsoft and Amazon release open map dataset to rival Google Maps, Apple Maps | TechCrunch</a></h3>
+<p>A group formed by Meta, Microsoft, Amazon and TomTom is releasing data that could enable developers to build their own maps.
+ㅤ</p>
+<h3><a href="https://www.rhino-inquisitor.com/what-is-new-in-the-23-8-commerce-cloud-release/">What is new in the 23.8 Commerce Cloud release?</a></h3>
+<p>Time to look at what the 23.8 release brings to Salesforce B2C Commerce Cloud! Time to get Holiday Ready. 🎄
+ㅤ</p>
+<h3><a href="https://www.forbes.com/sites/daveywinder/2023/07/28/google-warns-gmail-and-photos-content-deletions-to-start-december-2023/?sh=6926f0653b94">Google Warns Gmail And Photos Content Deletions To Start December 2023</a></h3>
+<p>Gmail and Google Photos users need to check all their accounts before December if content deletion is to be avoided. Here’s what you need to know.
+ㅤ</p>
+<h3><a href="https://mda.um6p.ma/home/call-to-application/">Call to application – MDA | Morocco Digital Academy</a></h3>
+<p>Apply to the Morocco Digital Academy by UM6P - 2nd Cohort. Are you interested in learning new technologies, and working in exciting fields such as Augmented &#x26; Virtual Reality, Cyber Security, or Internet of Things ? You also wish to learn Soft Skills, Leadership and Management skills, Innovation and Creativity skills, as well as Language skills, to enable you to become the Best Tech Talent for both Moroccan and International recruiters?
+ㅤ</p>
+<h3><a href="https://expo.dev/launch-party">Launch Party — Expo</a></h3>
+<p>A week of feature announcements and community events.</p>
+0:{"buildId":"mQ7_TZm9ByqkjGn8vXPv8","rsc":["$","$1","c",{"children":[["$","article",null,{"children":[["$","$L2",null,{"title":"Digest - Week 2023/30","date":"2023-07-25T19:44:54Z"}],["$","$L3",null,{"content":"$4"}]]}],["$L5","$L6","$L7"],"$L8"]}],"loading":null,"isPartial":false}
+5:["$","link","0",{"rel":"stylesheet","href":"https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","precedence":"next"}]
+6:["$","script","script-0",{"src":"https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","async":true}]
+7:["$","script","script-1",{"src":"https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js","async":true}]
+8:["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
+b:null

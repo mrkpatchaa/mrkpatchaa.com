@@ -1,0 +1,20 @@
+1:"$Sreact.fragment"
+2:I[15248,["https://mrkpatchaa.com/_next/static/chunks/a2b37c4a3a2a518f.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js"],"default"]
+3:I[82309,["https://mrkpatchaa.com/_next/static/chunks/a2b37c4a3a2a518f.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js"],"default"]
+5:I[97367,["https://mrkpatchaa.com/_next/static/chunks/ff1a16fafef87110.js","https://mrkpatchaa.com/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
+:HL["https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","style"]
+4:T466,<p>ㅤ</p>
+<h3><a href="https://expo.dev/blog/environment-variables">Environment variables in EAS: new changes to simplify setup</a></h3>
+<p>Today we are introducing the ability to securely store all environment variables in EAS and keep them in sync between Build, Update, and everywhere else.
+ㅤ</p>
+<h3><a href="https://blog.swmansion.com/introducing-react-native-screens-4-0-0-1b833ff98a55">Introducing React Native Screens 4.0.0 | by Kacper Kafara | Nov, 2024 | Software Mansion</a></h3>
+<p>While you typically interact with this library indirectly — via full-blown navigation libraries, e.g. react-navigation or expo-router, this major version brings changes that might reach you anyway…
+ㅤ</p>
+<h3><a href="https://tailwindcss.com/blog/tailwindcss-v4-beta">Tailwind CSS v4.0 Beta 1 - Tailwind CSS</a></h3>
+<p>After a long alpha period, we're excited to release the first public beta of Tailwind CSS v4.0.
+ㅤ</p>
+<h3><a href="https://steelph0enix.github.io/posts/llama-cpp-guide/">llama.cpp guide - Running LLMs locally, on any hardware, from scratch ::</a></h3>
+<p>Psst, kid, want some cheap and small LLMs?</p>
+0:{"buildId":"mQ7_TZm9ByqkjGn8vXPv8","rsc":["$","$1","c",{"children":[["$","article",null,{"children":[["$","$L2",null,{"title":"Digest - Week 2024/48","date":"2024-11-28T09:30:51Z"}],["$","$L3",null,{"content":"$4"}]]}],[["$","link","0",{"rel":"stylesheet","href":"https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","precedence":"next"}],["$","script","script-0",{"src":"https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","async":true}],["$","script","script-1",{"src":"https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js","async":true}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"loading":null,"isPartial":false}
+7:null

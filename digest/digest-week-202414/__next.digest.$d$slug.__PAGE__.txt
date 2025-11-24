@@ -1,0 +1,30 @@
+1:"$Sreact.fragment"
+2:I[15248,["https://mrkpatchaa.com/_next/static/chunks/a2b37c4a3a2a518f.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js"],"default"]
+3:I[82309,["https://mrkpatchaa.com/_next/static/chunks/a2b37c4a3a2a518f.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js"],"default"]
+9:I[97367,["https://mrkpatchaa.com/_next/static/chunks/ff1a16fafef87110.js","https://mrkpatchaa.com/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+a:"$Sreact.suspense"
+:HL["https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","style"]
+4:Tdb2,<p>ㅤ</p>
+<h3><a href="https://martinfowler.com/articles/measuring-developer-productivity-humans.html">Measuring Developer Productivity via Humans</a></h3>
+<p>Organizations should prioritize measuring developer productivity using data from humans, rather than data from systems.
+ㅤ</p>
+<h3><a href="https://www.numerama.com/cyberguerre/1646840-comment-un-vpn-protege-t-il-ma-confidentialite-en-ligne.html">Comment un VPN protège-t-il ma confidentialité en ligne ? - Numerama</a></h3>
+<p>Le VPN constitue souvent le premier réflexe lorsqu'on cherche à renforcer sa confidentialité sur Internet. Des outils simples d'accès, abordables et même
+ㅤ</p>
+<h3><a href="https://9to5google.com/2023/09/26/google-podcasts-youtube-music/">Google Podcasts shutting down in 2024 for YouTube Music</a></h3>
+<p>YouTube Music will be Google's one podcasting app and service going forward, with Google Podcasts set to go away in 2024...
+ㅤ</p>
+<h3><a href="https://sopuli.xyz/post/11143769">Microsoft opens a high priority bug ticket in ffmpeg, attempting to leech the free labour of the maintainers - Sopuli</a></h3>
+<p>Microsoft employee: >Hi, This is a high priority ticket and the FFmpeg version
+ㅤ</p>
+<h3><a href="https://arxiv.org/abs/2403.08299?">[2403.08299] AutoDev: Automated AI-Driven Development</a></h3>
+<p>The landscape of software development has witnessed a paradigm shift with the advent of AI-powered assistants, exemplified by GitHub Copilot. However, existing solutions are not leveraging all the potential capabilities available in an IDE such as building, testing, executing code, git operations, etc. Therefore, they are constrained by their limited capabilities, primarily focusing on suggesting code snippets and file manipulation within a chat-based interface. To fill this gap, we present AutoDev, a fully automated AI-driven software development framework, designed for autonomous planning and execution of intricate software engineering tasks. AutoDev enables users to define complex software engineering objectives, which are assigned to AutoDev's autonomous AI Agents to achieve. These AI agents can perform diverse operations on a codebase, including file editing, retrieval, build processes, execution, testing, and git operations. They also have access to files, compiler output, build and testing logs, static analysis tools, and more. This enables the AI Agents to execute tasks in a fully automated manner with a comprehensive understanding of the contextual information required. Furthermore, AutoDev establishes a secure development environment by confining all operations within Docker containers. This framework incorporates guardrails to ensure user privacy and file security, allowing users to define specific permitted or restricted commands and operations within AutoDev. In our evaluation, we tested AutoDev on the HumanEval dataset, obtaining promising results with 91.5% and 87.8% of Pass@1 for code generation and test generation respectively, demonstrating its effectiveness in automating software engineering tasks while maintaining a secure and user-controlled development environment.
+ㅤ</p>
+<h3><a href="https://www.figma.com/community/plugin/1349429350051505677/gradient-generator-learn-ui-design">Gradient Generator · Learn UI Design | Figma</a></h3>
+<p>Generate linear, radial, and conic gradients interpolated in a variety of color spaces, yielding richer, more brilliant gradients. Live updating so you can easily view and tweak the results.</p>
+0:{"buildId":"mQ7_TZm9ByqkjGn8vXPv8","rsc":["$","$1","c",{"children":[["$","article",null,{"children":[["$","$L2",null,{"title":"Digest - Week 2024/14","date":"2024-04-02T22:47:00Z"}],["$","$L3",null,{"content":"$4"}]]}],["$L5","$L6","$L7"],"$L8"]}],"loading":null,"isPartial":false}
+5:["$","link","0",{"rel":"stylesheet","href":"https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","precedence":"next"}]
+6:["$","script","script-0",{"src":"https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","async":true}]
+7:["$","script","script-1",{"src":"https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js","async":true}]
+8:["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
+b:null

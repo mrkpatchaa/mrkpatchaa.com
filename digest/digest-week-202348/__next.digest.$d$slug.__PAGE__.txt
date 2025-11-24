@@ -1,0 +1,32 @@
+1:"$Sreact.fragment"
+2:I[15248,["https://mrkpatchaa.com/_next/static/chunks/a2b37c4a3a2a518f.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js"],"default"]
+3:I[82309,["https://mrkpatchaa.com/_next/static/chunks/a2b37c4a3a2a518f.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js"],"default"]
+5:I[97367,["https://mrkpatchaa.com/_next/static/chunks/ff1a16fafef87110.js","https://mrkpatchaa.com/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
+:HL["https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","style"]
+4:T8d2,<p>ㅤ</p>
+<h3><a href="https://monaspace.githubnext.com/">Monaspace</a></h3>
+<p>An innovative superfamily of fonts for code
+ㅤ</p>
+<h3><a href="https://marmelab.com/blog/2023/11/13/open-source-profit-2.html">Anatomy Of A Profitable Open-Source Project</a></h3>
+<p>We open the books of react-admin, a profitable open-source project generating almost €1M in revenue. We hope this will assist other open-source developers in building their businesses.
+ㅤ</p>
+<h3><a href="https://www.rhino-inquisitor.com/custom-preferences-in-sfcc/">Custom Preferences in Salesforce B2C Commerce Cloud: A Developer Guide - The Rhino Inquisitor</a></h3>
+<p>Learn how to use custom preferences in Salesforce B2C Commerce Cloud to store storefront settings efficiently.
+ㅤ</p>
+<h3><a href="https://x.ai/">Announcing Grok</a></h3>
+<p>A research assistant that helps you ask the right questions, find information online and make sense of the world.
+ㅤ</p>
+<h3><a href="https://medium.com/@abdel.elamel/boosting-strapis-performance-with-redis-a-comprehensive-guide-57cb95c5df1c">Boosting Strapi’s performance with Redis, a comprehensive guide. | by Abdelkarim ELAMEL | Nov, 2023 | Medium</a></h3>
+<p>In the world of content management systems (CMS), Strapi has emerged as a powerful and flexible solution. However, as your Strapi application scales, optimizing performance becomes crucial. One…
+ㅤ</p>
+<h3><a href="https://www.usebruno.com/">bruno - Re-Inventing the API Client</a></h3>
+<p>Bruno is a Fast and Git-Friendly Opensource API client, aimed at revolutionizing the status quo represented by Postman, Insomnia and similar tools out there.
+ㅤ</p>
+<h3><a href="https://github.com/react-native-community/discussions-and-proposals/pull/717">RFC0717: Introducing  to  for React Native specific metadata (Take 3) by cipolleschi · Pull Request</a></h3>
+<p>This RFC introduces and formally discuss the concept of React Native Manifest, a set of metadata about a React Native project (either app or library). This metadata can be consumed by tooling to enhance the developer experience and support the React Native ecosystem.
+ㅤ</p>
+<h3><a href="https://nodejs-mobile.github.io/">Node.js Mobile | Node.js Mobile</a></h3>
+<p>Full-fledged Node.js on Android and iOS</p>
+0:{"buildId":"mQ7_TZm9ByqkjGn8vXPv8","rsc":["$","$1","c",{"children":[["$","article",null,{"children":[["$","$L2",null,{"title":"Digest - Week 2023/48","date":"2023-11-28T09:13:53Z"}],["$","$L3",null,{"content":"$4"}]]}],[["$","link","0",{"rel":"stylesheet","href":"https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","precedence":"next"}],["$","script","script-0",{"src":"https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","async":true}],["$","script","script-1",{"src":"https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js","async":true}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"loading":null,"isPartial":false}
+7:null

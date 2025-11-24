@@ -1,0 +1,23 @@
+1:"$Sreact.fragment"
+2:I[15248,["https://mrkpatchaa.com/_next/static/chunks/a2b37c4a3a2a518f.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js"],"default"]
+3:I[82309,["https://mrkpatchaa.com/_next/static/chunks/a2b37c4a3a2a518f.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js"],"default"]
+5:I[97367,["https://mrkpatchaa.com/_next/static/chunks/ff1a16fafef87110.js","https://mrkpatchaa.com/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
+:HL["https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","style"]
+4:T5e5,<p>ㅤ</p>
+<h3><a href="https://architect.salesforce.com/well-architected/explorer">Pattern &#x26; Anti-Pattern Explorer | Salesforce Architects</a></h3>
+<p>Create lists of patterns or anti-patterns
+ㅤ</p>
+<h3><a href="https://tastejs.com/movies/">Movies App</a></h3>
+<p>Movies is a non-trivial learning application in Next.js, Angular, Nuxt.js, Svelte, Lit and other frameworks. Built to show developers how they can deliver reasonably good experience while maintaining good developer experience.
+ㅤ</p>
+<h3><a href="https://engineering.salesforce.com/explaining-salesforces-large-scale-migration-to-git-how-we-enhanced-developer-productivity/">Salesforce’s Git Migration: How We Boosted Developer Productivity</a></h3>
+<p>Explore how Salesforce enhanced the efficiency of its internal developers by migrating to a modern SCM powerhouse: Git.
+ㅤ</p>
+<h3><a href="https://hardthing.dev/technical-documentation-for-startups/">Technical Documentation for startups - an opinionated guide | The Hard Thing</a></h3>
+<p>Startups very often neglect the need to have proper technical documentation. In this post, I will try to explain why it is important and how to do it right without investing too much.
+ㅤ</p>
+<h3><a href="https://hasura.io/blog/announcing-open-source-hasura-graphql-engine-v3/">Announcing Open Source Hasura GraphQL Engine v3</a></h3>
+<p>Learn about open source Hasura GraphQL Engine v3, like the core graphql-engine written in Rust, that redefines building the best cloud-native APIs.</p>
+0:{"buildId":"mQ7_TZm9ByqkjGn8vXPv8","rsc":["$","$1","c",{"children":[["$","article",null,{"children":[["$","$L2",null,{"title":"Digest - Week 2023/52","date":"2023-12-29T17:02:35Z"}],["$","$L3",null,{"content":"$4"}]]}],[["$","link","0",{"rel":"stylesheet","href":"https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","precedence":"next"}],["$","script","script-0",{"src":"https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","async":true}],["$","script","script-1",{"src":"https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js","async":true}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"loading":null,"isPartial":false}
+7:null

@@ -1,0 +1,26 @@
+1:"$Sreact.fragment"
+2:I[15248,["https://mrkpatchaa.com/_next/static/chunks/a2b37c4a3a2a518f.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js"],"default"]
+3:I[82309,["https://mrkpatchaa.com/_next/static/chunks/a2b37c4a3a2a518f.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js"],"default"]
+5:I[97367,["https://mrkpatchaa.com/_next/static/chunks/ff1a16fafef87110.js","https://mrkpatchaa.com/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
+:HL["https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","style"]
+4:T76c,<p>ㅤ</p>
+<h3><a href="https://medium.datadriveninvestor.com/communication-is-key-to-being-a-remote-friendly-company-15a7d616414d">Communication Is Key to Being a Remote-Friendly Company | by Dr. Gleb Tsipursky | Sep, 2023 | DataDrivenInvestor</a></h3>
+<p>The COVID-19 pandemic forced many companies to quickly transition to remote work. Now, as we enter 2023, organizations face difficult decisions around developing sustainable hybrid work policies…
+ㅤ</p>
+<h3><a href="https://www.jacobparis.com/content/react-as-child">Implement Radix's asChild pattern in React</a></h3>
+<p>Use the asChild pattern for composition. Get the right types on each component. Merge props together. Use tailwind-merge for classnames.
+ㅤ</p>
+<h3><a href="https://world.hey.com/dhh/turbo-8-is-dropping-typescript-70165c01">Turbo 8 is dropping TypeScript</a></h3>
+<p>By all accounts, TypeScript has been a big success for Microsoft. I've seen loads of people sparkle with joy from dousing JavaScript with explicit types that can be checked by a compiler. But I've never been a fan. Not after giving it five minutes, not after giving it five years. So it's with great pleasure that I can announce we're dr...
+ㅤ</p>
+<h3><a href="https://usedigest.com/">Digest - Create a personalized newsletter with your favorite content.</a></h3>
+<p>Digest allows you to create a personalized daily digest of your favorite content.
+ㅤ</p>
+<h3><a href="https://holocron.so/blog/optimizing-next.js-cold-starts-for-vercel">Optimizing Next.js cold starts for Vercel</a></h3>
+<p>In this post i will show some tricks to decrease your Next.js functions cold starts
+ㅤ</p>
+<h3><a href="https://github.com/GatoGraphQL/GatoGraphQL/releases/tag/1.0.6">Release Gato GraphQL v1.0 🎉 · GatoGraphQL/GatoGraphQL</a></h3>
+<p>Interact with all your data in WordPress using GraphQL - Release Gato GraphQL v1.0 🎉 · GatoGraphQL/GatoGraphQL</p>
+0:{"buildId":"mQ7_TZm9ByqkjGn8vXPv8","rsc":["$","$1","c",{"children":[["$","article",null,{"children":[["$","$L2",null,{"title":"Digest - Week 2023/36","date":"2023-09-10T13:01:23Z"}],["$","$L3",null,{"content":"$4"}]]}],[["$","link","0",{"rel":"stylesheet","href":"https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","precedence":"next"}],["$","script","script-0",{"src":"https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","async":true}],["$","script","script-1",{"src":"https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js","async":true}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"loading":null,"isPartial":false}
+7:null

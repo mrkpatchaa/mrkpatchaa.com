@@ -1,0 +1,23 @@
+1:"$Sreact.fragment"
+2:I[15248,["https://mrkpatchaa.com/_next/static/chunks/a2b37c4a3a2a518f.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js"],"default"]
+3:I[82309,["https://mrkpatchaa.com/_next/static/chunks/a2b37c4a3a2a518f.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js"],"default"]
+5:I[97367,["https://mrkpatchaa.com/_next/static/chunks/ff1a16fafef87110.js","https://mrkpatchaa.com/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
+:HL["https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","style"]
+4:T432,<p>ㅤ</p>
+<h3><a href="https://overreacted.io/static-as-a-server/">Static as a Server — overreacted</a></h3>
+<p>You wouldn't download a site.
+ㅤ</p>
+<h3><a href="https://aya.liriliri.io/">AYA | Android ADB Desktop App</a></h3>
+<p>AYA Documentation
+ㅤ</p>
+<h3><a href="https://abdenasser.github.io/neohtop/">NeoHtop - Blazing-fast system monitoring for your desktop (built with Rust, Tauri &#x26; Svelte)</a></h3>
+<p>A beautiful, efficient system monitor built with Rust and Svelte. Monitor processes, CPU, and memory usage in real-time with a modern interface.
+ㅤ</p>
+<h3><a href="https://pagescms.org/">Pages CMS: The No-Hassle CMS for Static Sites Generators</a></h3>
+<p>Tired of juggling Git and YAML to update your Next.js, Astro, Hugo or Nuxt website? Make it easy on you and your team, get a user-friendly CMS running straight on top of GitHub.
+ㅤ</p>
+<h3><a href="https://github.com/TanStack/db">TanStack/db: A reactive client store for building super fast apps on sync</a></h3>
+<p>TanStack/db: A reactive client store for building super fast apps on sync</p>
+0:{"buildId":"mQ7_TZm9ByqkjGn8vXPv8","rsc":["$","$1","c",{"children":[["$","article",null,{"children":[["$","$L2",null,{"title":"Digest - Week 2025/20","date":"2025-05-12T09:51:14Z"}],["$","$L3",null,{"content":"$4"}]]}],[["$","link","0",{"rel":"stylesheet","href":"https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","precedence":"next"}],["$","script","script-0",{"src":"https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","async":true}],["$","script","script-1",{"src":"https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js","async":true}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"loading":null,"isPartial":false}
+7:null

@@ -1,0 +1,23 @@
+1:"$Sreact.fragment"
+2:I[15248,["https://mrkpatchaa.com/_next/static/chunks/a2b37c4a3a2a518f.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js"],"default"]
+3:I[82309,["https://mrkpatchaa.com/_next/static/chunks/a2b37c4a3a2a518f.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js"],"default"]
+5:I[97367,["https://mrkpatchaa.com/_next/static/chunks/ff1a16fafef87110.js","https://mrkpatchaa.com/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
+:HL["https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","style"]
+4:T45c,<p>ㅤ</p>
+<h3><a href="https://korben.info/20-ans-de-passion-et-de-partage-sur-korben-info-merci-detre-la.html">20 ans de passion et de partage sur Korben.info ! Merci d’être là !</a></h3>
+<p>Putain, 20 ans !
+ㅤ</p>
+<h3><a href="https://www.raspberrypi.com/documentation/services/connect.html">Raspberry Pi Connect - Raspberry Pi Documentation</a></h3>
+<p>The official documentation for Raspberry Pi computers and microcontrollers
+ㅤ</p>
+<h3><a href="https://github.com/xenova/transformers.js">xenova/transformers.js: State-of-the-art Machine Learning for the web. Run 🤗 Transformers directly in your browser, with no need for a server!</a></h3>
+<p>State-of-the-art Machine Learning for the web. Run 🤗 Transformers directly in your browser, with no need for a server! - xenova/transformers.js
+ㅤ</p>
+<h3><a href="https://oss.gallery/">OSS Gallery</a></h3>
+<p>A collection of open-source projects built with Dub.
+ㅤ</p>
+<h3><a href="https://addyo.substack.com/p/the-debuggers-toolkit">The Debugger's Toolkit - by Addy Osmani - Elevate</a></h3>
+<p>Understanding the thoughtful art of debugging code</p>
+0:{"buildId":"mQ7_TZm9ByqkjGn8vXPv8","rsc":["$","$1","c",{"children":[["$","article",null,{"children":[["$","$L2",null,{"title":"Digest - Week 2024/19","date":"2024-05-07T14:51:28Z"}],["$","$L3",null,{"content":"$4"}]]}],[["$","link","0",{"rel":"stylesheet","href":"https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","precedence":"next"}],["$","script","script-0",{"src":"https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","async":true}],["$","script","script-1",{"src":"https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js","async":true}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"loading":null,"isPartial":false}
+7:null

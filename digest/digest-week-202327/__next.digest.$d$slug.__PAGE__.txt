@@ -1,0 +1,40 @@
+1:"$Sreact.fragment"
+2:I[15248,["https://mrkpatchaa.com/_next/static/chunks/a2b37c4a3a2a518f.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js"],"default"]
+3:I[82309,["https://mrkpatchaa.com/_next/static/chunks/a2b37c4a3a2a518f.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js"],"default"]
+9:I[97367,["https://mrkpatchaa.com/_next/static/chunks/ff1a16fafef87110.js","https://mrkpatchaa.com/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+a:"$Sreact.suspense"
+:HL["https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","style"]
+4:Tc45,<p>ㅤ</p>
+<h3><a href="https://bun.sh/">Bun — A fast all-in-one JavaScript runtime</a></h3>
+<p>Bundle, transpile, install, and run JavaScript &#x26; TypeScript — all in Bun. Bun is a new JavaScript runtime with a native bundler, transpiler, task runner, and npm client built-in.
+ㅤ</p>
+<h3><a href="https://www.infoq.com/articles/event-driven-architecture-clouds/">A Comprehensive Guide to Building Event-Driven Architecture on Azure, AWS, and Google Cloud</a></h3>
+<p>In this article, you'll find guidance to Azure, AWS, and Google Cloud resources, along with unique architecture examples that incorporate EventBridge, SNS, Service Bus, Eventgrid, and GC Eventarc.
+ㅤ</p>
+<h3><a href="https://www.remotion.dev/blog/4-0">Remotion 4.0 | Remotion | Make videos programmatically in React</a></h3>
+<p>Introducing visual editing, Rust-powered architecture, and the Render Button.
+ㅤ</p>
+<h3><a href="https://github.com/imgly/background-removal-js">imgly/background-removal-js: Remove backgrounds from images directly in the browser environment with ease and no additional costs or privacy concerns. Explore an interactive demo.</a></h3>
+<p>Remove backgrounds from images directly in the browser environment with ease and no additional costs or privacy concerns. Explore an interactive demo. - imgly/background-removal-js: Remove backgrounds from images directly in the browser environment with ease and no additional costs or privacy concerns. Explore an interactive demo.
+ㅤ</p>
+<h3><a href="https://www.linkedin.com/posts/salesforce_hello-%E4%BB%8A%E6%97%A5%E3%81%AF-salut-%E4%BD%A0%E5%A5%BD-hallo-ciao-hola-activity-7082319726802071553-NJNW/">Salesforce on LinkedIn: 👋 Hello! 今日は Salut! 你好 Hallo! Ciao! Hola! 👋 Interacting with shoppers…</a></h3>
+<p>👋 Hello! 今日は Salut! 你好 Hallo! Ciao! Hola! 👋</p>
+<p>Interacting with shoppers in their local language is a powerful experience. Yet, many online businesses lack the…
+ㅤ</p>
+<h3><a href="https://github.com/obytes/app-icon-badge">obytes/app-icon-badge: 🧩 Expo plugin/library to add badges for your app icon: banner, ribbon, and fully customizable.</a></h3>
+<p>🧩 Expo plugin/library to add badges for your app icon: banner, ribbon, and fully customizable. - obytes/app-icon-badge: 🧩 Expo plugin/library to add badges for your app icon: banner, ribbon, and fully customizable.
+ㅤ</p>
+<h3><a href="https://github.com/alin23/Lunar">alin23/Lunar: Intelligent adaptive brightness for your external monitors</a></h3>
+<p>Intelligent adaptive brightness for your external monitors - alin23/Lunar: Intelligent adaptive brightness for your external monitors
+ㅤ</p>
+<h3><a href="https://jakearchibald.com/2023/against-self-closing-tags-in-html/">The case against self-closing tags in HTML - JakeArchibald.com</a></h3>
+<p>The history, facts, and opinions.
+ㅤ</p>
+<h3><a href="https://app.warp.dev/referral/726K3L">Médédé Raymond KPATCHAA has invited you to try Warp. (Shameless plug 😛 )</a></h3>
+<p>Warp is a modern, Rust-based terminal with AI built in so you and your team can build great software, faster. Now available on MacOS.</p>
+0:{"buildId":"mQ7_TZm9ByqkjGn8vXPv8","rsc":["$","$1","c",{"children":[["$","article",null,{"children":[["$","$L2",null,{"title":"Digest - Week 2023/27","date":"2023-07-03T15:43:02Z"}],["$","$L3",null,{"content":"$4"}]]}],["$L5","$L6","$L7"],"$L8"]}],"loading":null,"isPartial":false}
+5:["$","link","0",{"rel":"stylesheet","href":"https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","precedence":"next"}]
+6:["$","script","script-0",{"src":"https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","async":true}]
+7:["$","script","script-1",{"src":"https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js","async":true}]
+8:["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
+b:null

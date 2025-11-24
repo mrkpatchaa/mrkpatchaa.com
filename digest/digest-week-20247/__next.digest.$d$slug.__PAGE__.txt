@@ -1,0 +1,32 @@
+1:"$Sreact.fragment"
+2:I[15248,["https://mrkpatchaa.com/_next/static/chunks/a2b37c4a3a2a518f.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js"],"default"]
+3:I[82309,["https://mrkpatchaa.com/_next/static/chunks/a2b37c4a3a2a518f.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js"],"default"]
+5:I[97367,["https://mrkpatchaa.com/_next/static/chunks/ff1a16fafef87110.js","https://mrkpatchaa.com/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
+:HL["https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","style"]
+4:T975,<p>ㅤ</p>
+<h3><a href="https://stackoverflow.blog/2023/02/13/coding-102-writing-code-other-people-can-read/">Coding 102: Writing code other people can read - Stack Overflow</a></h3>
+<p>Coding 102: Writing code other people can read - Stack Overflow
+ㅤ</p>
+<h3><a href="https://www.reddit.com/r/cscareerquestions/comments/1405dg2/how_do_companies_like_figma_protect_their_source/">How do companies like Figma protect their source code? : r/cscareerquestions</a></h3>
+<p>How do companies like Figma protect their source code? : r/cscareerquestions
+ㅤ</p>
+<h3><a href="https://www.kodingkitty.com/blog/how-to-build-a-website/">How to build a website without frameworks and tons of libraries | Koding Kitty</a></h3>
+<p>A simple toolchain that Koding Kitty uses for building its web.
+ㅤ</p>
+<h3><a href="https://austinhenley.com/blog/90percent.html">Stopping at 90% - Austin Z. Henley</a></h3>
+<p>A common pattern is to stop short of the real finish line for your project. A little evangelism, documentation, and polish can go a long way.
+ㅤ</p>
+<h3><a href="https://www.salesforceben.com/salesforce-solution-architect-vs-technical-architect/">Salesforce Solution Architect vs. Technical Architect | Salesforce Ben</a></h3>
+<p>Salesforce Architect roles are some of the most common career goals you will find in the ecosystem. Architects are recognized for their high degree of Salesforce knowledge, and understanding of how to build scalable, bulletproof solutions on the platform. Two of the most common architect roles are the solution and technical architects, and whilst there […]
+ㅤ</p>
+<h3><a href="https://unkey.dev/blog/uuid-ux">The UX of UUIDs  | Unkey</a></h3>
+<p>Unique identifiers play a crucial role in all applications, from user authentication to resource management. While using a standard UUID will satisfy all your security concerns, there’s a lot we can improve for our users.
+ㅤ</p>
+<h3><a href="https://www.thoughtworks.com/insights/blog/careers-at-thoughtworks/cinco-dicas-para-uma-busca-bem-sucedida-por-uma-nova-oportunidade-de-trabalho-em-2024">5 tips for a successful search for a new job opportunity in 2024 | Thoughtworks</a></h3>
+<p>5 tips for a successful search for a new job opportunity in 2024
+ㅤ</p>
+<h3><a href="https://startup-scaleup.nebra.fr/erp-maison/">La très courte histoire de notre ERP maison</a></h3>
+<p>Il y a fort longtemps, dans une galaxie pas si lointaine :</p>
+0:{"buildId":"mQ7_TZm9ByqkjGn8vXPv8","rsc":["$","$1","c",{"children":[["$","article",null,{"children":[["$","$L2",null,{"title":"Digest - Week 2024/7","date":"2024-02-12T08:16:48Z"}],["$","$L3",null,{"content":"$4"}]]}],[["$","link","0",{"rel":"stylesheet","href":"https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","precedence":"next"}],["$","script","script-0",{"src":"https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","async":true}],["$","script","script-1",{"src":"https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js","async":true}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"loading":null,"isPartial":false}
+7:null

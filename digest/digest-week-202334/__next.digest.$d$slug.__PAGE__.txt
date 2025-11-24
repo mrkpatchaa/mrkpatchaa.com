@@ -1,0 +1,23 @@
+1:"$Sreact.fragment"
+2:I[15248,["https://mrkpatchaa.com/_next/static/chunks/a2b37c4a3a2a518f.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js"],"default"]
+3:I[82309,["https://mrkpatchaa.com/_next/static/chunks/a2b37c4a3a2a518f.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js"],"default"]
+5:I[97367,["https://mrkpatchaa.com/_next/static/chunks/ff1a16fafef87110.js","https://mrkpatchaa.com/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
+:HL["https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","style"]
+4:T637,<p>ㅤ</p>
+<h3><a href="https://www.rhino-inquisitor.com/navigating-dates-calendars-in-sfcc/">Navigating Dates, Calendars, and Timezones in Salesforce B2C Commerce Cloud - The Rhino Inquisitor</a></h3>
+<p>Working with Time Zones, Dates, and Calendars can be tricky in SFCC. Let's have a look at the most important things to keep in mind!
+ㅤ</p>
+<h3><a href="https://news.ycombinator.com/item?id=37210581">Ask HN: What's the biggest red flag you've encountered during a hiring process? | Hacker News</a></h3>
+<p>Ask HN: What's the biggest red flag you've encountered during a hiring process? | Hacker News
+ㅤ</p>
+<h3><a href="https://www.namecheap.com/blog/upcoming-com-and-xyz-domain-price-increase/">Upcoming .COM and .XYZ domain price increase - Namecheap Blog</a></h3>
+<p>On Sept. 1, .COM and .XYZ domain prices will increase. Learn why this is happening and what you can do to lock in current pricing.
+ㅤ</p>
+<h3><a href="https://www.theverge.com/2023/8/22/23841167/microsoft-excel-python-integration-support">Microsoft is bringing Python to Excel - The Verge</a></h3>
+<p>Microsoft is integrating Python into its Excel app. A public preview is available for Microsoft 365 subscribers now and all the Python code runs on the Microsoft Cloud.
+ㅤ</p>
+<h3><a href="https://techcrunch.com/2023/08/24/hugging-face-raises-235m-from-investors-including-salesforce-and-nvidia/">Hugging Face raises 35M from investors, including Salesforce and Nvidia | TechCrunch</a></h3>
+<p>Hugging Face, a platform for developing AI models and tooling, has raised 35 million in a venture funding round.</p>
+0:{"buildId":"mQ7_TZm9ByqkjGn8vXPv8","rsc":["$","$1","c",{"children":[["$","article",null,{"children":[["$","$L2",null,{"title":"Digest - Week 2023/34","date":"2023-08-22T17:03:34Z"}],["$","$L3",null,{"content":"$4"}]]}],[["$","link","0",{"rel":"stylesheet","href":"https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","precedence":"next"}],["$","script","script-0",{"src":"https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","async":true}],["$","script","script-1",{"src":"https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js","async":true}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"loading":null,"isPartial":false}
+7:null

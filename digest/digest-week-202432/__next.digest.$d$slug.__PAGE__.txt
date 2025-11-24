@@ -1,0 +1,26 @@
+1:"$Sreact.fragment"
+2:I[15248,["https://mrkpatchaa.com/_next/static/chunks/a2b37c4a3a2a518f.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js"],"default"]
+3:I[82309,["https://mrkpatchaa.com/_next/static/chunks/a2b37c4a3a2a518f.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js"],"default"]
+5:I[97367,["https://mrkpatchaa.com/_next/static/chunks/ff1a16fafef87110.js","https://mrkpatchaa.com/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
+:HL["https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","style"]
+4:T609,<p>ㅤ</p>
+<h3><a href="https://onlook.dev/">Onlook – The Open-Source Visual Editor for React</a></h3>
+<p>The power of Webflow for your own app. Onlook lets you edit your React app and write your changes back to code in real-time. Download the open-source, local-first desktop app today.
+ㅤ</p>
+<h3><a href="https://www.propelauth.com/post/state-management-in-react">Complete Guide to State Management in React | PropelAuth Blog</a></h3>
+<p>If you are writing a React application, you are almost certainly managing state somewhere. State is surprisingly hard to define, but easier to understand with examples
+ㅤ</p>
+<h3><a href="https://ssoready.com/blog/engineering/a-gentle-intro-to-saml/">A gentle introduction to SAML | SSOReady</a></h3>
+<p>The SAML spec is an absolute beast. We've each read it multiple times. Here's a simpler explanation.
+ㅤ</p>
+<h3><a href="https://chatgpt.com/search">SearchGPT</a></h3>
+<p>SearchGPT is a prototype of new search features designed to use the strength of OpenAI's AI models to give you fast answers with clear, relevant sources.
+ㅤ</p>
+<h3><a href="https://css-tricks.com/css-olympic-rings/">CSS Olympic Rings | CSS-Tricks</a></h3>
+<p>It was a few years ago during the 2020 Olympics in Tokyo 2020 that I made a demo of animated 3D Olympic rings. I like it, it looks great, and I love the
+ㅤ</p>
+<h3><a href="https://react-africa.com/">React Africa - The React Conference that unites</a></h3>
+<p>The first International React Conference in Africa - 29th of November 2024 in Casablanca, Morocco</p>
+0:{"buildId":"mQ7_TZm9ByqkjGn8vXPv8","rsc":["$","$1","c",{"children":[["$","article",null,{"children":[["$","$L2",null,{"title":"Digest - Week 2024/32","date":"2024-08-05T15:45:12Z"}],["$","$L3",null,{"content":"$4"}]]}],[["$","link","0",{"rel":"stylesheet","href":"https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","precedence":"next"}],["$","script","script-0",{"src":"https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","async":true}],["$","script","script-1",{"src":"https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js","async":true}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"loading":null,"isPartial":false}
+7:null

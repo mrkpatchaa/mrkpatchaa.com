@@ -1,0 +1,23 @@
+1:"$Sreact.fragment"
+2:I[15248,["https://mrkpatchaa.com/_next/static/chunks/a2b37c4a3a2a518f.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js"],"default"]
+3:I[82309,["https://mrkpatchaa.com/_next/static/chunks/a2b37c4a3a2a518f.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js"],"default"]
+5:I[97367,["https://mrkpatchaa.com/_next/static/chunks/ff1a16fafef87110.js","https://mrkpatchaa.com/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
+:HL["https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","style"]
+4:T573,<p>ㅤ</p>
+<h3><a href="https://frankenphp.dev/">FrankenPHP: the modern PHP app server</a></h3>
+<p>FrankenPHP is a new app server for PHP apps (built on top of Caddy) and a library to embed the PHP interpreter in Go web servers.
+ㅤ</p>
+<h3><a href="https://github.blog/changelog/2024-05-13-dependabot-core-is-now-open-source-with-an-mit-license/">dependabot-core is now open source with an MIT license - The GitHub Blog</a></h3>
+<p>dependabot-core is now open source with an MIT license
+ㅤ</p>
+<h3><a href="https://supabase.com/docs/guides/api/sql-to-rest">SQL to REST API Translator | Supabase Docs</a></h3>
+<p>Translate SQL queries to HTTP requests and Supabase client code
+ㅤ</p>
+<h3><a href="https://github.com/nicanorflavier/spf-dkim-dmarc-simplified">nicanorflavier/spf-dkim-dmarc-simplified: Email security is a key part of internet communication. But what are SPF, DKIM, and DMARC, and how do they work? This guide will explain it all in simple terms to make these concepts clearer.</a></h3>
+<p>Email security is a key part of internet communication. But what are SPF, DKIM, and DMARC, and how do they work? This guide will explain it all in simple terms to make these concepts clearer. - nicanorflavier/spf-dkim-dmarc-simplified
+ㅤ</p>
+<h3><a href="https://selfhostbook.com/">Steadfast Self-Hosting - 📖 Home</a></h3>
+<p>This book will free your data and empower your users.</p>
+0:{"buildId":"mQ7_TZm9ByqkjGn8vXPv8","rsc":["$","$1","c",{"children":[["$","article",null,{"children":[["$","$L2",null,{"title":"Digest - Week 2024/25","date":"2024-06-18T12:13:04Z"}],["$","$L3",null,{"content":"$4"}]]}],[["$","link","0",{"rel":"stylesheet","href":"https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","precedence":"next"}],["$","script","script-0",{"src":"https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","async":true}],["$","script","script-1",{"src":"https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js","async":true}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"loading":null,"isPartial":false}
+7:null

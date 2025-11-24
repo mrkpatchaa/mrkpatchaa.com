@@ -1,0 +1,77 @@
+1:"$Sreact.fragment"
+2:I[15248,["https://mrkpatchaa.com/_next/static/chunks/a2b37c4a3a2a518f.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js"],"default"]
+3:I[82309,["https://mrkpatchaa.com/_next/static/chunks/a2b37c4a3a2a518f.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js"],"default"]
+9:I[97367,["https://mrkpatchaa.com/_next/static/chunks/ff1a16fafef87110.js","https://mrkpatchaa.com/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+a:"$Sreact.suspense"
+:HL["https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","style"]
+4:T10e1,<p>Writing structured commit messages improves code history readability, but manually crafting them can be time-consuming. With <strong>GitHub Copilot in VS Code</strong>, you can now <strong>automate commit message generation</strong>—and even customize Copilot’s suggestions.</p>
+<p>In this post, I’ll show you how to configure GitHub Copilot to follow your preferred commit style using <strong>a configuration file or direct settings instructions</strong>.</p>
+<h3>🚀 Using GitHub Copilot for Commit Messages in VS Code</h3>
+<p>GitHub Copilot can generate commit messages even if you haven’t staged your changes.</p>
+<p>Here’s how to use it:</p>
+<ol>
+<li><strong>Ensure GitHub Copilot is installed</strong> in VS Code.</li>
+<li>Open the <strong>Source Control panel</strong> (<code>Cmd + Shift + G</code>).</li>
+<li>Click in the <strong>commit message input box</strong>—Copilot will suggest a commit message.</li>
+<li>Press <code>Cmd + Enter</code> to accept and commit the suggestion.</li>
+</ol>
+<blockquote>
+<p><strong>Tip:</strong> If the suggestion isn't ideal, press <code>Cmd + I</code> to cycle through alternatives.</p>
+</blockquote>
+<h3>📝 Customizing GitHub Copilot’s Commit Message Generation</h3>
+<p>By default, GitHub Copilot generates <strong>Conventional Commits</strong> (e.g., <code>feat:</code>, <code>fix:</code>, <code>docs:</code>). However, you can <strong>customize its behavior</strong> in two ways:</p>
+<ol>
+<li><strong>Using a configuration file</strong> (<code>.copilot-commit-message-instructions.md</code>).</li>
+<li><strong>Directly entering instructions in VS Code settings</strong>.</li>
+</ol>
+<h4>🔧 Method 1: Using a Configuration File</h4>
+<p>Create a file named <strong><code>.copilot-commit-message-instructions.md</code></strong> in your project’s root directory and define the commit message format inside:</p>
+<pre><code class="language-md">The first line should be a single line summary with no more than 50 characters.
+The second line should be blank.
+Start the full summary on the third line. The body should be no longer than 100 characters.
+</code></pre>
+<p>Then, tell Copilot to use this file by adding this setting in <strong>VS Code settings.json</strong>:</p>
+<pre><code class="language-json">"github.copilot.chat.commitMessageGeneration.instructions": [
+    {
+      "file": ".copilot-commit-message-instructions.md"
+    }
+]
+</code></pre>
+<h4>🔧 Method 2: Entering Instructions Directly in VS Code Settings</h4>
+<p>Instead of using a file, you can specify the instructions directly in the settings:</p>
+<pre><code class="language-json">"github.copilot.chat.commitMessageGeneration.instructions": [
+    {
+      "text": "Use conventional commit message format. Keep the first line under 50 characters."
+    }
+]
+</code></pre>
+<p>Or combine both approaches:</p>
+<pre><code class="language-json">"github.copilot.chat.commitMessageGeneration.instructions": [
+    {
+      "file": ".copilot-commit-message-instructions.md"
+    },
+    {
+      "text": "Use conventional commit message format."
+    }
+]
+</code></pre>
+<p>While Copilot’s commit message generation is useful, it <strong>cannot yet include dynamic information</strong> (e.g., issue numbers, branch names) as highlighted in <a href="https://github.com/microsoft/vscode-copilot-release/issues/3522">this GitHub issue</a>.</p>
+<p>For now, if you need dynamic elements in your commit messages, you’ll have to <strong>manually edit the suggestions</strong> before committing.</p>
+<h3>🔥 Example: Copilot-Generated Commit Messages</h3>
+<p>With the above configuration, Copilot might generate commit messages like this:</p>
+<pre><code class="language-bash">fix: resolve authentication issue
+
+Updated token validation logic to prevent expired token errors.
+</code></pre>
+<p>This format improves <strong>readability and consistency</strong> across your commits.</p>
+<h3>⚡ Final Thoughts</h3>
+<p>GitHub Copilot’s commit message generation can <strong>save time and enforce consistency</strong> in your workflow. Whether you specify instructions in a file or directly in VS Code settings, you can guide Copilot to generate better commit messages.</p>
+<blockquote>
+<p><em>🤖 Fun fact: This post got a little AI assistance—just like Copilot with commit messages!</em> 😎</p>
+</blockquote>
+0:{"buildId":"mQ7_TZm9ByqkjGn8vXPv8","rsc":["$","$1","c",{"children":[["$","article",null,{"children":[["$","$L2",null,{"title":"Customizing GitHub Copilot in VS Code for Better Commit Messages","date":"2025-01-29T19:40:55Z"}],["$","$L3",null,{"content":"$4"}]]}],["$L5","$L6","$L7"],"$L8"]}],"loading":null,"isPartial":false}
+5:["$","link","0",{"rel":"stylesheet","href":"https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","precedence":"next"}]
+6:["$","script","script-0",{"src":"https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","async":true}]
+7:["$","script","script-1",{"src":"https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js","async":true}]
+8:["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
+b:null

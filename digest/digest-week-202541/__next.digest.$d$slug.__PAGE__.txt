@@ -1,0 +1,29 @@
+1:"$Sreact.fragment"
+2:I[15248,["https://mrkpatchaa.com/_next/static/chunks/a2b37c4a3a2a518f.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js"],"default"]
+3:I[82309,["https://mrkpatchaa.com/_next/static/chunks/a2b37c4a3a2a518f.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js"],"default"]
+5:I[97367,["https://mrkpatchaa.com/_next/static/chunks/ff1a16fafef87110.js","https://mrkpatchaa.com/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
+:HL["https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","style"]
+4:T867,<p>ㅤ</p>
+<h3><a href="https://blog.google/technology/google-labs/opal-expansion/">Opal is beginning to roll out 15 new countries</a></h3>
+<p>We’re bringing Opal to 15 new countries and making it even easier to build.
+ㅤ</p>
+<h3><a href="https://github.com/Gu1llaum-3/sshm">Gu1llaum-3/sshm: SSHM is a beautiful command-line tool that transforms how you manage and connect to your SSH hosts. Built with Go and featuring an intuitive TUI interface, it makes SSH connection management effortless and enjoyable.</a></h3>
+<p>Gu1llaum-3/sshm: SSHM is a beautiful command-line tool that transforms how you manage and connect to your SSH hosts. Built with Go and featuring an intuitive TUI interface, it makes SSH connection management effortless and enjoyable.
+ㅤ</p>
+<h3><a href="https://react.dev/blog/2025/10/07/introducing-the-react-foundation">Introducing the React Foundation – React</a></h3>
+<p>The library for web and native user interfaces
+ㅤ</p>
+<h3><a href="https://hyochan.github.io/react-native-iap/blog/release-14.4.12/">14.4.12 - Alternative Billing Support | React Native IAP</a></h3>
+<p>React Native IAP 14.4.12 introduces comprehensive alternative billing support for both iOS and Android, enabling external payment systems with reduced platform fees.
+ㅤ</p>
+<h3><a href="https://blog.archive.org/trillion/">Celebrating 1 Trillion Web Pages Archived | Internet Archive Blogs</a></h3>
+<p>Celebrating 1 Trillion Web Pages Archived | Internet Archive Blogs
+ㅤ</p>
+<h3><a href="https://blog.swmansion.com/welcoming-the-next-generation-of-hermes-67ab5679e184">Hermes V1 in React Native 0.82: What It Is, How It Works &#x26; How to Enable It | Software Mansion</a></h3>
+<p>​​React Native 0.82 adds an experimental option to use Hermes V1. Learn what it is, how it works, how it differs from Static Hermes, and how to enable it.
+ㅤ</p>
+<h3><a href="https://github.com/software-mansion/react-native-enriched">software-mansion/react-native-enriched: Rich Text Editor for React Native</a></h3>
+<p>Rich Text Editor for React Native. Contribute to software-mansion/react-native-enriched development by creating an account on GitHub.</p>
+0:{"buildId":"mQ7_TZm9ByqkjGn8vXPv8","rsc":["$","$1","c",{"children":[["$","article",null,{"children":[["$","$L2",null,{"title":"Digest - Week 2025/41","date":"2025-10-07T19:12:51Z"}],["$","$L3",null,{"content":"$4"}]]}],[["$","link","0",{"rel":"stylesheet","href":"https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","precedence":"next"}],["$","script","script-0",{"src":"https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","async":true}],["$","script","script-1",{"src":"https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js","async":true}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"loading":null,"isPartial":false}
+7:null

@@ -1,0 +1,29 @@
+1:"$Sreact.fragment"
+2:I[15248,["https://mrkpatchaa.com/_next/static/chunks/a2b37c4a3a2a518f.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js"],"default"]
+3:I[82309,["https://mrkpatchaa.com/_next/static/chunks/a2b37c4a3a2a518f.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js"],"default"]
+5:I[97367,["https://mrkpatchaa.com/_next/static/chunks/ff1a16fafef87110.js","https://mrkpatchaa.com/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
+:HL["https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","style"]
+4:T7b0,<p>ㅤ</p>
+<h3><a href="https://blog.google/technology/google-labs/mixboard/">Mixboard: Google Labs’ new experiment to visualize ideas</a></h3>
+<p>Mixboard is an experimental, AI-powered visual brainstorming tool that helps you explore, expand and refine ideas.
+ㅤ</p>
+<h3><a href="https://www.raspberrypi.com/news/the-ultimate-all-in-one-pc-raspberry-pi-500-plus-on-sale-now-at-200/">The ultimate all-in-one PC: Raspberry Pi 500+ on sale now at 00 - Raspberry Pi</a></h3>
+<p>A complete desktop PC built into a high-quality mechanical keyboard, with 16GB RAM and a 256GB SSD for high performance under heavy load.
+ㅤ</p>
+<h3><a href="https://expo.dev/changelog/testflight-job-type-for-workflows">TestFlight job type for Workflows - Expo Changelog</a></h3>
+<p>Distribute iOS builds to TestFlight internal and external testing groups with control over test groups, changelogs, and Beta App Review submission.
+ㅤ</p>
+<h3><a href="https://expo.dev/blog/expo-app-folder-structure-best-practices">How to organize Expo app folder structure for clarity and scalability</a></h3>
+<p>Organize your Expo Router project with proven folder structures for components, screens, API routes, and more to scale React Native apps.
+ㅤ</p>
+<h3><a href="https://github.com/francoismichel/ssh3">francoismichel/ssh3: SSH3: faster and rich secure shell using HTTP/3</a></h3>
+<p>SSH3: faster and rich secure shell using HTTP/3, checkout our article here: https://arxiv.org/abs/2312.08396 and our Internet-Draft: https://datatracker.ietf.org/doc/draft-michel-ssh3/ - francoismichel/ssh3
+ㅤ</p>
+<h3><a href="https://cursor.com/en-US/learn">Cursor Learn</a></h3>
+<p>Learn how to use Cursor to build software with AI.
+ㅤ</p>
+<h3><a href="https://github.com/software-mansion-labs/expo-live-activity">software-mansion-labs/expo-live-activity: A library for Live Activities in React Native</a></h3>
+<p>software-mansion-labs/expo-live-activity: A library for Live Activities in React Native</p>
+0:{"buildId":"mQ7_TZm9ByqkjGn8vXPv8","rsc":["$","$1","c",{"children":[["$","article",null,{"children":[["$","$L2",null,{"title":"Digest - Week 2025/39","date":"2025-09-24T08:02:44Z"}],["$","$L3",null,{"content":"$4"}]]}],[["$","link","0",{"rel":"stylesheet","href":"https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","precedence":"next"}],["$","script","script-0",{"src":"https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","async":true}],["$","script","script-1",{"src":"https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js","async":true}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"loading":null,"isPartial":false}
+7:null
