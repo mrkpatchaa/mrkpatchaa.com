@@ -1,7 +1,7 @@
 1:"$Sreact.fragment"
-2:I[15248,["https://mrkpatchaa.com/_next/static/chunks/a2b37c4a3a2a518f.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js"],"default"]
-3:I[82309,["https://mrkpatchaa.com/_next/static/chunks/a2b37c4a3a2a518f.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js"],"default"]
-9:I[97367,["https://mrkpatchaa.com/_next/static/chunks/ff1a16fafef87110.js","https://mrkpatchaa.com/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+2:I[15248,["https://mrkpatchaa.com/_next/static/chunks/cd9c445b808d545e.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js"],"default"]
+3:I[82309,["https://mrkpatchaa.com/_next/static/chunks/cd9c445b808d545e.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js"],"default"]
+9:I[97367,["https://mrkpatchaa.com/_next/static/chunks/ff1a16fafef87110.js","https://mrkpatchaa.com/_next/static/chunks/7340adf74ff47ec0.js"],"OutletBoundary"]
 a:"$Sreact.suspense"
 :HL["https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","style"]
 4:Tff6,<p>A week ago, I discovered a very useful website and I thought I should make it an application.
@@ -62,7 +62,7 @@ const config = store.get('config')
 <p>I have released the <a href="https://github.com/mrkpatchaa/blinker/releases/tag/v01" target="" rel="noopener">first version</a> for Linux and MacOS. If you are on windows, you can just checkout the code and build for windows.</p>
 <p>Feel free to checkout the code on <a href="https://github.com/mrkpatchaa/blinker/" target="blank" rel="noopener">github</a>, submit pull requests or open issues if something is not working as expected.</p>
 <p>Cheers.</p>
-0:{"buildId":"ztgb-9gn-kAkpkb_e7pW4","rsc":["$","$1","c",{"children":[["$","article",null,{"children":[["$","$L2",null,{"title":"My first electron app : Blinker","date":"2023-06-15T10:49:04Z"}],["$","$L3",null,{"content":"$4"}]]}],["$L5","$L6","$L7"],"$L8"]}],"loading":null,"isPartial":false}
+0:{"buildId":"crc2PR5Cchbyk7Edw_0bn","rsc":["$","$1","c",{"children":[["$","article",null,{"children":[["$","$L2",null,{"title":"My first electron app : Blinker","date":"2023-06-15T10:49:04Z"}],["$","$L3",null,{"content":"$4"}]]}],["$L5","$L6","$L7"],"$L8"]}],"loading":null,"isPartial":false}
 5:["$","link","0",{"rel":"stylesheet","href":"https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","precedence":"next"}]
 6:["$","script","script-0",{"src":"https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","async":true}]
 7:["$","script","script-1",{"src":"https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js","async":true}]
