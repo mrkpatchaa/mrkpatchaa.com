@@ -6,7 +6,7 @@ import js from '@eslint/js'
 import typescriptEslint from '@typescript-eslint/eslint-plugin'
 import tsParser from '@typescript-eslint/parser'
 import prettier from 'eslint-plugin-prettier'
-import tailwindcss from 'eslint-plugin-tailwindcss'
+// import tailwindcss from 'eslint-plugin-tailwindcss' // V4 is not supported yet
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
@@ -20,7 +20,7 @@ export default [
   ...compat.extends(
     'next/core-web-vitals',
     'prettier',
-    'plugin:tailwindcss/recommended',
+    // 'plugin:tailwindcss/recommended',
     'plugin:@typescript-eslint/recommended',
     'plugin:@typescript-eslint/stylistic'
   ),
@@ -28,14 +28,14 @@ export default [
     plugins: {
       '@typescript-eslint': typescriptEslint,
       prettier,
-      tailwindcss,
+      // tailwindcss,
     },
 
     settings: {
-      tailwindcss: {
-        callees: ['cn'],
-        config: 'tailwind.config.js',
-      },
+      // tailwindcss: {
+      //   callees: ['cn'],
+      //   config: 'tailwind.config.js',
+      // },
 
       next: {
         rootDir: true,
@@ -46,7 +46,7 @@ export default [
       'prettier/prettier': [
         'error',
         {
-          plugins: ['@ianvs/prettier-plugin-sort-imports', 'prettier-plugin-tailwindcss'],
+          plugins: ['@ianvs/prettier-plugin-sort-imports'/*, 'prettier-plugin-tailwindcss'*/],
           trailingComma: 'es5',
           tabWidth: 2,
           printWidth: 120,
