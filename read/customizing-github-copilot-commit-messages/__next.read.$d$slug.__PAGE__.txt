@@ -69,7 +69,7 @@ Updated token validation logic to prevent expired token errors.
 <blockquote>
 <p><em>🤖 Fun fact: This post got a little AI assistance—just like Copilot with commit messages!</em> 😎</p>
 </blockquote>
-0:{"buildId":"4l-PT57AKqG_sej72isZK","rsc":["$","$1","c",{"children":[["$","article",null,{"children":[["$","$L2",null,{"title":"Customizing GitHub Copilot in VS Code for Better Commit Messages","date":"2025-01-29T19:40:55Z"}],["$","$L3",null,{"content":"$4"}]]}],["$L5","$L6","$L7"],"$L8"]}],"loading":null,"isPartial":false}
+0:{"buildId":"_80gr7tmJeBPBtp_tMEj7","rsc":["$","$1","c",{"children":[["$","article",null,{"children":[["$","$L2",null,{"title":"Customizing GitHub Copilot in VS Code for Better Commit Messages","date":"2025-01-29T19:40:55Z"}],["$","$L3",null,{"content":"$4"}]]}],["$L5","$L6","$L7"],"$L8"]}],"loading":null,"isPartial":false}
 5:["$","link","0",{"rel":"stylesheet","href":"https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","precedence":"next"}]
 6:["$","script","script-0",{"src":"https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","async":true}]
 7:["$","script","script-1",{"src":"https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js","async":true}]
