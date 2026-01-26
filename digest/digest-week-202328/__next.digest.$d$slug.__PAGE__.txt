@@ -1,7 +1,7 @@
 1:"$Sreact.fragment"
-2:I[15248,["https://mrkpatchaa.com/_next/static/chunks/cd9c445b808d545e.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js"],"default"]
-3:I[82309,["https://mrkpatchaa.com/_next/static/chunks/cd9c445b808d545e.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js"],"default"]
-9:I[97367,["https://mrkpatchaa.com/_next/static/chunks/ff1a16fafef87110.js","https://mrkpatchaa.com/_next/static/chunks/7340adf74ff47ec0.js"],"OutletBoundary"]
+2:I[15248,["https://mrkpatchaa.com/_next/static/chunks/cd301e68a8385128.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/021c466bd12e7263.js"],"default"]
+3:I[82309,["https://mrkpatchaa.com/_next/static/chunks/cd301e68a8385128.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/021c466bd12e7263.js"],"default"]
+9:I[97367,["https://mrkpatchaa.com/_next/static/chunks/ff1a16fafef87110.js","https://mrkpatchaa.com/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
 a:"$Sreact.suspense"
 :HL["https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","style"]
 4:Tc60,<p>ㅤ</p>
@@ -25,9 +25,9 @@ a:"$Sreact.suspense"
 ㅤ</p>
 <h3><a href="https://github.blog/2023-07-12-introducing-passwordless-authentication-on-github-com/">Introducing passwordless authentication on GitHub.com | The GitHub Blog</a></h3>
 <p>Passkeys are now available in public beta. Opting in lets you upgrade security keys to passkeys, and use those in place of both your password and your 2FA method.</p>
-0:{"buildId":"_80gr7tmJeBPBtp_tMEj7","rsc":["$","$1","c",{"children":[["$","article",null,{"children":[["$","$L2",null,{"title":"Digest - Week 2023/28","date":"2023-07-14T14:29:13Z"}],["$","$L3",null,{"content":"$4"}]]}],["$L5","$L6","$L7"],"$L8"]}],"loading":null,"isPartial":false}
+0:{"buildId":"ZOc2mvtAKHlPwhrto7dkJ","rsc":["$","$1","c",{"children":[["$","article",null,{"children":[["$","$L2",null,{"title":"Digest - Week 2023/28","date":"2023-07-14T14:29:13Z"}],["$","$L3",null,{"content":"$4"}]]}],["$L5","$L6","$L7"],"$L8"]}],"loading":null,"isPartial":false}
 5:["$","link","0",{"rel":"stylesheet","href":"https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","precedence":"next"}]
 6:["$","script","script-0",{"src":"https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","async":true}]
-7:["$","script","script-1",{"src":"https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js","async":true}]
+7:["$","script","script-1",{"src":"https://mrkpatchaa.com/_next/static/chunks/021c466bd12e7263.js","async":true}]
 8:["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
 b:null

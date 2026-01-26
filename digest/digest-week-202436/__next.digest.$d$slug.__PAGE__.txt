@@ -1,7 +1,7 @@
 1:"$Sreact.fragment"
-2:I[15248,["https://mrkpatchaa.com/_next/static/chunks/cd9c445b808d545e.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js"],"default"]
-3:I[82309,["https://mrkpatchaa.com/_next/static/chunks/cd9c445b808d545e.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js"],"default"]
-5:I[97367,["https://mrkpatchaa.com/_next/static/chunks/ff1a16fafef87110.js","https://mrkpatchaa.com/_next/static/chunks/7340adf74ff47ec0.js"],"OutletBoundary"]
+2:I[15248,["https://mrkpatchaa.com/_next/static/chunks/cd301e68a8385128.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/021c466bd12e7263.js"],"default"]
+3:I[82309,["https://mrkpatchaa.com/_next/static/chunks/cd301e68a8385128.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/021c466bd12e7263.js"],"default"]
+5:I[97367,["https://mrkpatchaa.com/_next/static/chunks/ff1a16fafef87110.js","https://mrkpatchaa.com/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
 6:"$Sreact.suspense"
 :HL["https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","style"]
 4:T5d5,<p>ㅤ</p>
@@ -19,5 +19,5 @@
 ㅤ</p>
 <h3><a href="https://lowcostminipcs.com/">Low Cost Mini PCs</a></h3>
 <p>Find the best deals for mini PCs on eBay. With many of them entering the used market, this tool helps you find a cheap mini PC based on your needs. Prices are updated a few times per hour.</p>
-0:{"buildId":"_80gr7tmJeBPBtp_tMEj7","rsc":["$","$1","c",{"children":[["$","article",null,{"children":[["$","$L2",null,{"title":"Digest - Week 2024/36","date":"2024-09-07T09:07:24Z"}],["$","$L3",null,{"content":"$4"}]]}],[["$","link","0",{"rel":"stylesheet","href":"https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","precedence":"next"}],["$","script","script-0",{"src":"https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","async":true}],["$","script","script-1",{"src":"https://mrkpatchaa.com/_next/static/chunks/a279e2ccbd81f721.js","async":true}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"loading":null,"isPartial":false}
+0:{"buildId":"ZOc2mvtAKHlPwhrto7dkJ","rsc":["$","$1","c",{"children":[["$","article",null,{"children":[["$","$L2",null,{"title":"Digest - Week 2024/36","date":"2024-09-07T09:07:24Z"}],["$","$L3",null,{"content":"$4"}]]}],[["$","link","0",{"rel":"stylesheet","href":"https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","precedence":"next"}],["$","script","script-0",{"src":"https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","async":true}],["$","script","script-1",{"src":"https://mrkpatchaa.com/_next/static/chunks/021c466bd12e7263.js","async":true}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"loading":null,"isPartial":false}
 7:null
