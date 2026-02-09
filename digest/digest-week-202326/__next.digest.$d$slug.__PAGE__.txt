@@ -1,6 +1,6 @@
 1:"$Sreact.fragment"
-2:I[15248,["https://mrkpatchaa.com/_next/static/chunks/cd301e68a8385128.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/021c466bd12e7263.js"],"default"]
-3:I[82309,["https://mrkpatchaa.com/_next/static/chunks/cd301e68a8385128.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/021c466bd12e7263.js"],"default"]
+2:I[15248,["https://mrkpatchaa.com/_next/static/chunks/663fb8f73a003508.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/021c466bd12e7263.js"],"default"]
+3:I[82309,["https://mrkpatchaa.com/_next/static/chunks/663fb8f73a003508.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/021c466bd12e7263.js"],"default"]
 9:I[97367,["https://mrkpatchaa.com/_next/static/chunks/ff1a16fafef87110.js","https://mrkpatchaa.com/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
 a:"$Sreact.suspense"
 :HL["https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","style"]
@@ -34,7 +34,7 @@ a:"$Sreact.suspense"
 ㅤ</p>
 <h3><a href="https://www.netlify.com/press/netlify-acquires-stackbit-to-provide-web-teams-with-a-full-set-of-solutions-across-their-web-stack/?_hsmi=264496193">Netlify Acquires Stackbit to Provide Web Teams with a Full Set of Solutions Across Their Web Stack</a></h3>
 <p>The addition of Stackbit introduces a visual experience editor for non-developers to create and edit website and app UIs in real-time from a browser.</p>
-0:{"buildId":"lB7PTqhVzYXqbVhbJ43dy","rsc":["$","$1","c",{"children":[["$","article",null,{"children":[["$","$L2",null,{"title":"Digest - Week 2023/26","date":"2023-06-26T23:39:12Z"}],["$","$L3",null,{"content":"$4"}]]}],["$L5","$L6","$L7"],"$L8"]}],"loading":null,"isPartial":false}
+0:{"buildId":"_dVyGPZO1uUo_JsWhOT4H","rsc":["$","$1","c",{"children":[["$","article",null,{"children":[["$","$L2",null,{"title":"Digest - Week 2023/26","date":"2023-06-26T23:39:12Z"}],["$","$L3",null,{"content":"$4"}]]}],["$L5","$L6","$L7"],"$L8"]}],"loading":null,"isPartial":false}
 5:["$","link","0",{"rel":"stylesheet","href":"https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","precedence":"next"}]
 6:["$","script","script-0",{"src":"https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","async":true}]
 7:["$","script","script-1",{"src":"https://mrkpatchaa.com/_next/static/chunks/021c466bd12e7263.js","async":true}]
