@@ -26,7 +26,7 @@ Sure, you can always reach for a glass of water -- but plain H20 isn't the most 
 ㅤ</p>
 <h3><a href="https://www.warp.dev/">Warp: Your terminal, reimagined</a></h3>
 <p>Warp is a modern, Rust-based terminal with AI built in so you and your team can build great software, faster. Now available on MacOS.</p>
-0:{"buildId":"_dVyGPZO1uUo_JsWhOT4H","rsc":["$","$1","c",{"children":[["$","article",null,{"children":[["$","$L2",null,{"title":"Digest - Week 2023/25","date":"2023-06-21T22:53:55Z"}],["$","$L3",null,{"content":"$4"}]]}],["$L5","$L6","$L7"],"$L8"]}],"loading":null,"isPartial":false}
+0:{"buildId":"xN0Ktesz-K1jqOSN6dc7N","rsc":["$","$1","c",{"children":[["$","article",null,{"children":[["$","$L2",null,{"title":"Digest - Week 2023/25","date":"2023-06-21T22:53:55Z"}],["$","$L3",null,{"content":"$4"}]]}],["$L5","$L6","$L7"],"$L8"]}],"loading":null,"isPartial":false}
 5:["$","link","0",{"rel":"stylesheet","href":"https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","precedence":"next"}]
 6:["$","script","script-0",{"src":"https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","async":true}]
 7:["$","script","script-1",{"src":"https://mrkpatchaa.com/_next/static/chunks/021c466bd12e7263.js","async":true}]
