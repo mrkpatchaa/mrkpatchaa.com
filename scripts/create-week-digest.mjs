@@ -1,6 +1,8 @@
-import 'dotenv/config';
+import 'dotenv/config'
+
 import fs from 'fs'
-import { Octokit } from "@octokit/rest";
+
+import { Octokit } from '@octokit/rest'
 
 const REPO = 'mrkpatchaa.com'
 const REPO_OWNER = 'mrkpatchaa'

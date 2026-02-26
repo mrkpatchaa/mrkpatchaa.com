@@ -1,5 +1,4 @@
-export const HOME_OG_IMAGE_URL =
-  'https://mrkpatchaa.com/mrk.png'
+export const HOME_OG_IMAGE_URL = 'https://mrkpatchaa.com/mrk.png'
 export const BLOG_TITLE = "Médédé Raymond KPATCHAA, a learner's blog"
 export const BLOG_DESCRIPTION = "Médédé Raymond KPATCHAA, a learner's blog"
 export const SOCIAL = {

@@ -1,52 +1,32 @@
-import path from 'node:path'
-import { fileURLToPath } from 'node:url'
+// @ts-check
+import nextVitals from 'eslint-config-next/core-web-vitals'
+import nextTs from 'eslint-config-next/typescript'
+import eslintPluginPrettierRecommended from 'eslint-plugin-prettier/recommended'
+import { defineConfig, globalIgnores } from 'eslint/config'
 
-import { FlatCompat } from '@eslint/eslintrc'
-import js from '@eslint/js'
-import typescriptEslint from '@typescript-eslint/eslint-plugin'
-import tsParser from '@typescript-eslint/parser'
-import prettier from 'eslint-plugin-prettier'
-// import tailwindcss from 'eslint-plugin-tailwindcss' // V4 is not supported yet
-
-const __filename = fileURLToPath(import.meta.url)
-const __dirname = path.dirname(__filename)
-const compat = new FlatCompat({
-  baseDirectory: __dirname,
-  recommendedConfig: js.configs.recommended,
-  allConfig: js.configs.all,
-})
-
-export default [
-  ...compat.extends(
-    'next/core-web-vitals',
-    'prettier',
-    // 'plugin:tailwindcss/recommended',
-    'plugin:@typescript-eslint/recommended',
-    'plugin:@typescript-eslint/stylistic'
-  ),
+const eslintConfig = defineConfig([
+  ...nextVitals,
+  ...nextTs,
+  // Override default ignores of eslint-config-next.
+  globalIgnores([
+    // Default ignores of eslint-config-next:
+    '.next/**',
+    'out/**',
+    'build/**',
+    'next-env.d.ts',
+    'playwright-report/**',
+    'test-results/**',
+    'coverage/**',
+  ]),
   {
-    plugins: {
-      '@typescript-eslint': typescriptEslint,
-      prettier,
-      // tailwindcss,
-    },
-
-    settings: {
-      // tailwindcss: {
-      //   callees: ['cn'],
-      //   config: 'tailwind.config.js',
-      // },
-
-      next: {
-        rootDir: true,
-      },
-    },
-
+    ignores: ['node_modules/**'],
+  },
+  {
     rules: {
       'prettier/prettier': [
         'error',
         {
-          plugins: ['@ianvs/prettier-plugin-sort-imports'/*, 'prettier-plugin-tailwindcss'*/],
+          plugins: ['@ianvs/prettier-plugin-sort-imports' /*, 'prettier-plugin-tailwindcss'*/],
           trailingComma: 'es5',
           tabWidth: 2,
           printWidth: 120,
@@ -94,11 +74,15 @@ export default [
       ],
     },
   },
+  eslintPluginPrettierRecommended,
   {
-    files: ['**/*.ts', '**/*.tsx'],
-
-    languageOptions: {
-      parser: tsParser,
+    settings: {
+      // Fix for ESLint 10+: eslint-plugin-react uses context.getFilename() (legacy API)
+      // which was removed in ESLint 10 flat config. Declaring the version explicitly
+      // prevents the plugin from trying to auto-detect it and failing.
+      react: { version: '19' },
     },
   },
-]
+])
+
+export default eslintConfig

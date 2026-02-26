@@ -5,7 +5,7 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint --fix",
+    "lint": "eslint --fix .",
     "deploy": "npm run build && gh-pages -d public",
     "create-week-digest": "node ./scripts/create-week-digest.mjs",
     "add-link-to-week-digest": "node ./scripts/add-link-to-week-digest.mjs",
@@ -35,7 +35,6 @@
     "typescript": "^5.9.3"
   },
   "devDependencies": {
-    "@eslint/eslintrc": "3.3.3",
     "@eslint/js": "9.39.3",
     "@ianvs/prettier-plugin-sort-imports": "4.7.1",
     "@types/node": "25.3.0",

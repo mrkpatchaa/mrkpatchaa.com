@@ -1,4 +1,3 @@
-// eslint-disable-next-line @typescript-eslint/no-var-requires
 import { graphql } from '@octokit/graphql'
 
 import * as constants from './constants'
