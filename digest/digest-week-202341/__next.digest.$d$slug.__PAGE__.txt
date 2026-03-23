@@ -1,9 +1,9 @@
 1:"$Sreact.fragment"
-2:I[15248,["https://mrkpatchaa.com/_next/static/chunks/663fb8f73a003508.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/021c466bd12e7263.js"],"default"]
-3:I[82309,["https://mrkpatchaa.com/_next/static/chunks/663fb8f73a003508.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/021c466bd12e7263.js"],"default"]
-5:I[97367,["https://mrkpatchaa.com/_next/static/chunks/ff1a16fafef87110.js","https://mrkpatchaa.com/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+2:I[15248,["https://mrkpatchaa.com/_next/static/chunks/07mssgxdpaowc.js","https://mrkpatchaa.com/_next/static/chunks/0d3shmwh5_nmn.js","https://mrkpatchaa.com/_next/static/chunks/0ogz43x1d2j4o.js","https://mrkpatchaa.com/_next/static/chunks/0r2kewg6-f-oy.js"],"default"]
+3:I[82309,["https://mrkpatchaa.com/_next/static/chunks/07mssgxdpaowc.js","https://mrkpatchaa.com/_next/static/chunks/0d3shmwh5_nmn.js","https://mrkpatchaa.com/_next/static/chunks/0ogz43x1d2j4o.js","https://mrkpatchaa.com/_next/static/chunks/0r2kewg6-f-oy.js"],"default"]
+5:I[97367,["https://mrkpatchaa.com/_next/static/chunks/07mssgxdpaowc.js","https://mrkpatchaa.com/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
 6:"$Sreact.suspense"
-:HL["https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","style"]
+:HL["https://mrkpatchaa.com/_next/static/chunks/0iqzmjt6t7-ly.css","style"]
 4:T9d1,<p>ㅤ</p>
 <h3><a href="https://github.com/sallar/github-contributions-chart">sallar/github-contributions-chart: :octocat: Generate an image of all your Github contributions</a></h3>
 <p>Generate an image of all your Github contributions
@@ -28,5 +28,5 @@
 ㅤ</p>
 <h3><a href="https://github.com/chasemccoy/museo">chasemccoy/museo: 🏛 Museo is a tool for finding images in the public domain from some of the best museums in the world.</a></h3>
 <p>🏛 Museo is a tool for finding images in the public domain from some of the best museums in the world.</p>
-0:{"buildId":"SRWehlzhbyFcL6LyRHUHG","rsc":["$","$1","c",{"children":[["$","article",null,{"children":[["$","$L2",null,{"title":"Digest - Week 2023/41","date":"2023-10-10T15:19:36Z"}],["$","$L3",null,{"content":"$4"}]]}],[["$","link","0",{"rel":"stylesheet","href":"https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","precedence":"next"}],["$","script","script-0",{"src":"https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","async":true}],["$","script","script-1",{"src":"https://mrkpatchaa.com/_next/static/chunks/021c466bd12e7263.js","async":true}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"loading":null,"isPartial":false}
+0:{"rsc":["$","$1","c",{"children":[["$","article",null,{"children":[["$","$L2",null,{"title":"Digest - Week 2023/41","date":"2023-10-10T15:19:36Z"}],["$","$L3",null,{"content":"$4"}]]}],[["$","link","0",{"rel":"stylesheet","href":"https://mrkpatchaa.com/_next/static/chunks/0iqzmjt6t7-ly.css","precedence":"next"}],["$","script","script-0",{"src":"https://mrkpatchaa.com/_next/static/chunks/0ogz43x1d2j4o.js","async":true}],["$","script","script-1",{"src":"https://mrkpatchaa.com/_next/static/chunks/0r2kewg6-f-oy.js","async":true}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"vl8EPXzX3Tl0Gl-V6Jlwj"}
 7:null

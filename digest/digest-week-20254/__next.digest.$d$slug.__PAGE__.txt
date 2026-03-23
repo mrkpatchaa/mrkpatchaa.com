@@ -1,9 +1,9 @@
 1:"$Sreact.fragment"
-2:I[15248,["https://mrkpatchaa.com/_next/static/chunks/663fb8f73a003508.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/021c466bd12e7263.js"],"default"]
-3:I[82309,["https://mrkpatchaa.com/_next/static/chunks/663fb8f73a003508.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/021c466bd12e7263.js"],"default"]
-5:I[97367,["https://mrkpatchaa.com/_next/static/chunks/ff1a16fafef87110.js","https://mrkpatchaa.com/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+2:I[15248,["https://mrkpatchaa.com/_next/static/chunks/07mssgxdpaowc.js","https://mrkpatchaa.com/_next/static/chunks/0d3shmwh5_nmn.js","https://mrkpatchaa.com/_next/static/chunks/0ogz43x1d2j4o.js","https://mrkpatchaa.com/_next/static/chunks/0r2kewg6-f-oy.js"],"default"]
+3:I[82309,["https://mrkpatchaa.com/_next/static/chunks/07mssgxdpaowc.js","https://mrkpatchaa.com/_next/static/chunks/0d3shmwh5_nmn.js","https://mrkpatchaa.com/_next/static/chunks/0ogz43x1d2j4o.js","https://mrkpatchaa.com/_next/static/chunks/0r2kewg6-f-oy.js"],"default"]
+5:I[97367,["https://mrkpatchaa.com/_next/static/chunks/07mssgxdpaowc.js","https://mrkpatchaa.com/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
 6:"$Sreact.suspense"
-:HL["https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","style"]
+:HL["https://mrkpatchaa.com/_next/static/chunks/0iqzmjt6t7-ly.css","style"]
 4:T6fc,<p>ㅤ</p>
 <h3><a href="https://fullystacked.net/formatting-dates-and-times/">Formatting dates and times in JavaScript with Temporal and the Internationalization API</a></h3>
 <p>Human-readable dates and times without a library
@@ -19,5 +19,5 @@
 ㅤ</p>
 <h3><a href="https://tailwindcss.com/blog/tailwindcss-v4">Tailwind CSS v4.0 - Tailwind CSS</a></h3>
 <p>We just released Tailwind CSS v4.0 — an all-new version of the framework optimized for performance and flexibility, with a reimagined configuration and customization experience, and taking full advantage of the latest advancements the web platform has to offer.</p>
-0:{"buildId":"SRWehlzhbyFcL6LyRHUHG","rsc":["$","$1","c",{"children":[["$","article",null,{"children":[["$","$L2",null,{"title":"Digest - Week 2025/4","date":"2025-01-21T16:59:53Z"}],["$","$L3",null,{"content":"$4"}]]}],[["$","link","0",{"rel":"stylesheet","href":"https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","precedence":"next"}],["$","script","script-0",{"src":"https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","async":true}],["$","script","script-1",{"src":"https://mrkpatchaa.com/_next/static/chunks/021c466bd12e7263.js","async":true}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"loading":null,"isPartial":false}
+0:{"rsc":["$","$1","c",{"children":[["$","article",null,{"children":[["$","$L2",null,{"title":"Digest - Week 2025/4","date":"2025-01-21T16:59:53Z"}],["$","$L3",null,{"content":"$4"}]]}],[["$","link","0",{"rel":"stylesheet","href":"https://mrkpatchaa.com/_next/static/chunks/0iqzmjt6t7-ly.css","precedence":"next"}],["$","script","script-0",{"src":"https://mrkpatchaa.com/_next/static/chunks/0ogz43x1d2j4o.js","async":true}],["$","script","script-1",{"src":"https://mrkpatchaa.com/_next/static/chunks/0r2kewg6-f-oy.js","async":true}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"vl8EPXzX3Tl0Gl-V6Jlwj"}
 7:null

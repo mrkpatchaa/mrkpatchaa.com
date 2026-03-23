@@ -1,9 +1,9 @@
 1:"$Sreact.fragment"
-2:I[15248,["https://mrkpatchaa.com/_next/static/chunks/663fb8f73a003508.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/021c466bd12e7263.js"],"default"]
-3:I[82309,["https://mrkpatchaa.com/_next/static/chunks/663fb8f73a003508.js","https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","https://mrkpatchaa.com/_next/static/chunks/021c466bd12e7263.js"],"default"]
-9:I[97367,["https://mrkpatchaa.com/_next/static/chunks/ff1a16fafef87110.js","https://mrkpatchaa.com/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+2:I[15248,["https://mrkpatchaa.com/_next/static/chunks/07mssgxdpaowc.js","https://mrkpatchaa.com/_next/static/chunks/0d3shmwh5_nmn.js","https://mrkpatchaa.com/_next/static/chunks/0ogz43x1d2j4o.js","https://mrkpatchaa.com/_next/static/chunks/0r2kewg6-f-oy.js"],"default"]
+3:I[82309,["https://mrkpatchaa.com/_next/static/chunks/07mssgxdpaowc.js","https://mrkpatchaa.com/_next/static/chunks/0d3shmwh5_nmn.js","https://mrkpatchaa.com/_next/static/chunks/0ogz43x1d2j4o.js","https://mrkpatchaa.com/_next/static/chunks/0r2kewg6-f-oy.js"],"default"]
+9:I[97367,["https://mrkpatchaa.com/_next/static/chunks/07mssgxdpaowc.js","https://mrkpatchaa.com/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
 a:"$Sreact.suspense"
-:HL["https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","style"]
+:HL["https://mrkpatchaa.com/_next/static/chunks/0iqzmjt6t7-ly.css","style"]
 4:Tc60,<p>ㅤ</p>
 <h3><a href="https://hbr.org/2023/07/the-simple-power-of-communicating-with-kindness">The Simple Power of Communicating with Kindness</a></h3>
 <p>In today’s world a host of issues are eating away at our connections with each other: Lack of focus, high-speed interactions, political polarization seeping into professional interactions, lack of trust. It’s easy to let daily civilities go by the wayside — or to approach difficult conversations with anger and ferocity — but, the author tells us, her experience as a corporate communications executive points to the benefits for leaders who double down on kindness instead. She outlines three tactics that work: Breaking down defensiveness with graciousness, giving credit, and making space.
@@ -25,9 +25,9 @@ a:"$Sreact.suspense"
 ㅤ</p>
 <h3><a href="https://github.blog/2023-07-12-introducing-passwordless-authentication-on-github-com/">Introducing passwordless authentication on GitHub.com | The GitHub Blog</a></h3>
 <p>Passkeys are now available in public beta. Opting in lets you upgrade security keys to passkeys, and use those in place of both your password and your 2FA method.</p>
-0:{"buildId":"SRWehlzhbyFcL6LyRHUHG","rsc":["$","$1","c",{"children":[["$","article",null,{"children":[["$","$L2",null,{"title":"Digest - Week 2023/28","date":"2023-07-14T14:29:13Z"}],["$","$L3",null,{"content":"$4"}]]}],["$L5","$L6","$L7"],"$L8"]}],"loading":null,"isPartial":false}
-5:["$","link","0",{"rel":"stylesheet","href":"https://mrkpatchaa.com/_next/static/chunks/db3d02fe28179cd0.css","precedence":"next"}]
-6:["$","script","script-0",{"src":"https://mrkpatchaa.com/_next/static/chunks/e0642da15d16603f.js","async":true}]
-7:["$","script","script-1",{"src":"https://mrkpatchaa.com/_next/static/chunks/021c466bd12e7263.js","async":true}]
+0:{"rsc":["$","$1","c",{"children":[["$","article",null,{"children":[["$","$L2",null,{"title":"Digest - Week 2023/28","date":"2023-07-14T14:29:13Z"}],["$","$L3",null,{"content":"$4"}]]}],["$L5","$L6","$L7"],"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"vl8EPXzX3Tl0Gl-V6Jlwj"}
+5:["$","link","0",{"rel":"stylesheet","href":"https://mrkpatchaa.com/_next/static/chunks/0iqzmjt6t7-ly.css","precedence":"next"}]
+6:["$","script","script-0",{"src":"https://mrkpatchaa.com/_next/static/chunks/0ogz43x1d2j4o.js","async":true}]
+7:["$","script","script-1",{"src":"https://mrkpatchaa.com/_next/static/chunks/0r2kewg6-f-oy.js","async":true}]
 8:["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
 b:null
