@@ -34,7 +34,7 @@ a:"$Sreact.suspense"
 ㅤ</p>
 <h3><a href="https://www.netlify.com/press/netlify-acquires-stackbit-to-provide-web-teams-with-a-full-set-of-solutions-across-their-web-stack/?_hsmi=264496193">Netlify Acquires Stackbit to Provide Web Teams with a Full Set of Solutions Across Their Web Stack</a></h3>
 <p>The addition of Stackbit introduces a visual experience editor for non-developers to create and edit website and app UIs in real-time from a browser.</p>
-0:{"rsc":["$","$1","c",{"children":[["$","article",null,{"children":[["$","$L2",null,{"title":"Digest - Week 2023/26","date":"2023-06-26T23:39:12Z"}],["$","$L3",null,{"content":"$4"}]]}],["$L5","$L6","$L7"],"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"1NfS_7UtabILv5V_N3t0A"}
+0:{"rsc":["$","$1","c",{"children":[["$","article",null,{"children":[["$","$L2",null,{"title":"Digest - Week 2023/26","date":"2023-06-26T23:39:12Z"}],["$","$L3",null,{"content":"$4"}]]}],["$L5","$L6","$L7"],"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"lB_nbFAeXtn86V1F1J1BL"}
 5:["$","link","0",{"rel":"stylesheet","href":"https://mrkpatchaa.com/_next/static/chunks/0iqzmjt6t7-ly.css","precedence":"next"}]
 6:["$","script","script-0",{"src":"https://mrkpatchaa.com/_next/static/chunks/0ogz43x1d2j4o.js","async":true}]
 7:["$","script","script-1",{"src":"https://mrkpatchaa.com/_next/static/chunks/0r2kewg6-f-oy.js","async":true}]
