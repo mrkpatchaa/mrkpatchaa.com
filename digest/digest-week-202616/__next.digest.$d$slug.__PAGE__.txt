@@ -1,0 +1,23 @@
+1:"$Sreact.fragment"
+2:I[15248,["https://mrkpatchaa.com/_next/static/chunks/07mssgxdpaowc.js","https://mrkpatchaa.com/_next/static/chunks/0d3shmwh5_nmn.js","https://mrkpatchaa.com/_next/static/chunks/0ogz43x1d2j4o.js","https://mrkpatchaa.com/_next/static/chunks/0r2kewg6-f-oy.js"],"default"]
+3:I[82309,["https://mrkpatchaa.com/_next/static/chunks/07mssgxdpaowc.js","https://mrkpatchaa.com/_next/static/chunks/0d3shmwh5_nmn.js","https://mrkpatchaa.com/_next/static/chunks/0ogz43x1d2j4o.js","https://mrkpatchaa.com/_next/static/chunks/0r2kewg6-f-oy.js"],"default"]
+5:I[97367,["https://mrkpatchaa.com/_next/static/chunks/07mssgxdpaowc.js","https://mrkpatchaa.com/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
+:HL["https://mrkpatchaa.com/_next/static/chunks/0iqzmjt6t7-ly.css","style"]
+4:T5a3,<p>ㅤ</p>
+<h3><a href="https://docs.swmansion.com/pulsar/">Pulsar: Haptic Feedback Library for Swift, Kotlin &#x26; React Native</a></h3>
+<p>Pulsar is an open-source library that offers ready-to-use haptic presets. With it, you can add haptics to your Kotlin, Swift, or React Native app in minutes.
+ㅤ</p>
+<h3><a href="https://blog.google/products-and-platforms/products/education/ai-literacy-tools-certifications/">AI literacy trainings, certificates and resources from Google</a></h3>
+<p>A recap of AI Literacy Day, including a New York City Public Schools event hosted at Google and updates to Google AI literacy resources.
+ㅤ</p>
+<h3><a href="https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-mac-os/">The Gemini App is now available on Mac OS</a></h3>
+<p>Google is bringing the Gemini app to macOS as a native desktop experience.
+ㅤ</p>
+<h3><a href="https://www.anthropic.com/news/claude-opus-4-7">Introducing Claude Opus 4.7 \ Anthropic</a></h3>
+<p>Our latest model, Claude Opus 4.7, is now generally available. Opus 4.7 is a notable improvement on Opus 4.6 in advanced software engineering, with particular gains on the most difficult tasks.
+ㅤ</p>
+<h3><a href="https://charcuterie.elastiq.ch/">Charcuterie — A Visual Unicode Explorer</a></h3>
+<p>Charcuterie is a visual explorer for Unicode. Browse characters, discover related glyphs, and explore scripts, symbols, and shapes across the standard.</p>
+0:{"rsc":["$","$1","c",{"children":[["$","article",null,{"children":[["$","$L2",null,{"title":"Digest - Week 2026/16","date":"2026-04-13T08:53:01Z"}],["$","$L3",null,{"content":"$4"}]]}],[["$","link","0",{"rel":"stylesheet","href":"https://mrkpatchaa.com/_next/static/chunks/0iqzmjt6t7-ly.css","precedence":"next"}],["$","script","script-0",{"src":"https://mrkpatchaa.com/_next/static/chunks/0ogz43x1d2j4o.js","async":true}],["$","script","script-1",{"src":"https://mrkpatchaa.com/_next/static/chunks/0r2kewg6-f-oy.js","async":true}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"vPRH62WcZbLBp2DUNYpie"}
+7:null
