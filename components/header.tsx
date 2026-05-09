@@ -23,6 +23,9 @@ export default function Header() {
         <Link href="/digest" className="mr-4 flex text-neutral-900 underline underline-offset-4">
           <span className="hidden md:inline">Weekly&nbsp;</span>Digests
         </Link>
+        <Link href="/projects" className="mr-4 text-neutral-900 underline underline-offset-4">
+          Projects
+        </Link>
         <Link href="/about" className="text-neutral-900 underline underline-offset-4">
           About
         </Link>

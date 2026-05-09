@@ -27,7 +27,7 @@ export async function getAllPosts(isPage = false, digest = false) {
       query lastIssues($owner: String!, $repo: String!, $labels: [String!] $num: Int = 100) {
         repository(owner: $owner, name: $repo) {
           issues(
-            last: $num
+            first: $num
             states: OPEN
             filterBy: {labels: $labels, milestoneNumber: "1", states: OPEN}
             orderBy: {
@@ -103,4 +103,15 @@ export async function getAllPosts(isPage = false, digest = false) {
     // }
     return []
   }
+}
+
+export async function getAllDigestYears(): Promise<number[]> {
+  const posts = await getAllPosts(false, true)
+  const yearsSet = new Set(posts.map((p) => new Date(p.createdAt).getFullYear()))
+  return Array.from(yearsSet).sort((a, b) => b - a)
+}
+
+export async function getPostsByYear(year: number) {
+  const posts = await getAllPosts(false, true)
+  return posts.filter((p) => new Date(p.createdAt).getFullYear() === year)
 }
