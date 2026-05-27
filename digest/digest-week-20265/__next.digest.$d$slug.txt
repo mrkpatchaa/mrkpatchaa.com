@@ -1,5 +1,5 @@
 1:"$Sreact.fragment"
-2:I[39756,["https://mrkpatchaa.com/_next/static/chunks/07mssgxdpaowc.js","https://mrkpatchaa.com/_next/static/chunks/0d3shmwh5_nmn.js"],"default"]
-3:I[37457,["https://mrkpatchaa.com/_next/static/chunks/07mssgxdpaowc.js","https://mrkpatchaa.com/_next/static/chunks/0d3shmwh5_nmn.js"],"default"]
+2:I[22378,["https://mrkpatchaa.com/_next/static/chunks/0wlw.7v.ks~su.js","https://mrkpatchaa.com/_next/static/chunks/00dwf3xlex0q5.js"],"default"]
+3:I[99582,["https://mrkpatchaa.com/_next/static/chunks/0wlw.7v.ks~su.js","https://mrkpatchaa.com/_next/static/chunks/00dwf3xlex0q5.js"],"default"]
 4:[]
-0:{"rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"isPartial":false,"staleTime":300,"varyParams":"$W4","buildId":"qckGV3Rw_5sYD-nI9DCde"}
+0:{"rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"isPartial":false,"staleTime":300,"varyParams":"$W4","buildId":"c_Cwcoba3rRWUClPHs1in"}

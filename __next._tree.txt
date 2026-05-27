@@ -1,3 +1,3 @@
 :HL["https://mrkpatchaa.com/_next/static/chunks/0qhowgr35sqpc.css","style"]
 :HC["https://mrkpatchaa.com",""]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"qckGV3Rw_5sYD-nI9DCde"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"c_Cwcoba3rRWUClPHs1in"}
