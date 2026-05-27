@@ -21,15 +21,20 @@ jobs:
         run: |
           touch .env.local
           echo GH_TOKEN=${{ secrets.GH_TOKEN }} >> .env
+      - name: 🏗 Setup pnpm
+        uses: pnpm/action-setup@v6
+        with:
+          run_install: false
+
       - name: 🏗 Setup Node
         uses: actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e # v6
         with:
           node-version: 24
-          cache: npm
+          cache: pnpm
       - name: Install and Build
         run: |
-          npm ci --legacy-peer-deps
-          npm run build
+          pnpm install --frozen-lockfile
+          pnpm build
           touch out/.nojekyll
 
       - name: Deploy 🚀

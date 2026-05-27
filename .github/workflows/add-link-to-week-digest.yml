@@ -28,13 +28,18 @@ jobs:
           echo LINK=${{ github.event.inputs.link }} >> .env
           echo TITLE="${{ github.event.inputs.title }}" >> .env
           echo DESCRIPTION="${{ github.event.inputs.description }}" >> .env
+      - name: 🏗 Setup pnpm
+        uses: pnpm/action-setup@v6
+        with:
+          run_install: false
+
       - name: Install deps
-        run: npm ci --legacy-peer-deps
+        run: pnpm install --frozen-lockfile
 
       - name: Make sure issue for current week is created
         run: |
-          npm run create-week-digest
+          pnpm create-week-digest
 
       - name: Add link
         run: |
-          npm run add-link-to-week-digest
+          pnpm add-link-to-week-digest

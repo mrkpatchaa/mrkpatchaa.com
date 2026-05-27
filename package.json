@@ -6,7 +6,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint --fix .",
-    "deploy": "npm run build && gh-pages -d public",
+    "deploy": "pnpm build && gh-pages -d public",
     "create-week-digest": "node ./scripts/create-week-digest.mjs",
     "add-link-to-week-digest": "node ./scripts/add-link-to-week-digest.mjs",
     "typecheck": "tsc"
@@ -50,8 +50,11 @@
     "prettier": "3.8.3",
     "prettier-plugin-tailwindcss": "0.8.0"
   },
-  "overrides": {
-    "@types/react": "19.2.15",
-    "@types/react-dom": "19.2.3"
-  }
+  "pnpm": {
+    "overrides": {
+      "@types/react": "19.2.15",
+      "@types/react-dom": "19.2.3"
+    }
+  },
+  "packageManager": "pnpm@11"
 }
