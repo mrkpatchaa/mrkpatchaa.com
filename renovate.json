@@ -4,6 +4,7 @@
     "config:best-practices",
     "schedule:earlyMondays"
   ],
+  "minimumReleaseAge": "3 days",
   "packageRules": [
     {
       "matchManagers": [
