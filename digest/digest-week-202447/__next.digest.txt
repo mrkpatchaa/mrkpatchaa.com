@@ -2,4 +2,4 @@
 2:I[22378,["https://mrkpatchaa.com/_next/static/chunks/0wlw.7v.ks~su.js","https://mrkpatchaa.com/_next/static/chunks/00dwf3xlex0q5.js"],"default"]
 3:I[99582,["https://mrkpatchaa.com/_next/static/chunks/0wlw.7v.ks~su.js","https://mrkpatchaa.com/_next/static/chunks/00dwf3xlex0q5.js"],"default"]
 4:[]
-0:{"rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"isPartial":false,"staleTime":300,"varyParams":"$W4","buildId":"5i0vNIR3aWeSAWMFEp6Jt"}
+0:{"rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"isPartial":false,"staleTime":300,"varyParams":"$W4","buildId":"4gK_HdBj3ndwDdbnEa8mX"}
