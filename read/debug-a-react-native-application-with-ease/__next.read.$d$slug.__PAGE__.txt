@@ -1,9 +1,9 @@
 1:"$Sreact.fragment"
-2:I[15248,["https://mrkpatchaa.com/_next/static/chunks/0wlw.7v.ks~su.js","https://mrkpatchaa.com/_next/static/chunks/00dwf3xlex0q5.js","https://mrkpatchaa.com/_next/static/chunks/01rd.9~t_3nlq.js","https://mrkpatchaa.com/_next/static/chunks/01v12jx.jgc3m.js"],"default"]
-3:I[82309,["https://mrkpatchaa.com/_next/static/chunks/0wlw.7v.ks~su.js","https://mrkpatchaa.com/_next/static/chunks/00dwf3xlex0q5.js","https://mrkpatchaa.com/_next/static/chunks/01rd.9~t_3nlq.js","https://mrkpatchaa.com/_next/static/chunks/01v12jx.jgc3m.js"],"default"]
-9:I[25326,["https://mrkpatchaa.com/_next/static/chunks/0wlw.7v.ks~su.js","https://mrkpatchaa.com/_next/static/chunks/00dwf3xlex0q5.js"],"OutletBoundary"]
+2:I[15248,["https://mrkpatchaa.com/_next/static/chunks/002ju4c73550e.js","https://mrkpatchaa.com/_next/static/chunks/0ab_ng33xm9oo.js","https://mrkpatchaa.com/_next/static/chunks/0xui5oy1tuy28.js","https://mrkpatchaa.com/_next/static/chunks/3jeuvarhxh8vl.js"],"default"]
+3:I[82309,["https://mrkpatchaa.com/_next/static/chunks/002ju4c73550e.js","https://mrkpatchaa.com/_next/static/chunks/0ab_ng33xm9oo.js","https://mrkpatchaa.com/_next/static/chunks/0xui5oy1tuy28.js","https://mrkpatchaa.com/_next/static/chunks/3jeuvarhxh8vl.js"],"default"]
+9:I[3576,["https://mrkpatchaa.com/_next/static/chunks/002ju4c73550e.js","https://mrkpatchaa.com/_next/static/chunks/0ab_ng33xm9oo.js"],"OutletBoundary"]
 a:"$Sreact.suspense"
-:HL["https://mrkpatchaa.com/_next/static/chunks/0iqzmjt6t7-ly.css","style"]
+:HL["https://mrkpatchaa.com/_next/static/chunks/1mske-4uz-5sq.css","style"]
 4:T138c,<p>Debugging on React Native is not as ease as we think. Facebook officially provides <a href="https://facebook.github.io/react-native/docs/debugging.html"><strong>documentation</strong></a> on debugging a RN application in Google Chrome taking advantages of Chrome Developer Tools.</p>
 <p>To debug the JavaScript code in Chrome, you need to select "Debug JS Remotely" from the Developer Menu (⌘D or ⌘M depending if you are running iOS or Android simulator). This will open a new tab at <a href="http://localhost:8081/debugger-ui"><strong>http://localhost:8081/debugger-ui</strong></a> when your application launches.</p>
 <p>This is good, but not enough. It is difficult to set up React Developer Tools Chrome extension for React Native. You need a custom extension to debug Redux...</p>
@@ -54,9 +54,9 @@ a:"$Sreact.suspense"
 <li><strong>Official React Native Debugging documentation</strong> : <a href="https://facebook.github.io/react-native/docs/debugging.html">https://facebook.github.io/react-native/docs/debugging.html</a></li>
 <li><strong>Google</strong> : <a href="http://bfy.tw/DR8k">http://bfy.tw/DR8k</a> :)</li>
 </ul>
-0:{"rsc":["$","$1","c",{"children":[["$","article",null,{"children":[["$","$L2",null,{"title":"Debug a React Native application with ease","date":"2023-06-15T11:32:31Z"}],["$","$L3",null,{"content":"$4"}]]}],["$L5","$L6","$L7"],"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"OvCsT9gmYiFopMqhj9SOW"}
-5:["$","link","0",{"rel":"stylesheet","href":"https://mrkpatchaa.com/_next/static/chunks/0iqzmjt6t7-ly.css","precedence":"next"}]
-6:["$","script","script-0",{"src":"https://mrkpatchaa.com/_next/static/chunks/01rd.9~t_3nlq.js","async":true}]
-7:["$","script","script-1",{"src":"https://mrkpatchaa.com/_next/static/chunks/01v12jx.jgc3m.js","async":true}]
+0:{"rsc":["$","$1","c",{"children":[["$","article",null,{"children":[["$","$L2",null,{"title":"Debug a React Native application with ease","date":"2023-06-15T11:32:31Z"}],["$","$L3",null,{"content":"$4"}]]}],["$L5","$L6","$L7"],"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"BRK2LN_YPH2ODNYl5PxOm"}
+5:["$","link","0",{"rel":"stylesheet","href":"https://mrkpatchaa.com/_next/static/chunks/1mske-4uz-5sq.css","precedence":"next"}]
+6:["$","script","script-0",{"src":"https://mrkpatchaa.com/_next/static/chunks/0xui5oy1tuy28.js","async":true}]
+7:["$","script","script-1",{"src":"https://mrkpatchaa.com/_next/static/chunks/3jeuvarhxh8vl.js","async":true}]
 8:["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
 b:null

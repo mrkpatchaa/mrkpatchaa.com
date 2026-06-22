@@ -1,8 +1,8 @@
 1:"$Sreact.fragment"
-2:I[82309,["https://mrkpatchaa.com/_next/static/chunks/0wlw.7v.ks~su.js","https://mrkpatchaa.com/_next/static/chunks/00dwf3xlex0q5.js","https://mrkpatchaa.com/_next/static/chunks/01v12jx.jgc3m.js"],"default"]
-4:I[25326,["https://mrkpatchaa.com/_next/static/chunks/0wlw.7v.ks~su.js","https://mrkpatchaa.com/_next/static/chunks/00dwf3xlex0q5.js"],"OutletBoundary"]
+2:I[82309,["https://mrkpatchaa.com/_next/static/chunks/002ju4c73550e.js","https://mrkpatchaa.com/_next/static/chunks/0ab_ng33xm9oo.js","https://mrkpatchaa.com/_next/static/chunks/3jeuvarhxh8vl.js"],"default"]
+4:I[3576,["https://mrkpatchaa.com/_next/static/chunks/002ju4c73550e.js","https://mrkpatchaa.com/_next/static/chunks/0ab_ng33xm9oo.js"],"OutletBoundary"]
 5:"$Sreact.suspense"
-:HL["https://mrkpatchaa.com/_next/static/chunks/0iqzmjt6t7-ly.css","style"]
+:HL["https://mrkpatchaa.com/_next/static/chunks/1mske-4uz-5sq.css","style"]
 3:T582,<p>Hi there,</p>
 <p>I'm Médédé Raymond, an experienced Software Engineer with over 10 years of industry expertise. I'm a geek at heart, a lifelong learner, and an adept problem solver skilled at tackling challenges.</p>
 <p>I have a deep passion for all things related to Web, Mobile, and Commerce. My preferred coding language is Javascript, and I've been actively involved in React/React Native projects and ecosystem for quite some time.</p>
@@ -10,5 +10,5 @@
 <p>In my free time, I work on personal projects (although I'm still aspiring to become a successful entrepreneur 🫣), contribute to open-source initiatives, and constantly explore articles on Software Architecture &#x26; Design, IT Security, Leadership, Management, and related topics.</p>
 <p>Over the years, I've excelled in various roles, such as Developer, Technical Architect, Tech Lead, Manager, and have often performed a versatile combination of these responsibilities.</p>
 <p>I would be delighted to have a conversation with you about any of these topics. Feel free to reach out to me on <a href="https://www.linkedin.com/in/mrkpatchaa/">LinkedIn</a> or <a href="https://twitter.com/mrkpatchaa">Twitter</a>.</p>
-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"content":"$3"}],[["$","link","0",{"rel":"stylesheet","href":"https://mrkpatchaa.com/_next/static/chunks/0iqzmjt6t7-ly.css","precedence":"next"}],["$","script","script-0",{"src":"https://mrkpatchaa.com/_next/static/chunks/01v12jx.jgc3m.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"OvCsT9gmYiFopMqhj9SOW"}
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"content":"$3"}],[["$","link","0",{"rel":"stylesheet","href":"https://mrkpatchaa.com/_next/static/chunks/1mske-4uz-5sq.css","precedence":"next"}],["$","script","script-0",{"src":"https://mrkpatchaa.com/_next/static/chunks/3jeuvarhxh8vl.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"BRK2LN_YPH2ODNYl5PxOm"}
 6:null
