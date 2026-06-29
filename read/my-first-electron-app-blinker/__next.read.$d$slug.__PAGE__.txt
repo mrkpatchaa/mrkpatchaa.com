@@ -62,7 +62,7 @@ const config = store.get('config')
 <p>I have released the <a href="https://github.com/mrkpatchaa/blinker/releases/tag/v01" target="" rel="noopener">first version</a> for Linux and MacOS. If you are on windows, you can just checkout the code and build for windows.</p>
 <p>Feel free to checkout the code on <a href="https://github.com/mrkpatchaa/blinker/" target="blank" rel="noopener">github</a>, submit pull requests or open issues if something is not working as expected.</p>
 <p>Cheers.</p>
-0:{"rsc":["$","$1","c",{"children":[["$","article",null,{"children":[["$","$L2",null,{"title":"My first electron app : Blinker","date":"2023-06-15T10:49:04Z"}],["$","$L3",null,{"content":"$4"}]]}],["$L5","$L6","$L7"],"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"BRK2LN_YPH2ODNYl5PxOm"}
+0:{"rsc":["$","$1","c",{"children":[["$","article",null,{"children":[["$","$L2",null,{"title":"My first electron app : Blinker","date":"2023-06-15T10:49:04Z"}],["$","$L3",null,{"content":"$4"}]]}],["$L5","$L6","$L7"],"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"QRJDk4uHZRvUp6NGs3itT"}
 5:["$","link","0",{"rel":"stylesheet","href":"https://mrkpatchaa.com/_next/static/chunks/1mske-4uz-5sq.css","precedence":"next"}]
 6:["$","script","script-0",{"src":"https://mrkpatchaa.com/_next/static/chunks/0xui5oy1tuy28.js","async":true}]
 7:["$","script","script-1",{"src":"https://mrkpatchaa.com/_next/static/chunks/3jeuvarhxh8vl.js","async":true}]
