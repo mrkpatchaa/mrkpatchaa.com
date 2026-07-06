@@ -1,4 +1,4 @@
 :HL["https://mrkpatchaa.com/_next/static/chunks/26ctor9fv74pk.css","style"]
 :HC["https://mrkpatchaa.com",""]
 :HL["https://mrkpatchaa.com/_next/static/chunks/1mske-4uz-5sq.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"digest","param":null,"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"digest-week-202425","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"QRJDk4uHZRvUp6NGs3itT"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"digest","param":null,"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"digest-week-202425","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"S6eG0kyYXnv72j5uNF2Pu"}
