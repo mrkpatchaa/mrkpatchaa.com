@@ -1,0 +1,8 @@
+1:"$Sreact.fragment"
+2:I[15248,["https://mrkpatchaa.com/_next/static/chunks/002ju4c73550e.js","https://mrkpatchaa.com/_next/static/chunks/0ab_ng33xm9oo.js","https://mrkpatchaa.com/_next/static/chunks/0xui5oy1tuy28.js","https://mrkpatchaa.com/_next/static/chunks/3jeuvarhxh8vl.js"],"default"]
+3:I[82309,["https://mrkpatchaa.com/_next/static/chunks/002ju4c73550e.js","https://mrkpatchaa.com/_next/static/chunks/0ab_ng33xm9oo.js","https://mrkpatchaa.com/_next/static/chunks/0xui5oy1tuy28.js","https://mrkpatchaa.com/_next/static/chunks/3jeuvarhxh8vl.js"],"default"]
+4:I[3576,["https://mrkpatchaa.com/_next/static/chunks/002ju4c73550e.js","https://mrkpatchaa.com/_next/static/chunks/0ab_ng33xm9oo.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+:HL["https://mrkpatchaa.com/_next/static/chunks/1mske-4uz-5sq.css","style"]
+0:{"rsc":["$","$1","c",{"children":[["$","article",null,{"children":[["$","$L2",null,{"title":"Digest - Week 2026/28","date":"2026-07-09T09:27:20Z"}],["$","$L3",null,{"content":"<p>ㅤ</p>\n<h3><a href=\"https://ui.shadcn.com/docs/changelog/2026-07-base-ui-default\">July 2026 - Base UI as the Default - shadcn/ui</a></h3>\n<p>New projects now use Base UI by default. Radix is still fully supported.</p>\n"}]]}],[["$","link","0",{"rel":"stylesheet","href":"https://mrkpatchaa.com/_next/static/chunks/1mske-4uz-5sq.css","precedence":"next"}],["$","script","script-0",{"src":"https://mrkpatchaa.com/_next/static/chunks/0xui5oy1tuy28.js","async":true}],["$","script","script-1",{"src":"https://mrkpatchaa.com/_next/static/chunks/3jeuvarhxh8vl.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"nvlURP33utfk-EonuLKSE"}
+6:null
