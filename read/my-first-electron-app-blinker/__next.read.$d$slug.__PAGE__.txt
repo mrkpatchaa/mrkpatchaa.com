@@ -1,7 +1,7 @@
 1:"$Sreact.fragment"
-2:I[15248,["https://mrkpatchaa.com/_next/static/chunks/002ju4c73550e.js","https://mrkpatchaa.com/_next/static/chunks/0ab_ng33xm9oo.js","https://mrkpatchaa.com/_next/static/chunks/0xui5oy1tuy28.js","https://mrkpatchaa.com/_next/static/chunks/3jeuvarhxh8vl.js"],"default"]
-3:I[82309,["https://mrkpatchaa.com/_next/static/chunks/002ju4c73550e.js","https://mrkpatchaa.com/_next/static/chunks/0ab_ng33xm9oo.js","https://mrkpatchaa.com/_next/static/chunks/0xui5oy1tuy28.js","https://mrkpatchaa.com/_next/static/chunks/3jeuvarhxh8vl.js"],"default"]
-9:I[3576,["https://mrkpatchaa.com/_next/static/chunks/002ju4c73550e.js","https://mrkpatchaa.com/_next/static/chunks/0ab_ng33xm9oo.js"],"OutletBoundary"]
+2:I[15248,["https://mrkpatchaa.com/_next/static/chunks/0seh4o2mu866y.js","https://mrkpatchaa.com/_next/static/chunks/0glb1f6rd35v8.js","https://mrkpatchaa.com/_next/static/chunks/1juyo_9zga-kp.js","https://mrkpatchaa.com/_next/static/chunks/0gvoj2q7u28ev.js"],"default"]
+3:I[82309,["https://mrkpatchaa.com/_next/static/chunks/0seh4o2mu866y.js","https://mrkpatchaa.com/_next/static/chunks/0glb1f6rd35v8.js","https://mrkpatchaa.com/_next/static/chunks/1juyo_9zga-kp.js","https://mrkpatchaa.com/_next/static/chunks/0gvoj2q7u28ev.js"],"default"]
+9:I[10806,["https://mrkpatchaa.com/_next/static/chunks/0seh4o2mu866y.js","https://mrkpatchaa.com/_next/static/chunks/0glb1f6rd35v8.js"],"OutletBoundary"]
 a:"$Sreact.suspense"
 :HL["https://mrkpatchaa.com/_next/static/chunks/1mske-4uz-5sq.css","style"]
 4:Tff6,<p>A week ago, I discovered a very useful website and I thought I should make it an application.
@@ -62,9 +62,9 @@ const config = store.get('config')
 <p>I have released the <a href="https://github.com/mrkpatchaa/blinker/releases/tag/v01" target="" rel="noopener">first version</a> for Linux and MacOS. If you are on windows, you can just checkout the code and build for windows.</p>
 <p>Feel free to checkout the code on <a href="https://github.com/mrkpatchaa/blinker/" target="blank" rel="noopener">github</a>, submit pull requests or open issues if something is not working as expected.</p>
 <p>Cheers.</p>
-0:{"rsc":["$","$1","c",{"children":[["$","article",null,{"children":[["$","$L2",null,{"title":"My first electron app : Blinker","date":"2023-06-15T10:49:04Z"}],["$","$L3",null,{"content":"$4"}]]}],["$L5","$L6","$L7"],"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"nvlURP33utfk-EonuLKSE"}
+0:{"rsc":["$","$1","c",{"children":[["$","article",null,{"children":[["$","$L2",null,{"title":"My first electron app : Blinker","date":"2023-06-15T10:49:04Z"}],["$","$L3",null,{"content":"$4"}]]}],["$L5","$L6","$L7"],"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"WcRZIuFbv6enEh0NsNNK0"}
 5:["$","link","0",{"rel":"stylesheet","href":"https://mrkpatchaa.com/_next/static/chunks/1mske-4uz-5sq.css","precedence":"next"}]
-6:["$","script","script-0",{"src":"https://mrkpatchaa.com/_next/static/chunks/0xui5oy1tuy28.js","async":true}]
-7:["$","script","script-1",{"src":"https://mrkpatchaa.com/_next/static/chunks/3jeuvarhxh8vl.js","async":true}]
+6:["$","script","script-0",{"src":"https://mrkpatchaa.com/_next/static/chunks/1juyo_9zga-kp.js","async":true}]
+7:["$","script","script-1",{"src":"https://mrkpatchaa.com/_next/static/chunks/0gvoj2q7u28ev.js","async":true}]
 8:["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
 b:null
