@@ -19,7 +19,7 @@ export default function PostBody({ content }) {
   }, [])
 
   return (
-    <div className="mx-auto max-w-2xl">
+    <div className="reading-column">
       <div className={markdownStyles['markdown']} dangerouslySetInnerHTML={{ __html: content }} />
     </div>
   )

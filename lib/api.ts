@@ -1,3 +1,5 @@
+import { cache } from 'react'
+
 import { graphql } from '@octokit/graphql'
 
 import * as constants from './constants'
@@ -20,7 +22,7 @@ export async function getPostBySlug(slug, isPage = false, digest = false) {
   return allPosts.filter((item) => item.slug === slug)[0]
 }
 
-export async function getAllPosts(isPage = false, digest = false) {
+export const getAllPosts = cache(async function getAllPosts(isPage = false, digest = false) {
   try {
     const { repository } = await graphqlWithAuth<RepositoryType>(
       `
@@ -76,34 +78,11 @@ export async function getAllPosts(isPage = false, digest = false) {
         body: edge.node.body.replace(/(\/\*----)([\s\S]*)(----\*\/)/, ''),
       }
     })
-  } catch (error) {
-    // if (error instanceof GraphqlResponseError) {
-    // do something with the error, allowing you to detect a graphql response error,
-    // compared to accidentally catching unrelated errors.
-
-    // server responds with an object like the following (as an example)
-    // class GraphqlResponseError {
-    //  "headers": {
-    //    "status": "403",
-    //  },
-    //  "data": null,
-    //  "errors": [{
-    //   "message": "Field 'bioHtml' doesn't exist on type 'User'",
-    //   "locations": [{
-    //    "line": 3,
-    //    "column": 5
-    //   }]
-    //  }]
-    // }
-
-    console.log('Request failed:', error.request) // { query, variables: {}, headers: { authorization: 'token secret123' } }
-    console.log(error.message) // Field 'bioHtml' doesn't exist on type 'User'
-    // } else {
-    // handle non-GraphQL error
-    // }
-    return []
+  } catch {
+    console.error('Unable to load published GitHub content.')
+    throw new Error('Unable to load published GitHub content; refusing to build an empty site.')
   }
-}
+})
 
 export async function getAllDigestYears(): Promise<number[]> {
   const posts = await getAllPosts(false, true)

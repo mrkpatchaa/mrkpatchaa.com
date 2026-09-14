@@ -1,19 +1,19 @@
-@reference '../styles/index.css';
-.markdown {
-  @apply text-lg leading-relaxed;
-}
-
-.markdown p,
-.markdown ul,
-.markdown ol,
-.markdown blockquote {
-  @apply my-6;
-}
-
-.markdown h2 {
-  @apply text-3xl mt-12 mb-4 leading-snug;
-}
-
-.markdown h3 {
-  @apply text-2xl mt-8 mb-4 leading-snug;
-}
+.markdown { font-size: 1.125rem; line-height: 1.8; overflow-wrap: anywhere; }
+.markdown p, .markdown ul, .markdown ol, .markdown blockquote { margin: 1.5rem 0; }
+.markdown h1 { font-size: clamp(2rem, 5vw, 3.5rem); line-height: 1.15; letter-spacing: -.04em; margin: 0 0 2rem; font-weight: 500; }
+.markdown h2 { font-size: 1.75rem; margin: 3rem 0 1rem; line-height: 1.25; font-weight: 500; letter-spacing: -.025em; }
+.markdown h3 { font-size: 1.375rem; margin: 2rem 0 1rem; line-height: 1.35; font-weight: 500; }
+.markdown a { text-decoration: underline; text-decoration-color: var(--line); text-underline-offset: .2em; }
+.markdown a:hover { text-decoration-color: var(--accent); }
+.markdown ul, .markdown ol { padding-left: 1.5rem; }
+.markdown ul { list-style: disc; }
+.markdown ol { list-style: decimal; }
+.markdown li { margin: .5rem 0; }
+.markdown blockquote { border-left: 2px solid var(--accent); padding-left: 1.5rem; color: var(--muted); }
+.markdown img, .markdown iframe, .markdown video { max-width: 100%; }
+.markdown img { height: auto; }
+.markdown pre { max-width: 100%; overflow: auto; padding: 1.5rem; border: 1px solid var(--line); border-radius: 0; font-size: .875rem; }
+.markdown :not(pre) > code { background: var(--surface); padding: .125rem .25rem; font-size: .9em; }
+.markdown table { display: block; max-width: 100%; overflow-x: auto; border-collapse: collapse; }
+.markdown th, .markdown td { border: 1px solid var(--line); padding: .5rem 1rem; text-align: left; }
+.markdown hr { border: 0; border-top: 1px solid var(--line); margin: 2.5rem 0; }

@@ -13,7 +13,14 @@ export const generateMetadata = async () => {
 export default function ProjectsPage() {
   return (
     <>
-      <h1 className="mb-8 text-6xl font-bold leading-tight tracking-tighter md:text-7xl">Projects</h1>
+      <div className="page-heading">
+        <p className="eyebrow accent">Side projects & open source</p>
+        <h1 className="page-title">
+          Things I’ve built
+          <br />
+          or contributed to.
+        </h1>
+      </div>
       <ProjectsGrid projects={projects} />
     </>
   )
