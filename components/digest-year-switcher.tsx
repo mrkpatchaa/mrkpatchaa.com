@@ -8,24 +8,16 @@ interface DigestYearSwitcherProps {
 
 export default function DigestYearSwitcher({ years, activeYear, currentYear }: DigestYearSwitcherProps) {
   return (
-    <nav className="mb-8 flex flex-wrap gap-x-4 gap-y-2">
-      {years.map((year) => {
-        const isActive = year === activeYear
-        const href = year === currentYear ? '/digest' : `/digest/${year}`
-        return (
-          <Link
-            key={year}
-            href={href}
-            className={
-              isActive
-                ? 'font-semibold text-slate-900 underline underline-offset-4'
-                : 'text-slate-500 underline-offset-4 hover:text-slate-900 hover:underline'
-            }
-          >
-            {year}
-          </Link>
-        )
-      })}
+    <nav className="year-nav" aria-label="Digest year">
+      {years.map((year) => (
+        <Link
+          key={year}
+          href={year === currentYear ? '/digest' : `/digest/${year}`}
+          aria-current={year === activeYear ? 'page' : undefined}
+        >
+          {year}
+        </Link>
+      ))}
     </nav>
   )
 }

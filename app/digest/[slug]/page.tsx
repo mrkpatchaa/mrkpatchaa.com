@@ -70,6 +70,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
   }
 
   const post = await getPostBySlug(slug, false, true)
+  if (!post) notFound()
   const content = await markdownToHtml(post.body || '')
   return (
     <article>

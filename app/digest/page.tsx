@@ -23,19 +23,14 @@ export default async function Index() {
       {posts.length > 0 ? (
         <MoreStories posts={posts} title={`Weekly digests ${currentYear}`} />
       ) : (
-        <div className="mb-16">
-          <h1 className="mb-4 text-6xl font-bold leading-tight tracking-tighter md:text-7xl">
-            Weekly digests {currentYear}
-          </h1>
-          <p className="text-lg text-slate-500">
+        <div className="page-heading">
+          <h1 className="page-title">Weekly digests {currentYear}</h1>
+          <p className="empty-state">
             No digests yet for {currentYear}.{' '}
             {years.filter((y) => y !== currentYear).length > 0 && (
               <>
                 Browse{' '}
-                <Link
-                  href={`/digest/${years.find((y) => y !== currentYear)}`}
-                  className="underline underline-offset-4 hover:text-slate-900"
-                >
+                <Link href={`/digest/${years.find((y) => y !== currentYear)}`} className="text-link">
                   {years.find((y) => y !== currentYear)}
                 </Link>{' '}
                 instead.

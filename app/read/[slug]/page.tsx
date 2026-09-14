@@ -1,5 +1,7 @@
 import type { Metadata, ResolvingMetadata } from 'next'
 
+import { notFound } from 'next/navigation'
+
 import PostBody from '@/components/post-body'
 import PostHeader from '@/components/post-header'
 import { getAllPosts, getPostBySlug } from '@/lib/api'
@@ -47,6 +49,7 @@ export async function generateMetadata(
 export default async function Post({ params }: { params: Promise<{ slug: string }> }) {
   const slug = (await params).slug
   const post = await getPostBySlug(slug)
+  if (!post) notFound()
   const content = await markdownToHtml(post.body || '')
   return (
     <article>
