@@ -1,4 +1,4 @@
 :HL["https://mrkpatchaa.com/_next/static/chunks/0x-rtoky522mn.css","style"]
 :HC["https://mrkpatchaa.com",""]
 :HL["https://mrkpatchaa.com/_next/static/chunks/0tp00enamqfqa.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":4112,"slots":{"children":{"name":"digest","param":null,"prefetchHints":4160,"slots":{"children":{"name":"slug","param":{"type":"d","key":"digest-week-202434","siblings":[]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}}}},"staleTime":300,"buildId":"_cR15Y14l_pG77PC7uR6F"}
+0:{"tree":{"name":"","param":null,"prefetchHints":4112,"slots":{"children":{"name":"digest","param":null,"prefetchHints":4160,"slots":{"children":{"name":"slug","param":{"type":"d","key":"digest-week-202434","siblings":[]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}}}},"staleTime":300,"buildId":"OhV7m7P_sU5NA2YRo1Rr1"}
