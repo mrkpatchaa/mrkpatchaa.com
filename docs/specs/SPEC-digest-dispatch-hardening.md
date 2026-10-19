@@ -45,18 +45,22 @@ Files: `.github/workflows/add-link-to-week-digest.yml`, `scripts/add-link-to-wee
    2,000 characters, else throw with the reason. It returns `url.href` with `(` and `)` replaced by `%28` and `%29`.
    `create-week-digest.mjs` calls it first when `LINK` is set (a bad link creates no issue). `add-link-…` calls it
    first and always. A throw → log the reason, exit 1. From here on, "the link" means the returned value.
-4. **Duplicate check, before the page fetch.** Read the issue. Body contains `](<the link>)` → log
-   `already in the digest`, exit 0, no update.
+   `checkLink` also encodes `*` as `%2A`, so no link can hold `----*/` (verify round, finding 3).
+4. **Duplicate check, before the page fetch.** Read the issue. A heading line matches
+   `/^### \[.*\]\(<the link, regex-escaped>\)$/m` → log `already in the digest`, exit 0, no update. A link that
+   appears only inside an earlier description is not a duplicate (verify round, finding 4).
 5. **Clean the text.** Clean `TITLE` and `DESCRIPTION` first, and clean fetched text the same way:
-   - Both: each run of `\r` or `\n` → one space. `&` → `&amp;`, `<` → `&lt;`, `>` → `&gt;`. Remove every `/*----`
-     and `----*/`. Trim.
-   - Title: also remove `[`, `]`, `(`, `)`.
-   - Description: also `[` → `\[` and `]` → `\]`. Cut at 500 characters (after escaping, not inside an entity).
+   - Both, in this order: each run of `\r` or `\n` → one space. `\` → `\\` (first of the escapes, verify round,
+     finding 1). `&` → `&amp;`, `<` → `&lt;`, `>` → `&gt;`. `` ` `` → `` \` ``.
+   - Title: then remove `[`, `]`, `(`, `)`.
+   - Description: then `[` → `\[` and `]` → `\]`.
+   - Both, last: remove every `/*----` and `----*/`, repeating until none is left (after the bracket removal, verify
+     round, finding 2). Trim. Then cut the description at 500 characters, never inside an entity or after a lone `\`.
    - Nothing else changes. `a"; echo pwned; "b` holds none of these characters, so it lands verbatim. Do not strip
      quotes: the fix for the injection is item 1.
 6. **Page fetch, on the cleaned values.** Cleaned title and cleaned description both empty → fetch the page with a
    10-second timeout (`AbortSignal.timeout(10_000)`), take `<title>` and the meta description, and clean them. A fetch
-   error or timeout → exit 1. Then, as today, an empty description takes the title. Both still empty → exit 1. Title
+   error, a timeout or a non-2xx status → exit 1. Then, as today, an empty description takes the title. Both still empty → exit 1. Title
    empty but description set → the title is the link's hostname.
 7. **Failures exit 1.** In `add-link-to-week-digest.mjs`: a bad link, no `ISSUE_NUMBER`, an empty issue body, a
    GitHub error, a fetch error, or no text after item 6. In `create-week-digest.mjs`: a bad link, a list, create or
@@ -65,7 +69,8 @@ Files: `.github/workflows/add-link-to-week-digest.yml`, `scripts/add-link-to-wee
    + description format with the invisible-space line.
 
 Patterns to copy: keep the Octokit calls and the body format of the current `add-link-to-week-digest.mjs`. Keep the
-two-script, two-step shape. No new dependency, no new test harness (the repo has none).
+two-script, two-step shape. No new dependency. The verifier's `node --test` files in `scripts/__tests__/` (node:test,
+no dependency) are the offline checks for items 3 to 7: `node --test scripts/__tests__/*.test.mjs` must pass.
 
 No nested `AGENTS.md` applies (only the root one exists).
 
