@@ -34,3 +34,6 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 - `codex-review diff <base>` reviews the working tree, not a commit range. To review commits `a..b`, run it in a detached worktree at `b` (`git worktree add --detach <dir> b`), never pnpm there, and remove the worktree afterwards.
 - Gotchas: a folder where mistakes recur carries a nested `AGENTS.md` of facts (what broke, the check that catches it) beside a one-line `CLAUDE.md` containing `@AGENTS.md`. Claude Code and Codex load it when they work in that folder. When a review finds a repeatable mistake, propose one line for it rather than fixing the instance only.
 <!-- END:ai-loop -->
+
+## Gotchas
+- The blog renders issue bodies as raw HTML (`lib/markdownToHtml.ts`, `sanitize: false`). Any code that writes to an issue body must escape `\`, `<`, `>`, `&`, brackets, backticks and the `/*----` / `----*/` markers. Check: `node --test scripts/__tests__/*.test.mjs`.
