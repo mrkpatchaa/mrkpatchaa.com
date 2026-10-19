@@ -140,6 +140,20 @@ test('add-link-to-week-digest: exit codes, duplicate check and the written line'
     }
   })
 
+  await t.test('a long title with no description: the description is cut to 500, the title is kept', async () => {
+    const TITLE = 'a'.repeat(600)
+    const r = await addLink(workspace({ env: withIssue }), { LINK: 'https://example.com/long', TITLE })
+    assert.equal(r.code, 0, r.stderr)
+    assert.equal(r.state.issues[0].body, HEAD + entry(TITLE, 'https://example.com/long', 'a'.repeat(500)))
+  })
+
+  await t.test('a link with a username exits 1 before any GitHub call', async () => {
+    const r = await addLink(workspace({ env: withIssue }), { LINK: 'https://google.com@evil.example/', TITLE: 't' })
+    assert.equal(r.code, 1)
+    assert.deepEqual(r.calls, [])
+    assert.equal(r.state.issues[0].body, HEAD)
+  })
+
   await t.test('a description with no title takes the hostname as the title', async () => {
     const r = await addLink(workspace({ env: withIssue }), { LINK: 'https://Example.COM/p', DESCRIPTION: 'd' })
     assert.equal(r.code, 0, r.stderr)

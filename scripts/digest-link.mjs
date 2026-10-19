@@ -16,6 +16,7 @@ export function checkLink(raw) {
   if (url.protocol !== 'https:' && url.protocol !== 'http:') {
     throw new Error(`link protocol must be http or https, got ${url.protocol}`)
   }
+  if (url.username || url.password) throw new Error('link must not contain a username or password')
   // No ( ) to break the Markdown link, no * to rebuild a ----*/ metadata marker.
   return url.href.replace(/\(/g, '%28').replace(/\)/g, '%29').replace(/\*/g, '%2A')
 }
@@ -41,9 +42,17 @@ export function cleanTitle(raw) {
 }
 
 export function cleanDescription(raw) {
-  const text = removeMarkers(escapeText(raw).replace(/\[/g, '\\[').replace(/\]/g, '\\]'))
+  return cutDescription(removeMarkers(escapeText(raw).replace(/\[/g, '\\[').replace(/\]/g, '\\]')))
+}
+
+// Cut already-clean text to at most 500 characters (UTF-16 code units), on whole graphemes.
+export function cutDescription(text) {
   if (text.length <= MAX_DESCRIPTION_LENGTH) return text
-  let cut = text.slice(0, MAX_DESCRIPTION_LENGTH)
+  let cut = ''
+  for (const { segment } of new Intl.Segmenter(undefined, { granularity: 'grapheme' }).segment(text)) {
+    if (cut.length + segment.length > MAX_DESCRIPTION_LENGTH) break
+    cut += segment
+  }
   // Do not end inside an entity (&amp; &lt; &gt;).
   const amp = cut.lastIndexOf('&')
   if (amp > cut.lastIndexOf(';')) cut = cut.slice(0, amp)

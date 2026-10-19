@@ -5,7 +5,7 @@ import { test } from 'node:test'
 import { remark } from 'remark'
 import html from 'remark-html'
 
-import { checkLink, cleanDescription, cleanTitle } from '../digest-link.mjs'
+import { checkLink, cleanDescription, cleanTitle, cutDescription } from '../digest-link.mjs'
 
 // Same pipeline as lib/markdownToHtml.ts and the same greedy regex as lib/api.ts.
 const METADATA = /(\/\*----)([\s\S]*)(----\*\/)/
@@ -24,7 +24,7 @@ async function problemsWith(rawTitle, rawLink, rawDescription) {
     return []
   }
   let title = cleanTitle(rawTitle)
-  const description = cleanDescription(rawDescription) || title
+  const description = cleanDescription(rawDescription) || cutDescription(title)
   if (!title && !description) return []
   if (!title) title = new URL(link).hostname
   const body = `${ISSUE_HEAD}\nㅤ\n### [${title}](${link})\n${description}`
@@ -119,4 +119,22 @@ test('hostile title, description or link renders no raw HTML, no foreign link an
 test('a backtick is escaped in the title and the description', () => {
   assert.equal(cleanTitle('a`b'), 'a\\`b')
   assert.equal(cleanDescription('a`b'), 'a\\`b')
+})
+
+test('cutDescription cuts at 500 characters on whole graphemes', () => {
+  const a = (n) => 'a'.repeat(n)
+  // A 4-code-unit emoji with a skin-tone modifier is kept whole or dropped whole.
+  const emoji = cutDescription(a(499) + '\u{1F44D}\u{1F3FD}')
+  assert.equal(emoji, a(499))
+  assert.ok(emoji.isWellFormed())
+  // e + combining acute accent is one grapheme.
+  assert.equal(cutDescription(a(499) + 'e\u0301'), a(499))
+  assert.equal(cutDescription(a(500)), a(500))
+  assert.equal(cutDescription(a(501)), a(500))
+})
+
+test('checkLink refuses a username or password and normalizes the scheme', () => {
+  assert.throws(() => checkLink('https://user:pass@example.com/'), /username or password/)
+  assert.equal(checkLink('HTTPS://example.com/'), 'https://example.com/')
+  assert.equal(checkLink('https://@example.com/'), 'https://example.com/')
 })
