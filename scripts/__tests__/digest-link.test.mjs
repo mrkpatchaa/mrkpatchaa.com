@@ -115,3 +115,8 @@ test('hostile title, description or link renders no raw HTML, no foreign link an
 
   assert.deepEqual(problems.slice(0, 12), [], `${problems.length} problem(s), first 12 listed`)
 })
+
+test('a backtick is escaped in the title and the description', () => {
+  assert.equal(cleanTitle('a`b'), 'a\\`b')
+  assert.equal(cleanDescription('a`b'), 'a\\`b')
+})

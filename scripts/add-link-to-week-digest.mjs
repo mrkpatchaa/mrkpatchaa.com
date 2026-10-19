@@ -29,7 +29,9 @@ async function addLink() {
 
   if (!body) throw new Error('No Issue found')
 
-  if (body.includes(`](${link})`)) {
+  // Only a heading line counts: a link quoted in an earlier description is not a duplicate.
+  const escaped = link.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+  if (new RegExp(`^### \\[.*\\]\\(${escaped}\\)$`, 'm').test(body)) {
     console.log('already in the digest')
     return
   }
@@ -38,6 +40,7 @@ async function addLink() {
   let description = cleanDescription(process.env.DESCRIPTION)
   if (!title && !description) {
     const response = await fetch(link, { signal: AbortSignal.timeout(10_000) })
+    if (!response.ok) throw new Error(`page fetch returned ${response.status}`)
     const html = await response.text()
     const $ = cheerio.load(html)
 

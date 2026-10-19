@@ -49,6 +49,9 @@ test('add-link-to-week-digest: exit codes, duplicate check and the written line'
     res.setHeader('content-type', 'text/html')
     if (req.url === '/titled') {
       res.end('<html><head><title>Page &amp; <b>T</b></title><meta name="description" content="D [x]"></head></html>')
+    } else if (req.url === '/missing') {
+      res.statusCode = 404
+      res.end('<html><head><title>Not found</title></head></html>')
     } else res.end('<html><head></head><body>no title</body></html>')
   })
   await new Promise((resolve) => pages.listen(0, '127.0.0.1', resolve))
@@ -129,8 +132,8 @@ test('add-link-to-week-digest: exit codes, duplicate check and the written line'
     assert.equal(r.state.issues[0].body, HEAD + entry(title, `${site}/titled`, 'D \\[x\\]'))
   })
 
-  await t.test('a fetch error or a page with no text exits 1 with no update', async () => {
-    for (const LINK of [`http://127.0.0.1:${deadPort}/`, `${site}/empty`]) {
+  await t.test('a fetch error, a non-2xx page or a page with no text exits 1 with no update', async () => {
+    for (const LINK of [`http://127.0.0.1:${deadPort}/`, `${site}/missing`, `${site}/empty`]) {
       const r = await addLink(workspace({ env: withIssue }), { LINK })
       assert.equal(r.code, 1, LINK)
       assert.deepEqual(keys(r), ['GET /issues/42'], LINK)

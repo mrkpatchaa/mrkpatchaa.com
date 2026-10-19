@@ -16,28 +16,32 @@ export function checkLink(raw) {
   if (url.protocol !== 'https:' && url.protocol !== 'http:') {
     throw new Error(`link protocol must be http or https, got ${url.protocol}`)
   }
-  return url.href.replace(/\(/g, '%28').replace(/\)/g, '%29')
+  // No ( ) to break the Markdown link, no * to rebuild a ----*/ metadata marker.
+  return url.href.replace(/\(/g, '%28').replace(/\)/g, '%29').replace(/\*/g, '%2A')
 }
 
-function cleanText(raw) {
-  let text = (raw || '')
+function escapeText(raw) {
+  return (raw || '')
     .replace(/[\r\n]+/g, ' ')
+    .replace(/\\/g, '\\\\')
     .replace(/&/g, '&amp;')
     .replace(/</g, '&lt;')
     .replace(/>/g, '&gt;')
-  // Repeat: removing one marker can join the parts of another.
+    .replace(/`/g, '\\`')
+}
+
+// Last step: repeat, because removing one marker can join the parts of another.
+function removeMarkers(text) {
   while (/\/\*----|----\*\//.test(text)) text = text.replace(/\/\*----|----\*\//g, '')
   return text.trim()
 }
 
 export function cleanTitle(raw) {
-  return cleanText(raw)
-    .replace(/[[\]()]/g, '')
-    .trim()
+  return removeMarkers(escapeText(raw).replace(/[[\]()]/g, ''))
 }
 
 export function cleanDescription(raw) {
-  const text = cleanText(raw).replace(/\[/g, '\\[').replace(/\]/g, '\\]')
+  const text = removeMarkers(escapeText(raw).replace(/\[/g, '\\[').replace(/\]/g, '\\]'))
   if (text.length <= MAX_DESCRIPTION_LENGTH) return text
   let cut = text.slice(0, MAX_DESCRIPTION_LENGTH)
   // Do not end inside an entity (&amp; &lt; &gt;).
