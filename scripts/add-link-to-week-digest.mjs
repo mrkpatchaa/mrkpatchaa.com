@@ -3,6 +3,8 @@ import 'dotenv/config'
 import { Octokit } from '@octokit/rest'
 import * as cheerio from 'cheerio'
 
+import { checkLink, cleanDescription, cleanTitle } from './digest-link.mjs'
+
 const fetch = (...args) => import('node-fetch').then(({ default: fetch }) => fetch(...args))
 
 const REPO = 'mrkpatchaa.com'
@@ -12,63 +14,65 @@ const REPO_OWNER = 'mrkpatchaa'
 const octokit = new Octokit({ auth: process.env.GH_TOKEN })
 
 async function addLink() {
-  try {
-    // Check if the issue already exists with the given title
-    const {
-      data: { body },
-    } = await octokit.issues.get({
-      owner: REPO_OWNER,
-      repo: REPO,
-      issue_number: process.env.ISSUE_NUMBER,
-    })
+  // Throws on a bad link, before any GitHub call.
+  const link = checkLink(process.env.LINK)
 
-    // console.log(body);
+  if (!process.env.ISSUE_NUMBER) throw new Error('No ISSUE_NUMBER in .env')
 
-    if (!body) {
-      console.log('No Issue found')
-      return
-    }
-    try {
-      let title = process.env.TITLE
-      let description = process.env.DESCRIPTION || process.env.TITLE
-      if (!title && !description) {
-        const response = await fetch(process.env.LINK)
-        const html = await response.text()
-        const $ = cheerio.load(html)
+  const {
+    data: { body },
+  } = await octokit.issues.get({
+    owner: REPO_OWNER,
+    repo: REPO,
+    issue_number: process.env.ISSUE_NUMBER,
+  })
 
-        title = $('head title').text()
-        description =
-          process.env.DESCRIPTION ||
-          $('head meta[name="description"]').attr('content') ||
-          $('head meta[property="og:description"]').attr('content')
-      }
+  if (!body) throw new Error('No Issue found')
 
-      // For some reason We couldn't get the title or description.
-      // (Article behind a paywall like Medium, ...)
-      if (!description && !title) {
-        return
-      }
-      // Update issue with new link
-      await octokit.issues.update({
-        owner: REPO_OWNER,
-        repo: REPO,
-        issue_number: process.env.ISSUE_NUMBER,
-        body:
-          body +
-          `
-ㅤ
-### [${title}](${process.env.LINK})
-${description}`,
-      })
-      // NOTE: The invisible space is very important
-      console.log('Issue updated, link added')
-    } catch (error) {
-      console.error('Error fetching the link:', error)
-      return
-    }
-  } catch (error) {
-    console.error('Error creating the issue:', error)
+  // Only a heading line counts: a link quoted in an earlier description is not a duplicate.
+  const escaped = link.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+  if (new RegExp(`^### \\[.*\\]\\(${escaped}\\)$`, 'm').test(body)) {
+    console.log('already in the digest')
+    return
   }
+
+  let title = cleanTitle(process.env.TITLE)
+  let description = cleanDescription(process.env.DESCRIPTION)
+  if (!title && !description) {
+    const response = await fetch(link, { signal: AbortSignal.timeout(10_000) })
+    if (!response.ok) throw new Error(`page fetch returned ${response.status}`)
+    const html = await response.text()
+    const $ = cheerio.load(html)
+
+    title = cleanTitle($('head title').text())
+    description = cleanDescription(
+      $('head meta[name="description"]').attr('content') || $('head meta[property="og:description"]').attr('content')
+    )
+  }
+
+  description = description || title
+  // For some reason We couldn't get the title or description.
+  // (Article behind a paywall like Medium, ...)
+  if (!title && !description) throw new Error('No title or description for the link')
+  if (!title) title = new URL(link).hostname
+
+  // Update issue with new link
+  await octokit.issues.update({
+    owner: REPO_OWNER,
+    repo: REPO,
+    issue_number: process.env.ISSUE_NUMBER,
+    body:
+      body +
+      `
+ㅤ
+### [${title}](${link})
+${description}`,
+  })
+  // NOTE: The invisible space is very important
+  console.log('Issue updated, link added')
 }
 
-addLink()
+addLink().catch((error) => {
+  console.error('Error adding the link:', error.message || error)
+  process.exitCode = 1
+})

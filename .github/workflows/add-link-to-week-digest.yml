@@ -11,23 +11,17 @@ on:
       description:
         description: 'Enter the description'
         required: false
+concurrency:
+  group: add-link-to-week-digest
+  cancel-in-progress: false
+  queue: max
 jobs:
   add-link-to-week-digest:
-    concurrency:
-      group: ${{ github.ref }}
-      cancel-in-progress: true
     runs-on: ubuntu-latest
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
 
-      - name: create env file
-        run: |
-          touch .env
-          echo GH_TOKEN=${{ secrets.GH_TOKEN }} >> .env
-          echo LINK=${{ github.event.inputs.link }} >> .env
-          echo TITLE="${{ github.event.inputs.title }}" >> .env
-          echo DESCRIPTION="${{ github.event.inputs.description }}" >> .env
       - name: 🏗 Setup pnpm
         uses: pnpm/action-setup@0977fd99725f1db4007ccb2928dbb4e90d06cc86 # v6
         with:
@@ -37,9 +31,17 @@ jobs:
         run: pnpm install --frozen-lockfile
 
       - name: Make sure issue for current week is created
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          LINK: ${{ inputs.link }}
         run: |
           pnpm create-week-digest
 
       - name: Add link
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          LINK: ${{ inputs.link }}
+          TITLE: ${{ inputs.title }}
+          DESCRIPTION: ${{ inputs.description }}
         run: |
           pnpm add-link-to-week-digest

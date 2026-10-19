@@ -4,6 +4,8 @@ import fs from 'fs'
 
 import { Octokit } from '@octokit/rest'
 
+import { checkLink } from './digest-link.mjs'
+
 const REPO = 'mrkpatchaa.com'
 const REPO_OWNER = 'mrkpatchaa'
 
@@ -36,50 +38,44 @@ tags: Digest
 ----*/`
 
 async function createIssue() {
-  try {
-    // Check if the issue already exists with the given title
-    const { data: issues } = await octokit.issues.listForRepo({
-      owner: REPO_OWNER,
-      repo: REPO,
-      state: 'open',
-      creator: REPO_OWNER,
-      per_page: 100,
-      milestone: 1,
-    })
+  // A bad link creates no issue.
+  if (process.env.LINK) checkLink(process.env.LINK)
 
-    const existingIssue = issues.find((issue) => issue.title === issueTitle)
+  // Check if the issue already exists with the given title
+  const { data: issues } = await octokit.issues.listForRepo({
+    owner: REPO_OWNER,
+    repo: REPO,
+    state: 'open',
+    creator: REPO_OWNER,
+    per_page: 100,
+    milestone: 1,
+  })
 
-    if (existingIssue) {
-      console.log('Issue already exists:', existingIssue.html_url)
-      try {
-        fs.appendFileSync('./.env', `\nISSUE_NUMBER=${existingIssue.number}`)
-        console.log('Content appended to the file successfully.')
-      } catch (err) {
-        console.error('An error occurred while appending to the file:', err)
-      }
-      return
-    }
+  const existingIssue = issues.find((issue) => issue.title === issueTitle)
 
-    // Create a new issue with the specified title, tag, and content
-    const { data: newIssue } = await octokit.issues.create({
-      owner: REPO_OWNER,
-      repo: REPO,
-      title: issueTitle,
-      body: content,
-      labels: tags,
-      milestone: 1,
-    })
-
-    console.log('New issue created:', newIssue.html_url)
-    try {
-      fs.appendFileSync('./.env', `\nISSUE_NUMBER=${newIssue.number}`)
-      console.log('Content appended to the file successfully.')
-    } catch (err) {
-      console.error('An error occurred while appending to the file:', err)
-    }
-  } catch (error) {
-    console.error('Error creating the issue:', error)
+  if (existingIssue) {
+    console.log('Issue already exists:', existingIssue.html_url)
+    fs.appendFileSync('./.env', `\nISSUE_NUMBER=${existingIssue.number}`)
+    console.log('Content appended to the file successfully.')
+    return
   }
+
+  // Create a new issue with the specified title, tag, and content
+  const { data: newIssue } = await octokit.issues.create({
+    owner: REPO_OWNER,
+    repo: REPO,
+    title: issueTitle,
+    body: content,
+    labels: tags,
+    milestone: 1,
+  })
+
+  console.log('New issue created:', newIssue.html_url)
+  fs.appendFileSync('./.env', `\nISSUE_NUMBER=${newIssue.number}`)
+  console.log('Content appended to the file successfully.')
 }
 
-createIssue()
+createIssue().catch((error) => {
+  console.error('Error creating the issue:', error.message || error)
+  process.exitCode = 1
+})
