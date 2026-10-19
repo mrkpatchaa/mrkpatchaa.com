@@ -5,6 +5,9 @@
     "schedule:earlyMondays"
   ],
   "minimumReleaseAge": "3 days",
+  "internalChecksFilter": "strict",
+  "prCreation": "not-pending",
+  "prNotPendingHours": 96,
   "packageRules": [
     {
       "matchManagers": [
