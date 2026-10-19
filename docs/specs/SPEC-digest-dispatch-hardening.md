@@ -88,7 +88,7 @@ Other checks:
 - A dispatch with title `a"; echo pwned; "b` → the issue gets `### [a"; echo pwned; "b](<link>)`. No log line of the
   run is exactly `pwned`.
 - A dispatch with title `<img src=x onerror=alert(1)>` and description `[x](https://evil.example) ----*/` → the issue
-  holds `&lt;img src=x onerror=alert1&gt;` and `\[x\]https://evil.example` with no `----*/`. Then
+  holds `&lt;img src=x onerror=alert1&gt;` and `\[x\](https://evil.example)` with no `----*/`. Then
   `node -e` through `lib/markdownToHtml.ts`'s pipeline (`remark().use(html, { sanitize: false })`) on that line shows
   no `<img` and no `<a href="https://evil.example"`.
 - A dispatch with `link` = `javascript:alert(1)` → the run fails at the step "Make sure issue…", the issue is
