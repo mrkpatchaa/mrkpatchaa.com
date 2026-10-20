@@ -133,12 +133,6 @@ test('cutDescription cuts at 500 characters on whole graphemes', () => {
   assert.equal(cutDescription(a(501)), a(500))
 })
 
-test('checkLink refuses a username or password and normalizes the scheme', () => {
-  assert.throws(() => checkLink('https://user:pass@example.com/'), /username or password/)
-  assert.equal(checkLink('HTTPS://example.com/'), 'https://example.com/')
-  assert.equal(checkLink('https://@example.com/'), 'https://example.com/')
-})
-
 test('cutDescription on long text with entities, escapes, emoji and combining marks keeps every rule', async () => {
   // Already-clean tokens: entities and escapes as cleanDescription/cleanTitle write them, plus multi-code-unit
   // graphemes (ZWJ family, flags, skin tone, VS16, keycap, combining marks, French and Kabiyè letters).
@@ -184,8 +178,9 @@ test('cutDescription on long text with entities, escapes, emoji and combining ma
   assert.deepEqual(problems.slice(0, 8), [], `${problems.length} problem(s), first 8 listed`)
 })
 
-test('checkLink refuses any userinfo and still accepts @ outside the authority', () => {
+test('checkLink refuses any userinfo, accepts @ outside the authority and normalizes the scheme', () => {
   for (const link of [
+    'https://user:pass@example.com/',
     'https://user@example.com/',
     'https://:pass@example.com/',
     'https://user:@example.com/',
@@ -205,4 +200,6 @@ test('checkLink refuses any userinfo and still accepts @ outside the authority',
   assert.equal(checkLink('https://google.com\\@evil.example/'), 'https://google.com/@evil.example/')
   // An empty userinfo is dropped by new URL, so the written link holds no @.
   assert.equal(checkLink('https://:@example.com/'), 'https://example.com/')
+  assert.equal(checkLink('https://@example.com/'), 'https://example.com/')
+  assert.equal(checkLink('HTTPS://example.com/'), 'https://example.com/')
 })
