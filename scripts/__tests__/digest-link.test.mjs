@@ -5,7 +5,7 @@ import { test } from 'node:test'
 import { remark } from 'remark'
 import html from 'remark-html'
 
-import { checkLink, cleanDescription, cleanTitle } from '../digest-link.mjs'
+import { checkLink, cleanDescription, cleanTitle, cutDescription } from '../digest-link.mjs'
 
 // Same pipeline as lib/markdownToHtml.ts and the same greedy regex as lib/api.ts.
 const METADATA = /(\/\*----)([\s\S]*)(----\*\/)/
@@ -24,7 +24,7 @@ async function problemsWith(rawTitle, rawLink, rawDescription) {
     return []
   }
   let title = cleanTitle(rawTitle)
-  const description = cleanDescription(rawDescription) || title
+  const description = cleanDescription(rawDescription) || cutDescription(title)
   if (!title && !description) return []
   if (!title) title = new URL(link).hostname
   const body = `${ISSUE_HEAD}\nㅤ\n### [${title}](${link})\n${description}`
@@ -119,4 +119,87 @@ test('hostile title, description or link renders no raw HTML, no foreign link an
 test('a backtick is escaped in the title and the description', () => {
   assert.equal(cleanTitle('a`b'), 'a\\`b')
   assert.equal(cleanDescription('a`b'), 'a\\`b')
+})
+
+test('cutDescription cuts at 500 characters on whole graphemes', () => {
+  const a = (n) => 'a'.repeat(n)
+  // A 4-code-unit emoji with a skin-tone modifier is kept whole or dropped whole.
+  const emoji = cutDescription(a(499) + '\u{1F44D}\u{1F3FD}')
+  assert.equal(emoji, a(499))
+  assert.ok(emoji.isWellFormed())
+  // e + combining acute accent is one grapheme.
+  assert.equal(cutDescription(a(499) + 'e\u0301'), a(499))
+  assert.equal(cutDescription(a(500)), a(500))
+  assert.equal(cutDescription(a(501)), a(500))
+})
+
+test('cutDescription on long text with entities, escapes, emoji and combining marks keeps every rule', async () => {
+  // Already-clean tokens: entities and escapes as cleanDescription/cleanTitle write them, plus multi-code-unit
+  // graphemes (ZWJ family, flags, skin tone, VS16, keycap, combining marks, French and Kabiyè letters).
+  const clean = ['&amp;', '&lt;', '&gt;', '\\[', '\\]', '\\`', '\\\\', 'a', ' ', ';', '&amp;\u0301', '\\[\u0301']
+  clean.push('👨‍👩‍👧‍👦', '🇫🇷', '🇹🇬', '👍🏽', '❤️', '1️⃣', 'e\u0301', 'ɛ̀', 'ɔ́', 'ʊ̃', 'ç', 'œ')
+  const segmenter = new Intl.Segmenter(undefined, { granularity: 'grapheme' })
+  const random = mulberry32(20261020)
+  const any = (list) => list[Math.floor(random() * list.length)]
+  const problems = []
+  for (let i = 0; i < 2000; i++) {
+    let text = 'a'
+    const target = 490 + (i % 31)
+    while (text.length < target) text += any(clean)
+    const out = cutDescription(text)
+    const boundaries = new Set([0, ...[...segmenter.segment(text)].map((s) => s.index), text.length])
+    const longest = Math.max(...[...boundaries].filter((b) => b <= 500))
+    const why = []
+    if (text.length <= 500 && out !== text) why.push('short text changed')
+    if (out.length > 500) why.push('longer than 500')
+    if (!out.isWellFormed()) why.push('lone surrogate')
+    if (!text.startsWith(out)) why.push('not a prefix')
+    if (!boundaries.has(out.length)) why.push('ends inside a grapheme')
+    if (/&[a-z]*$/.test(out)) why.push('ends inside an entity')
+    if (out.match(/\\*$/)[0].length % 2) why.push('ends on a lone backslash')
+    // At most a partial entity (4 code units) and the spaces before it are dropped after the grapheme cut.
+    if (out.length < text.slice(0, Math.max(0, longest - 4)).trimEnd().length) why.push('cut too much')
+    if (why.length)
+      problems.push(`${why.join(', ')} | in=${JSON.stringify(text.slice(480))} out=${JSON.stringify(out.slice(480))}`)
+  }
+
+  // Raw long hostile text through the clean + cut + render path, as a description and as the title fallback.
+  const raw = ['[', ']', '(', ')', '\\', '&', '<', '>', '*', '/', '----', '`', 'a', ' ', '\n', '👨‍👩‍👧‍👦', '🇹🇬', 'e\u0301']
+  for (let i = 0; i < 300; i++) {
+    let text = ''
+    while (text.length < 150 + i) text += any(raw)
+    for (const found of [
+      ...(await problemsWith('t', 'https://example.com/a', text)),
+      ...(await problemsWith(text, 'https://example.com/a', '')),
+    ]) {
+      problems.push(`[render ${i}] ${found}`)
+    }
+  }
+  assert.deepEqual(problems.slice(0, 8), [], `${problems.length} problem(s), first 8 listed`)
+})
+
+test('checkLink refuses any userinfo, accepts @ outside the authority and normalizes the scheme', () => {
+  for (const link of [
+    'https://user:pass@example.com/',
+    'https://user@example.com/',
+    'https://:pass@example.com/',
+    'https://user:@example.com/',
+    'https://%75ser@example.com/',
+    'https://%40@example.com/',
+    'HTTPS://USER@EXAMPLE.COM/',
+    'http://user@example.com:8080/',
+    'https://google.com@evil.example/',
+  ]) {
+    assert.throws(() => checkLink(link), /username or password/, link)
+  }
+  // An @ in the path (Medium profile links), query or fragment is not userinfo.
+  assert.equal(checkLink('https://medium.com/@user/post'), 'https://medium.com/@user/post')
+  assert.equal(checkLink('https://example.com/?q=a@b'), 'https://example.com/?q=a@b')
+  assert.equal(checkLink('https://example.com/#a@b'), 'https://example.com/#a@b')
+  // A backslash ends the authority in http(s): the host is google.com, the @ moves into the path.
+  assert.equal(checkLink('https://google.com\\@evil.example/'), 'https://google.com/@evil.example/')
+  // An empty userinfo is dropped by new URL, so the written link holds no @.
+  assert.equal(checkLink('https://:@example.com/'), 'https://example.com/')
+  assert.equal(checkLink('https://@example.com/'), 'https://example.com/')
+  assert.equal(checkLink('HTTPS://example.com/'), 'https://example.com/')
 })

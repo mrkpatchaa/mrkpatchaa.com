@@ -140,6 +140,41 @@ test('add-link-to-week-digest: exit codes, duplicate check and the written line'
     }
   })
 
+  await t.test('a long title with no description: the description is cut to 500, the title is kept', async () => {
+    const TITLE = 'a'.repeat(600)
+    const r = await addLink(workspace({ env: withIssue }), { LINK: 'https://example.com/long', TITLE })
+    assert.equal(r.code, 0, r.stderr)
+    assert.equal(r.state.issues[0].body, HEAD + entry(TITLE, 'https://example.com/long', 'a'.repeat(500)))
+  })
+
+  await t.test('a hostile title as the description is cut once and not escaped twice', async () => {
+    const a = (n) => 'a'.repeat(n)
+    const cases = [
+      // [TITLE, written title, written description]
+      ['a &<> b', 'a &amp;&lt;&gt; b', 'a &amp;&lt;&gt; b'],
+      // 500 once escaped: kept whole. Escaped twice it would be 516 and cut.
+      [a(480) + '&&&&', a(480) + '&amp;'.repeat(4), a(480) + '&amp;'.repeat(4)],
+      // The cut lands inside &amp;: the partial entity goes, the \` before it stays.
+      [a(495) + '`&', a(495) + '\\`&amp;', a(495) + '\\`'],
+      // The cut lands between \ and `: the lone backslash goes.
+      [a(499) + '`', a(499) + '\\`', a(499)],
+      // The cut lands inside a skin-tone emoji: the whole emoji goes.
+      [a(498) + '\\👍🏽', a(498) + '\\\\👍🏽', a(498) + '\\\\'],
+    ]
+    for (const [TITLE, title, description] of cases) {
+      const r = await addLink(workspace({ env: withIssue }), { LINK: 'https://example.com/t', TITLE })
+      assert.equal(r.code, 0, r.stderr)
+      assert.equal(r.state.issues[0].body, HEAD + entry(title, 'https://example.com/t', description), TITLE.slice(-8))
+    }
+  })
+
+  await t.test('a link with a username exits 1 before any GitHub call', async () => {
+    const r = await addLink(workspace({ env: withIssue }), { LINK: 'https://google.com@evil.example/', TITLE: 't' })
+    assert.equal(r.code, 1)
+    assert.deepEqual(r.calls, [])
+    assert.equal(r.state.issues[0].body, HEAD)
+  })
+
   await t.test('a description with no title takes the hostname as the title', async () => {
     const r = await addLink(workspace({ env: withIssue }), { LINK: 'https://Example.COM/p', DESCRIPTION: 'd' })
     assert.equal(r.code, 0, r.stderr)

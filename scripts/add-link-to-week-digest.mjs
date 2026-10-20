@@ -3,7 +3,7 @@ import 'dotenv/config'
 import { Octokit } from '@octokit/rest'
 import * as cheerio from 'cheerio'
 
-import { checkLink, cleanDescription, cleanTitle } from './digest-link.mjs'
+import { checkLink, cleanDescription, cleanTitle, cutDescription } from './digest-link.mjs'
 
 const fetch = (...args) => import('node-fetch').then(({ default: fetch }) => fetch(...args))
 
@@ -50,7 +50,7 @@ async function addLink() {
     )
   }
 
-  description = description || title
+  description = description || cutDescription(title)
   // For some reason We couldn't get the title or description.
   // (Article behind a paywall like Medium, ...)
   if (!title && !description) throw new Error('No title or description for the link')
