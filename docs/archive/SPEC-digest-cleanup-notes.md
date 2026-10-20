@@ -2,7 +2,7 @@
 
 Status: **questions answered by the owner on 19 Oct 2026 (both recommendations accepted).** Lane: one small `/ai:loop` run in `mrkpatchaa.com`.
 Branch `fix/digest-cleanup-notes` from `main`.
-Source: `docs/tasks/review-notes/fix-digest-dispatch-hardening.md` (one P2, four P3), left open when
+Source: `docs/archive/fix-digest-dispatch-hardening.md` (one P2, four P3), left open when
 `docs/archive/SPEC-digest-dispatch-hardening.md` shipped in PR #277.
 
 ## 1. Today (read on 19 Oct)
@@ -23,7 +23,7 @@ Source: `docs/tasks/review-notes/fix-digest-dispatch-hardening.md` (one P2, four
 ## 2. Changes
 
 Files: `scripts/digest-link.mjs`, `scripts/add-link-to-week-digest.mjs`, `scripts/__tests__/digest-link.test.mjs`,
-`scripts/__tests__/digest-scripts.test.mjs`, `docs/tasks/review-notes/fix-digest-dispatch-hardening.md`. Nothing else.
+`scripts/__tests__/digest-scripts.test.mjs`, `docs/archive/fix-digest-dispatch-hardening.md`. Nothing else.
 
 1. **One cut function.** In `scripts/digest-link.mjs`, move the cut out of `cleanDescription` into an exported
    `cutDescription(text)`. It keeps the two rules of today (never end inside `&amp;`/`&lt;`/`&gt;`, never end on the
@@ -37,7 +37,7 @@ Files: `scripts/digest-link.mjs`, `scripts/add-link-to-week-digest.mjs`, `script
 3. **No userinfo.** `checkLink` throws `link must not contain a username or password` when `url.username` or
    `url.password` is not empty. Uppercase schemes stay accepted (`new URL` normalizes them). An empty userinfo
    (`https://@evil.example/`) is accepted: `new URL` drops the `@`, so the written link is `https://evil.example/`.
-4. **Review notes.** In `docs/tasks/review-notes/fix-digest-dispatch-hardening.md`, tick the five boxes. Add after each
+4. **Review notes.** In `docs/archive/fix-digest-dispatch-hardening.md`, tick the five boxes. Add after each
    one: `fixed in fix/digest-cleanup-notes` (P2, cut, userinfo) or `closed, owner's decision 19 Oct: <one-line
    reason from 1.4 or 1.5>` (error title, raw links). When `/ai:ship` sees no open finding, it archives the file.
 
@@ -69,7 +69,7 @@ Gates:
 
 - `node --test scripts/__tests__/*.test.mjs` → all pass (17 today, plus the new cases).
 - `pnpm exec eslint scripts/` and `pnpm typecheck` exit 0.
-- `grep -c '\- \[ \]' docs/tasks/review-notes/fix-digest-dispatch-hardening.md` → `0`.
+- `grep -c '\- \[ \]' docs/archive/fix-digest-dispatch-hardening.md` → `0`.
 
 No live dispatch: the integration tests run the real script, and the workflow file does not change.
 
