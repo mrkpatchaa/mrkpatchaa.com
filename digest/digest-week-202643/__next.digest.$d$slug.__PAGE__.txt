@@ -1,0 +1,70 @@
+1:"$Sreact.fragment"
+2:I[82309,["https://mrkpatchaa.com/_next/static/chunks/3ycd_q5vj5ovr.js","https://mrkpatchaa.com/_next/static/chunks/3-u5dy_l8ixvx.js","https://mrkpatchaa.com/_next/static/chunks/0z2ogsz6jx7w1.js"],"default"]
+4:I[5753,["https://mrkpatchaa.com/_next/static/chunks/3ycd_q5vj5ovr.js","https://mrkpatchaa.com/_next/static/chunks/3-u5dy_l8ixvx.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+9:I[5753,["https://mrkpatchaa.com/_next/static/chunks/3ycd_q5vj5ovr.js","https://mrkpatchaa.com/_next/static/chunks/3-u5dy_l8ixvx.js"],"ViewportBoundary"]
+a:I[5753,["https://mrkpatchaa.com/_next/static/chunks/3ycd_q5vj5ovr.js","https://mrkpatchaa.com/_next/static/chunks/3-u5dy_l8ixvx.js"],"MetadataBoundary"]
+:HL["https://mrkpatchaa.com/_next/static/chunks/0tp00enamqfqa.css","style"]
+3:T933,<p>ㅤ</p>
+<h3><a href="https://openai.com/index/low-resource-programming-languages">Advancing coding in low‑resource programming languages</a></h3>
+<p>Advancing coding in low‑resource programming languages
+ㅤ</p>
+<h3><a href="https://www.thoughtworks.com/insights/articles/cheaper-code-wont-kill-software-development">Cheaper code won’t kill software development, but it’s already reshaping it</a></h3>
+<p>Cheaper code won’t kill software development, but it’s already reshaping it
+ㅤ</p>
+<h3><a href="https://developers.cloudflare.com/changelog/post/2026-10-19-cloudflare-mcp-step-up/">Cloudflare API MCP server now supports step-up authorization</a></h3>
+<p>Cloudflare API MCP server now supports step-up authorization
+ㅤ</p>
+<h3><a href="https://huggingface.co/blog/anylanguagemodel-1-0">AnyLanguageModel 1.0: One Year of Local Models on Apple Platforms</a></h3>
+<p>AnyLanguageModel 1.0: One Year of Local Models on Apple Platforms
+ㅤ</p>
+<h3><a href="https://blog.octo.com/llm-local-sur-ios-27--ce-qu&#x27;apple-ne-dit-pas-dans-la-doc">LLM local sur iOS 27 : ce qu’Apple ne dit pas dans la doc - OCTO Talks !</a></h3>
+<p>LLM local sur iOS 27 : ce qu’Apple ne dit pas dans la doc - OCTO Talks !
+ㅤ</p>
+<h3><a href="https://www.latent.space/p/ainews-deepseek-deepinfer-open-source">AINews DeepSeek DeepInfer: Open Source SOTA Inference running 155T toks/day/cluster making $22m/day at ~80% margin for a</a></h3>
+<p>AINews DeepSeek DeepInfer: Open Source SOTA Inference running 155T toks/day/cluster making $22m/day at ~80% margin for a
+ㅤ</p>
+<h3><a href="https://openai.com/index/decisions-api">Build more responsive apps with the Decisions API</a></h3>
+<p>Build more responsive apps with the Decisions API
+ㅤ</p>
+<h3><a href="https://simonwillison.net/2026/Oct/22/donating-agent-skills/">Donating Agent Skills to the Agentic AI Foundation</a></h3>
+<p>Donating Agent Skills to the Agentic AI Foundation
+ㅤ</p>
+<h3><a href="https://www.thoughtworks.com/insights/blog/generative-ai/dont-ask-ai-to-write-the-user-story-yet">Don’t ask AI to write the user story yet</a></h3>
+<p>Don’t ask AI to write the user story yet
+ㅤ</p>
+<h3><a href="https://magazine.sebastianraschka.com/p/building-reasoning-models">Build Your Own Reasoning Model: A Full Video Course</a></h3>
+<p>Build Your Own Reasoning Model: A Full Video Course</p>
+8:X
+1d:X
+1d:C
+0:{"buildId":"uhzDVcAhtPlSP6ILT8zs1","data":[{"rsc":["$","$1","c",{"children":[["$","article",null,{"children":[["$","header",null,{"className":"post-heading","children":[["$","div",null,{"className":"eyebrow accent","children":["$","time",null,{"dateTime":"2026-10-20T19:40:37Z","children":"October\t20, 2026"}]}],["$","h1",null,{"className":"page-title","children":"Digest - Week 2026/43"}]]}],["$","$L2",null,{"content":"$3"}]]}],[["$","link","0",{"rel":"stylesheet","href":"https://mrkpatchaa.com/_next/static/chunks/0tp00enamqfqa.css","precedence":"next"}],["$","script","script-0",{"src":"https://mrkpatchaa.com/_next/static/chunks/0z2ogsz6jx7w1.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"isPartial":"$@7","staleTime":"$8","varyParams":null},{"rsc":["$","$1","h",{"children":[null,["$","$L9",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$La",null,{"children":["$","$5",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Digest - Week 2026/43 | Médédé Raymond KPATCHAA, a learner's blog"}],["$","meta","1",{"name":"description","content":"Médédé Raymond KPATCHAA, a learner's blog"}],["$","link","2",{"rel":"author","href":"https://github.com/mrkpatchaa"}],"$Lb","$Lc","$Ld","$Le","$Lf","$L10","$L11","$L12","$L13","$L14","$L15","$L16","$L17","$L18"]}]}]}],"$L19"]}],"isPartial":"$@1a","staleTime":"$8","varyParams":null},{"rsc":"$L1b","isPartial":"$@1c","staleTime":"$8","varyParams":"$1d"},{"rsc":"$L1e","isPartial":"$@1f","staleTime":"$8","varyParams":"$1d"}],"isUpgradeableISRFallback":false,"a":"$@20","rootVaryParams":null,"needsRuntimeRequest":"$@21"}
+22:I[15525,["https://mrkpatchaa.com/_next/static/chunks/3ycd_q5vj5ovr.js","https://mrkpatchaa.com/_next/static/chunks/3-u5dy_l8ixvx.js"],"IconMark"]
+23:I[12366,["https://mrkpatchaa.com/_next/static/chunks/3ycd_q5vj5ovr.js","https://mrkpatchaa.com/_next/static/chunks/3-u5dy_l8ixvx.js"],"default"]
+24:I[62373,["https://mrkpatchaa.com/_next/static/chunks/3ycd_q5vj5ovr.js","https://mrkpatchaa.com/_next/static/chunks/3-u5dy_l8ixvx.js"],"default"]
+6:null
+b:["$","meta","3",{"name":"author","content":"mrkpatchaa"}]
+c:["$","meta","4",{"name":"keywords","content":"mrkpatchaa,Médédé Raymond KPATCHAA"}]
+d:["$","meta","5",{"name":"creator","content":"mrkpatchaa"}]
+e:["$","link","6",{"rel":"canonical","href":"undefined/digest/digest-week-202643"}]
+f:["$","meta","7",{"property":"og:title","content":"Digest - Week 2026/43"}]
+10:["$","meta","8",{"property":"og:description","content":"Médédé Raymond KPATCHAA, a learner's blog"}]
+11:["$","meta","9",{"property":"og:site_name","content":"Médédé Raymond KPATCHAA, a learner's blog"}]
+12:["$","meta","10",{"property":"og:locale","content":"en_US"}]
+13:["$","meta","11",{"property":"og:type","content":"website"}]
+14:["$","meta","12",{"name":"twitter:card","content":"summary"}]
+15:["$","meta","13",{"name":"twitter:title","content":"Digest - Week 2026/43"}]
+16:["$","meta","14",{"name":"twitter:description","content":"Médédé Raymond KPATCHAA, a learner's blog"}]
+17:["$","link","15",{"rel":"icon","href":"/icon.png"}]
+18:["$","$L22","16",{}]
+19:["$","meta",null,{"name":"next-size-adjust","content":""}]
+1b:["$","$1","c",{"children":[null,["$","$L23",null,{"parallelRouterKey":"children","template":["$","$L24",null,{}]}]]}]
+1e:["$","$1","c",{"children":[null,["$","$L23",null,{"parallelRouterKey":"children","template":["$","$L24",null,{}]}]]}]
+21:true
+8:300
+8:C
+20:0
+1a:"$undefined"
+1c:"$undefined"
+1f:"$undefined"
+7:"$undefined"
