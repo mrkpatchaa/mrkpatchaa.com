@@ -3,7 +3,7 @@ import 'dotenv/config'
 import { Octokit } from '@octokit/rest'
 import * as cheerio from 'cheerio'
 
-import { checkLink, cleanDescription, cleanTitle, cutDescription } from './digest-link.mjs'
+import { checkLink, cleanDescription, cleanTitle, cutDescription, linkKey } from './digest-link.mjs'
 
 const fetch = (...args) => import('node-fetch').then(({ default: fetch }) => fetch(...args))
 
@@ -30,8 +30,16 @@ async function addLink() {
   if (!body) throw new Error('No Issue found')
 
   // Only a heading line counts: a link quoted in an earlier description is not a duplicate.
-  const escaped = link.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
-  if (new RegExp(`^### \\[.*\\]\\(${escaped}\\)$`, 'm').test(body)) {
+  // Two links with the same linkKey are the same page (http and https, www., a trailing slash, tracking).
+  const key = linkKey(link)
+  const sameKey = (href) => {
+    try {
+      return linkKey(href) === key
+    } catch {
+      return false
+    }
+  }
+  if ([...body.matchAll(/^### \[.*\]\(([^()\s]+)\)$/gm)].some(([, href]) => sameKey(href))) {
     console.log('already in the digest')
     return
   }

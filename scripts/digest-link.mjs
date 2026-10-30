@@ -2,6 +2,11 @@
 
 const MAX_LINK_LENGTH = 2000
 const MAX_DESCRIPTION_LENGTH = 500
+// Query keys that only track the reader, such as a newsletter's subscriber id. Keys that name the page (?v=) stay.
+const TRACKING_KEY =
+  /^(utm_.*|ck_subscriber_id|fbclid|gclid|dclid|msclkid|mc_cid|mc_eid|_hsenc|_hsmi|mkt_tok|igshid|ref_src|ref_url)$/i
+// On X the query is only tracking (?s=20&t=...).
+const X_HOSTS = new Set(['x.com', 'www.x.com', 'twitter.com', 'www.twitter.com', 'mobile.twitter.com'])
 
 // Accept only http(s) links of at most 2,000 characters. Throws with the reason.
 export function checkLink(raw) {
@@ -17,8 +22,23 @@ export function checkLink(raw) {
     throw new Error(`link protocol must be http or https, got ${url.protocol}`)
   }
   if (url.username || url.password) throw new Error('link must not contain a username or password')
+  // Split the raw query, so the kept parameters keep their order and their encoding.
+  const kept = X_HOSTS.has(url.hostname)
+    ? []
+    : url.search
+        .slice(1)
+        .split('&')
+        .filter((kv) => kv && !TRACKING_KEY.test(kv.split('=')[0]))
+  url.search = kept.length ? '?' + kept.join('&') : ''
   // No ( ) to break the Markdown link, no * to rebuild a ----*/ metadata marker.
   return url.href.replace(/\(/g, '%28').replace(/\)/g, '%29').replace(/\*/g, '%2A')
+}
+
+// The key two links share when they name the same page: no scheme, no www., no trailing slash, no fragment.
+// Throws like checkLink.
+export function linkKey(raw) {
+  const url = new URL(checkLink(raw))
+  return url.hostname.replace(/^www\./, '') + url.pathname.replace(/\/+$/, '') + url.search
 }
 
 function escapeText(raw) {

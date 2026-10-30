@@ -203,3 +203,18 @@ test('checkLink refuses any userinfo, accepts @ outside the authority and normal
   assert.equal(checkLink('https://@example.com/'), 'https://example.com/')
   assert.equal(checkLink('HTTPS://example.com/'), 'https://example.com/')
 })
+
+test('checkLink drops tracking parameters and keeps the ones that name the page, in order', () => {
+  assert.equal(
+    checkLink(
+      'https://charpeni.com/blog/post?ck_subscriber_id=1866546960&utm_source=convertkit&utm_campaign=%E2%9A%9B'
+    ),
+    'https://charpeni.com/blog/post'
+  )
+  assert.equal(
+    checkLink('https://www.youtube.com/watch?utm_medium=email&v=abc&fbclid=x&t=42#c'),
+    'https://www.youtube.com/watch?v=abc&t=42#c'
+  )
+  assert.equal(checkLink('https://x.com/user/status/1?s=20&t=abc'), 'https://x.com/user/status/1')
+  assert.equal(checkLink('https://example.com/?q=a%20b&UTM_SOURCE=x'), 'https://example.com/?q=a%20b')
+})
