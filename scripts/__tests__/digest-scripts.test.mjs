@@ -112,6 +112,22 @@ test('add-link-to-week-digest: exit codes, duplicate check and the written line'
     assert.equal(second.state.issues[0].body, HEAD + entry('t', 'https://example.com/a_%28b%29', 't'))
   })
 
+  await t.test('the same page with another scheme, www., slash or tracking is a duplicate', async () => {
+    const dir = workspace({ env: withIssue })
+    const first = await addLink(dir, { LINK: 'https://example.com/post?utm_source=a', TITLE: 't' })
+    assert.equal(first.code, 0, first.stderr)
+    for (const LINK of ['http://www.example.com/post/', 'https://example.com/post?ck_subscriber_id=1#top']) {
+      const r = await addLink(dir, { LINK, TITLE: 'other' })
+      assert.match(r.stdout, /already in the digest/, LINK)
+    }
+    const other = await addLink(dir, { LINK: 'https://example.com/post?page=2', TITLE: 'p2' })
+    assert.doesNotMatch(other.stdout, /already in the digest/)
+    assert.equal(
+      other.state.issues[0].body,
+      HEAD + entry('t', 'https://example.com/post', 't') + entry('p2', 'https://example.com/post?page=2', 'p2')
+    )
+  })
+
   await t.test('a link quoted in an earlier description is not taken for a duplicate', async () => {
     const dir = workspace({ env: withIssue })
     await addLink(dir, {
