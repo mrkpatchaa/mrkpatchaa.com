@@ -1,0 +1,178 @@
+2:"$Sreact.fragment"
+3:"https://mrkpatchaa.com/_next/static/chunks/3zkqkpfgc_zwu.js"
+4:"https://mrkpatchaa.com/_next/static/chunks/2wzjth3l72_q0.js"
+5:I[43307,["$3","$4"],"default"]
+6:I[77551,["$3","$4"],"default"]
+d:"https://mrkpatchaa.com/_next/static/chunks/0c_d8vwarnlr7.js"
+e:I[82309,["$3","$4","$d"],"default"]
+14:"ViewportBoundary"
+15:I[67318,["$3","$4"],"$14"]
+16:"MetadataBoundary"
+17:I[67318,["$3","$4"],"$16"]
+18:"$Sreact.suspense"
+19:I[49783,["$3","$4"],"IconMark"]
+8:X
+8:C
+9:X
+f:T2eb9,<p>ㅤ</p>
+<h3><a href="https://www.interconnects.ai/p/podcast-kimi-k31-pro-the-new-cyber">Podcast: Kimi K3.1 Pro, the new cyber reality, and Muse musings</a></h3>
+<p>Podcast: Kimi K3.1 Pro, the new cyber reality, and Muse musings
+ㅤ</p>
+<h3><a href="https://x.com/wesbos/status/2113249938125553867">LiDAR scan plus an LLM skill builds accurate 3D room models, checked against photos</a></h3>
+<p>LiDAR scan plus an LLM skill builds accurate 3D room models, checked against photos
+ㅤ</p>
+<h3><a href="https://omp.sh/">omp: a coding agent with LSP, DAP, memory and a native Rust core</a></h3>
+<p>omp: a coding agent with LSP, DAP, memory and a native Rust core
+ㅤ</p>
+<h3><a href="https://celld.dev/">celld: open-source, self-hosted runtime for Cloudflare Workers and Durable Objects</a></h3>
+<p>celld: open-source, self-hosted runtime for Cloudflare Workers and Durable Objects
+ㅤ</p>
+<h3><a href="https://charpeni.com/blog/enforcing-best-practices-with-jev-as-a-linter">Enforcing best practices with Jev as a linter: turning a written rule into a check that agents must pass</a></h3>
+<p>Enforcing best practices with Jev as a linter: turning a written rule into a check that agents must pass
+ㅤ</p>
+<h3><a href="https://effect.website/blog/releases/effect/40">Effect 4.0 released: a dependency-free core, about 5x smaller bundles and 86% less memory per fiber</a></h3>
+<p>Effect 4.0 released: a dependency-free core, about 5x smaller bundles and 86% less memory per fiber
+ㅤ</p>
+<h3><a href="https://github.com/EstasDespedido/supabase-audit">supabase-audit: a SQL file that flags eleven Supabase/Postgres production failure modes before they bite</a></h3>
+<p>supabase-audit: a SQL file that flags eleven Supabase/Postgres production failure modes before they bite
+ㅤ</p>
+<h3><a href="https://blog.cloudflare.com/cloudflare-basin/">Cloudflare Basin: serverless Iceberg data platform on R2 is now generally available</a></h3>
+<p>Cloudflare Basin: serverless Iceberg data platform on R2 is now generally available
+ㅤ</p>
+<h3><a href="https://blog.cloudflare.com/next-git-platform-on-cloudflare/">Cloudflare invites builders to create the next Git platform on Workers and Artifacts</a></h3>
+<p>Cloudflare invites builders to create the next Git platform on Workers and Artifacts
+ㅤ</p>
+<h3><a href="https://korben.info/windows-11-mac-apple-silicon-tart.html">Run Windows 11 on an Apple Silicon Mac with an unofficial tart fork</a></h3>
+<p>Run Windows 11 on an Apple Silicon Mac with an unofficial tart fork
+ㅤ</p>
+<h3><a href="https://github.com/browserbase/stagehand">Stagehand: SDK for browser agents that extract data and act on any site</a></h3>
+<p>Stagehand: SDK for browser agents that extract data and act on any site
+ㅤ</p>
+<h3><a href="https://openship.io/">Openship: open-source, self-hostable deploy platform with free SSL and rollbacks</a></h3>
+<p>Openship: open-source, self-hostable deploy platform with free SSL and rollbacks
+ㅤ</p>
+<h3><a href="https://github.com/openai/tart">Tart: macOS and Linux VMs on Apple Silicon for CI and automation</a></h3>
+<p>Tart: macOS and Linux VMs on Apple Silicon for CI and automation
+ㅤ</p>
+<h3><a href="https://x.com/ershus/status/2114425301065515042">Gumroad cuts about $860 a month by pulling video from S3 through CloudFront</a></h3>
+<p>Gumroad cuts about $860 a month by pulling video from S3 through CloudFront
+ㅤ</p>
+<h3><a href="https://martinfowler.com/articles/are-harnesses-worth-the-cost.html">Are Harnesses Worth the Cost?</a></h3>
+<p>Are Harnesses Worth the Cost?
+ㅤ</p>
+<h3><a href="https://simonwillison.net/2026/Oct/25/seam-cutter/">Tool: Seam Cutter</a></h3>
+<p>Tool: Seam Cutter
+ㅤ</p>
+<h3><a href="https://microsoft.developpez.com/actu/388462/Scope-la-plateforme-open-source-de-Microsoft-basee-sur-Kubernetes-et-destinee-a-l-evaluation-automatisee-des-agents-de-codage-IA-afin-d-aider-les-equipes-a-determiner-les-prochains-axes-d-amelioration/">Scope, la plateforme open source de Microsoft basï¿½e sur Kubernetes et destinï¿½e ï¿½ l’ï¿½valuation automatisï¿½e des</a></h3>
+<p>Scope, la plateforme open source de Microsoft basï¿½e sur Kubernetes et destinï¿½e ï¿½ l’ï¿½valuation automatisï¿½e des
+ㅤ</p>
+<h3><a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/">Gemini 4 Carbon: our next frontier model</a></h3>
+<p>Gemini 4 Carbon: our next frontier model
+ㅤ</p>
+<h3><a href="https://www.youtube.com/watch?v=JHEO7cplfk8">Formalizing a proof in Lean using Claude Code</a></h3>
+<p>Formalizing a proof in Lean using Claude Code
+ㅤ</p>
+<h3><a href="https://astral.sh/blog/openai">Astral to join OpenAI</a></h3>
+<p>Astral to join OpenAI
+ㅤ</p>
+<h3><a href="https://simonwillison.net/2026/Oct/26/gpt-61-terra/">GPT-6.1 Terra</a></h3>
+<p>GPT-6.1 Terra
+ㅤ</p>
+<h3><a href="https://arstechnica.com/ai/2026/03/after-outages-amazon-to-make-senior-engineers-sign-off-on-ai-assisted-changes/">After outages, Amazon to make senior engineers sign off on AI-assisted changes</a></h3>
+<p>After outages, Amazon to make senior engineers sign off on AI-assisted changes
+ㅤ</p>
+<h3><a href="https://intelligence-artificielle.developpez.com/actu/388535/Le-modele-d-IA-frontiere-de-Google-Gemini-4-Carbon-detrone-GPT-6-Astra-et-Claude-Opus-5-5-a-un-prix-inferieur-avec-des-progres-en-matiere-de-programmation-de-taches-agentiques-et-de-cybersecurite/">Le modï¿½le d’IA frontiï¿½re de Google ï¿½ Gemini 4 Carbon ï¿½ dï¿½trï¿½ne GPT-6 Astra et Claude Opus 5.5 ï¿½ un prix in</a></h3>
+<p>Le modï¿½le d’IA frontiï¿½re de Google ï¿½ Gemini 4 Carbon ï¿½ dï¿½trï¿½ne GPT-6 Astra et Claude Opus 5.5 ï¿½ un prix in
+ㅤ</p>
+<h3><a href="https://www.numerama.com/tech/2363685-mistral-large-4-est-disponible-en-poids-ouverts-ce-qui-a-change-depuis-sa-presentation.html">Nettement meilleur en code, Mistral Large 4 débarque enfin sur Hugging Face</a></h3>
+<p>Nettement meilleur en code, Mistral Large 4 débarque enfin sur Hugging Face
+ㅤ</p>
+<h3><a href="https://huggingface.co/blog/mistral-large4">Welcome Le Chonk: Mistral Large 4 on Hugging Face</a></h3>
+<p>Welcome Le Chonk: Mistral Large 4 on Hugging Face
+ㅤ</p>
+<h3><a href="https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1">Granite Switch 4.1.1 — Update models like you update software</a></h3>
+<p>Granite Switch 4.1.1 — Update models like you update software
+ㅤ</p>
+<h3><a href="https://latent.space/p/ainews-gemini-4-carbon/">Gemini 4 Carbon tops leaderboards, launches for cyber defenders — Latent Space</a></h3>
+<p>Gemini 4 Carbon tops leaderboards, launches for cyber defenders — Latent Space
+ㅤ</p>
+<h3><a href="https://intelligence-artificielle.developpez.com/actu/388565/Opera-presente-WebAI-une-proposition-de-norme-Web-permettant-aux-sites-web-et-aux-extensions-d-executer-des-modeles-d-IA-localement-dans-le-navigateur-sans-passer-par-des-serveurs-cloud/">Opera prï¿½sente WebAI, une proposition de norme Web permettant aux sites web et aux extensions d’exï¿½cuter des modï¿½l</a></h3>
+<p>Opera prï¿½sente WebAI, une proposition de norme Web permettant aux sites web et aux extensions d’exï¿½cuter des modï¿½l
+ㅤ</p>
+<h3><a href="https://simonwillison.net/2026/Oct/29/api-credits/">API credits benefit for eligible ChatGPT subscriptions</a></h3>
+<p>API credits benefit for eligible ChatGPT subscriptions
+ㅤ</p>
+<h3><a href="https://jeux.developpez.com/actu/388536/Apres-avoir-vibe-code-la-nouvelle-version-de-son-lanceur-de-jeux-Epic-Games-se-vante-d-utiliser-l-IA-pour-developper-du-code-et-des-fonctionnalites-pour-Unreal-Engine/">Aprï¿½s avoir ï¿½ vibe codï¿½ ï¿½ la nouvelle version de son lanceur de jeux, Epic Games se vante d’utiliser l’IA pour d</a></h3>
+<p>Aprï¿½s avoir ï¿½ vibe codï¿½ ï¿½ la nouvelle version de son lanceur de jeux, Epic Games se vante d’utiliser l’IA pour d
+ㅤ</p>
+<h3><a href="https://ultrathink.art/blog/sqlite-in-production-lessons">SQLite in Production: Lessons from Running a Store on a Single File Ultrathink Field Notes</a></h3>
+<p>SQLite in Production: Lessons from Running a Store on a Single File Ultrathink Field Notes
+ㅤ</p>
+<h3><a href="https://blog.cloudflare.com/dns-cache-memory-optimization-1111/">How we saved 100 terabytes of memory by optimizing 1.1.1.1’s DNS cache</a></h3>
+<p>How we saved 100 terabytes of memory by optimizing 1.1.1.1’s DNS cache
+ㅤ</p>
+<h3><a href="https://supabase.com/blog/supabase-is-acquiring-turso">Supabase is acquiring Turso</a></h3>
+<p>Supabase is acquiring Turso
+ㅤ</p>
+<h3><a href="https://shopify.engineering/helix">Helix: The internal tool powering our Shopify app’s native migration 2026 - Shopify</a></h3>
+<p>Helix: The internal tool powering our Shopify app’s native migration 2026 - Shopify
+ㅤ</p>
+<h3><a href="https://deno.com/blog/cloudflare">Deno is joining Cloudflare Deno</a></h3>
+<p>Deno is joining Cloudflare Deno
+ㅤ</p>
+<h3><a href="https://www.albertodenia.com/writing/code-is-clay-now">Code is clay now</a></h3>
+<p>Code is clay now
+ㅤ</p>
+<h3><a href="https://www.numerama.com/tech/2363685-nettement-meilleur-en-code-mistral-large-4-debarque-enfin-sur-hugging-face.html">Nettement meilleur en code, Mistral Large 4 débarque enfin sur Hugging Face</a></h3>
+<p>Nettement meilleur en code, Mistral Large 4 débarque enfin sur Hugging Face
+ㅤ</p>
+<h3><a href="https://martinfowler.com/rachels-ramblings/good-devs-wary.html">Why are good developers so wary of agentic development?</a></h3>
+<p>Why are good developers so wary of agentic development?
+ㅤ</p>
+<h3><a href="https://simonwillison.net/2026/Oct/30/nesformer/">dbreunig/nesformer</a></h3>
+<p>dbreunig/nesformer
+ㅤ</p>
+<h3><a href="https://openai.com/index/helping-websites-express-ai-training-preferences">Making it easier for websites to express AI training preferences</a></h3>
+<p>Making it easier for websites to express AI training preferences
+ㅤ</p>
+<h3><a href="https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm">www.sec.gov</a></h3>
+<p>www.sec.gov
+ㅤ</p>
+<h3><a href="https://developer.android.com/blog/posts/ai-agents-android-studio-integration">Your favorite agents are now integrated in Android Studio Android Developers’ Blog</a></h3>
+<p>Your favorite agents are now integrated in Android Studio Android Developers’ Blog
+ㅤ</p>
+<h3><a href="https://blog.octo.com/un-agent-ou-un-comite-ce-que-l&#x27;usage-des-comites-m&#x27;a-appris-depuis-leur-mise-en-place">Un agent ou un comité ? Ce que l’usage des comités m’a appris depuis leur mise en place - OCTO Talks !</a></h3>
+<p>Un agent ou un comité ? Ce que l’usage des comités m’a appris depuis leur mise en place - OCTO Talks !
+ㅤ</p>
+<h3><a href="https://xebia.com/blog/ai-token-economics-reduce-spend/">AI Token Economics: Cut Agent Costs, Keep Quality</a></h3>
+<p>AI Token Economics: Cut Agent Costs, Keep Quality
+ㅤ</p>
+<h3><a href="https://x.com/ChmalSzymon/status/2116118360270495865">Simlock: open-source tool gives each coding agent its own iOS or Android simulator or phone</a></h3>
+<p>Simlock: open-source tool gives each coding agent its own iOS or Android simulator or phone
+ㅤ</p>
+<h3><a href="https://www.numerama.com/tech/2365135-mischief-1-un-modele-video-derive-de-neurones-vivants-pardon.html">Mischief 1, un modèle vidéo « dérivé de neurones vivants » : pardon ?</a></h3>
+<p>Mischief 1, un modèle vidéo « dérivé de neurones vivants » : pardon ?
+ㅤ</p>
+<h3><a href="https://expo.dev/blog/purrkour-webgpu-typegpu-game-expo-three-days">A WebGPU cat puzzle game shipped in three days on Expo, with an AI agent as the QA team</a></h3>
+<p>A WebGPU cat puzzle game shipped in three days on Expo, with an AI agent as the QA team
+ㅤ</p>
+<h3><a href="https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/">How We Took Over ChatGPT Accounts</a></h3>
+<p>How We Took Over ChatGPT Accounts</p>
+c:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$2","c",{"children":[["$","article",null,{"children":[["$","header",null,{"className":"post-heading","children":[["$","div",null,{"className":"eyebrow accent","children":["$","time",null,{"dateTime":"2026-10-30T13:10:44Z","children":"October\t30, 2026"}]}],["$","h1",null,{"className":"page-title","children":"Digest - Week 2026/44"}]]}],["$","$Le",null,{"content":"$f"}]]}],["$L10","$L11"],"$L12"]}],"p":"$@13","v":null,"s":"$9"}}]]
+a:[["children",{"s":{"n":"slug","t":"d","k":"digest-week-202644","s":[]},"h":96,"d":{"r":["$","$2","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@b","v":"$8","s":"$9"},"c":"$Qc"}]]
+1:[["children",{"s":"digest","h":64,"d":{"r":["$","$2","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@7","v":"$8","s":"$9"},"c":"$Qa"}]]
+0:{"t":{"t":{"s":"","h":16,"c":"$Q1"},"h":{"r":["$","$2","h",{"children":[null,["$","$L15",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L17",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$18",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Digest - Week 2026/44 | Médédé Raymond KPATCHAA, a learner's blog"}],["$","meta","1",{"name":"description","content":"Médédé Raymond KPATCHAA, a learner's blog"}],["$","link","2",{"rel":"author","href":"https://github.com/mrkpatchaa"}],["$","meta","3",{"name":"author","content":"mrkpatchaa"}],["$","meta","4",{"name":"keywords","content":"mrkpatchaa,Médédé Raymond KPATCHAA"}],["$","meta","5",{"name":"creator","content":"mrkpatchaa"}],["$","link","6",{"rel":"canonical","href":"undefined/digest/digest-week-202644"}],["$","meta","7",{"property":"og:title","content":"Digest - Week 2026/44"}],["$","meta","8",{"property":"og:description","content":"Médédé Raymond KPATCHAA, a learner's blog"}],["$","meta","9",{"property":"og:site_name","content":"Médédé Raymond KPATCHAA, a learner's blog"}],["$","meta","10",{"property":"og:locale","content":"en_US"}],["$","meta","11",{"property":"og:type","content":"website"}],["$","meta","12",{"name":"twitter:card","content":"summary"}],["$","meta","13",{"name":"twitter:title","content":"Digest - Week 2026/44"}],["$","meta","14",{"name":"twitter:description","content":"Médédé Raymond KPATCHAA, a learner's blog"}],["$","link","15",{"rel":"icon","href":"/icon.png"}],["$","$L19","16",{}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@1a","v":null,"s":"$9"}},"a":"$@1b","u":"$@1c","b":"qcQGdr7epXknSiCWPT3dC"}
+1d:I[67318,["$3","$4"],"OutletBoundary"]
+:HL["https://mrkpatchaa.com/_next/static/chunks/37mx4dkfnr-gn.css","style"]
+10:["$","link","0",{"rel":"stylesheet","href":"https://mrkpatchaa.com/_next/static/chunks/37mx4dkfnr-gn.css","precedence":"next"}]
+11:["$","script","script-0",{"src":"https://mrkpatchaa.com/_next/static/chunks/0c_d8vwarnlr7.js","async":true}]
+12:["$","$L1d",null,{"children":["$","$18",null,{"name":"Next.MetadataOutlet","children":"$@1e"}]}]
+1c:true
+9:300
+1e:null
+9:C
+1b:0
+b:"$undefined"
+7:"$undefined"
+1a:"$undefined"
+13:"$undefined"
