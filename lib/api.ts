@@ -31,7 +31,7 @@ export const getAllPosts = cache(async function getAllPosts(isPage = false, dige
           issues(
             first: $num
             states: OPEN
-            filterBy: {labels: $labels, milestoneNumber: "1", states: OPEN}
+            filterBy: {labels: $labels, milestoneNumber: "1", states: OPEN, createdBy: $owner}
             orderBy: {
               field: CREATED_AT, direction: DESC
             }
