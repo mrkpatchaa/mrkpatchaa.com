@@ -1,0 +1,121 @@
+2:"$Sreact.fragment"
+3:"https://mrkpatchaa.com/_next/static/chunks/3zkqkpfgc_zwu.js"
+4:"https://mrkpatchaa.com/_next/static/chunks/2wzjth3l72_q0.js"
+5:I[43307,["$3","$4"],"default"]
+6:I[77551,["$3","$4"],"default"]
+d:"https://mrkpatchaa.com/_next/static/chunks/0c_d8vwarnlr7.js"
+e:I[82309,["$3","$4","$d"],"default"]
+14:"ViewportBoundary"
+15:I[67318,["$3","$4"],"$14"]
+16:"MetadataBoundary"
+17:I[67318,["$3","$4"],"$16"]
+18:"$Sreact.suspense"
+19:I[49783,["$3","$4"],"IconMark"]
+8:X
+8:C
+9:X
+f:T2328,<p>ㅤ</p>
+<h3><a href="https://www.numerama.com/tech/2364545-concu-pour-les-situations-durgence-cette-ia-hors-ligne-veut-vous-aider-a-survivre-a-la-fin-du-monde-ou-au-moins-a-une-panne-de-courant.html">« Conçu pour les situations d’urgence » : cette IA hors ligne veut vous aider à survivre à la fin du monde, ou au moins</a></h3>
+<p>« Conçu pour les situations d’urgence » : cette IA hors ligne veut vous aider à survivre à la fin du monde, ou au moins
+ㅤ</p>
+<h3><a href="https://simonwillison.net/2026/Nov/1/kyle-kingsbury/">A quote from Kyle Kingsbury</a></h3>
+<p>A quote from Kyle Kingsbury
+ㅤ</p>
+<h3><a href="https://www.numerama.com/tech/2365593-recreer-vos-jeux-preferes-avec-lia-cest-fini-anthropic-impose-une-nouvelle-regle.html">Recréer vos jeux préférés avec l’IA, c’est fini ? Anthropic impose une nouvelle règle</a></h3>
+<p>Recréer vos jeux préférés avec l’IA, c’est fini ? Anthropic impose une nouvelle règle
+ㅤ</p>
+<h3><a href="https://www.numerama.com/tech/2365403-agace-par-les-recommandations-de-youtube-andrej-karpathy-a-code-son-propre-youtube-en-deux-heures.html">Agacé par les recommandations de YouTube, Andrej Karpathy a codé son propre YouTube en deux heures - Numerama</a></h3>
+<p>Agacé par les recommandations de YouTube, Andrej Karpathy a codé son propre YouTube en deux heures - Numerama
+ㅤ</p>
+<h3><a href="https://www.numerama.com/tech/2365555-yann-lecun-tient-peut-etre-la-preuve-que-la-taille-dun-llm-ne-fait-pas-sa-qualite.html">Yann LeCun tient peut-être la preuve que la taille d’un LLM ne fait pas sa qualité</a></h3>
+<p>Yann LeCun tient peut-être la preuve que la taille d’un LLM ne fait pas sa qualité
+ㅤ</p>
+<h3><a href="https://hardware.developpez.com/dossiers/RAM/fonctionnement-memoire/">Article détaillant le fonctionnement de la mémoire DRAM</a></h3>
+<p>Article détaillant le fonctionnement de la mémoire DRAM
+ㅤ</p>
+<h3><a href="https://blog.octo.com/moderniser-un-systeme-legacy-avec-le-plugin-modernization-12">Plugin Modernization by Anthropic - OCTO Talks !</a></h3>
+<p>Plugin Modernization by Anthropic - OCTO Talks !
+ㅤ</p>
+<h3><a href="https://linux.developpez.com/actu/388672/Gregory-Kurtzer-fondateur-de-CentOS-et-Rocky-Linux-a-developpe-Ginux-un-noyau-independant-ecrit-en-Rust-et-compatible-avec-Linux-en-seulement-11-jours-a-l-aide-de-l-IA-GPT-5-6-Sol-d-OpenAI-Codex/">Gregory Kurtzer, fondateur de CentOS et Rocky Linux, a dï¿½veloppï¿½ Ginux, un noyau indï¿½pendant ï¿½crit en Rust et co</a></h3>
+<p>Gregory Kurtzer, fondateur de CentOS et Rocky Linux, a dï¿½veloppï¿½ Ginux, un noyau indï¿½pendant ï¿½crit en Rust et co
+ㅤ</p>
+<h3><a href="https://huggingface.co/blog/transformers-mic">Transformers Model Integration Contracts</a></h3>
+<p>Transformers Model Integration Contracts
+ㅤ</p>
+<h3><a href="https://huggingface.co/blog/ibm-research/palette-deck-building">Palette: teaching a small model to build decks in your design language</a></h3>
+<p>Palette: teaching a small model to build decks in your design language
+ㅤ</p>
+<h3><a href="https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/">Qwen 3.8 27B on my laptop can interpret model weights, too</a></h3>
+<p>Qwen 3.8 27B on my laptop can interpret model weights, too
+ㅤ</p>
+<h3><a href="https://x.com/mgorbach/status/2117697430825447839">Apple opens a developer preview letting all apps integrate with Siri</a></h3>
+<p>Apple opens a developer preview letting all apps integrate with Siri
+ㅤ</p>
+<h3><a href="https://intelligence-artificielle.developpez.com/actu/388734/La-fintech-Revolut-divise-par-dix-ses-couts-de-codage-assiste-par-l-IA-en-remplacant-les-outils-commerciaux-comme-Claude-par-un-modele-a-poids-ouverts-heberge-sur-des-GPU-Nvidia-en-interne/">La fintech Revolut divise par dix ses coï¿½ts de codage assistï¿½ par l’IA en remplaï¿½ant les outils commerciaux comme</a></h3>
+<p>La fintech Revolut divise par dix ses coï¿½ts de codage assistï¿½ par l’IA en remplaï¿½ant les outils commerciaux comme
+ㅤ</p>
+<h3><a href="https://www.frandroid.com/os/gnu-linux/3311141_apple-hardware-liberated-cette-distribution-linux-arrive-sur-les-mac-m1-m2-m3-et-neo">« Apple hardware liberated » : cette distribution Linux arrive sur les Mac M1, M2, M3 et Neo — Frandroid</a></h3>
+<p>« Apple hardware liberated » : cette distribution Linux arrive sur les Mac M1, M2, M3 et Neo — Frandroid
+ㅤ</p>
+<h3><a href="https://korben.info/gpt-6-astra-poids-qwen.html">Astra a retouché les poids de Qwen pour qu’il puisse aller jusqu’au bout de sa réflexion - Korben</a></h3>
+<p>Astra a retouché les poids de Qwen pour qu’il puisse aller jusqu’au bout de sa réflexion - Korben
+ㅤ</p>
+<h3><a href="https://openai.com/index/introducing-images-2-6">Introducing Images 2.6</a></h3>
+<p>Introducing Images 2.6
+ㅤ</p>
+<h3><a href="https://www.thoughtworks.com/insights/blog/technology-strategy/macro-trends-tech-industry-november-2026">Macro trends in the tech industry November 2026</a></h3>
+<p>Macro trends in the tech industry November 2026
+ㅤ</p>
+<h3><a href="https://blog.cloudflare.com/personal-agents-visibility-control/">See the agents, set the terms: new visibility and control for personal agents</a></h3>
+<p>See the agents, set the terms: new visibility and control for personal agents
+ㅤ</p>
+<h3><a href="https://www.thoughtworks.com/insights/blog/generative-ai/harness-is-a-product">The harness is a product</a></h3>
+<p>The harness is a product
+ㅤ</p>
+<h3><a href="https://developer.apple.com/news/?id=fk9ps3gv">Now available: Retention messages for subscriptions - Latest News - Apple Developer</a></h3>
+<p>Now available: Retention messages for subscriptions - Latest News - Apple Developer
+ㅤ</p>
+<h3><a href="https://developers.cloudflare.com/changelog/post/2026-11-04-model-aliases/">Route across a pool of models with model aliases</a></h3>
+<p>Route across a pool of models with model aliases
+ㅤ</p>
+<h3><a href="https://intelligence-artificielle.developpez.com/actu/388765/OpenAI-va-acquerir-Pierre-Computer-Company-developpeur-d-outils-de-programmation-open-source-pour-etendre-les-capacites-de-Codex-en-creation-comprehension-et-evaluation-de-logiciels/">OpenAI va acquï¿½rir Pierre Computer Company, dï¿½veloppeur d’outils de programmation open source, pour ï¿½tendre les ca</a></h3>
+<p>OpenAI va acquï¿½rir Pierre Computer Company, dï¿½veloppeur d’outils de programmation open source, pour ï¿½tendre les ca
+ㅤ</p>
+<h3><a href="https://korben.info/hatchzip.html">HatchZip - Décompresser une archive énorme sur un disque plein - Korben</a></h3>
+<p>HatchZip - Décompresser une archive énorme sur un disque plein - Korben
+ㅤ</p>
+<h3><a href="https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/">Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips</a></h3>
+<p>Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips
+ㅤ</p>
+<h3><a href="https://intelligence-artificielle.developpez.com/actu/388803/Meta-a-rachete-Conductor-une-start-up-specialisee-dans-le-codage-par-IA-qui-permet-aux-utilisateurs-de-lancer-des-projets-logiciels-en-deployant-plusieurs-agents-IA-dans-des-espaces-de-travail-paralleles/">Meta a rachetï¿½ Conductor, une start-up spï¿½cialisï¿½e dans le codage par IA qui permet aux utilisateurs de lancer des</a></h3>
+<p>Meta a rachetï¿½ Conductor, une start-up spï¿½cialisï¿½e dans le codage par IA qui permet aux utilisateurs de lancer des
+ㅤ</p>
+<h3><a href="https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/">Inside GitHub’s new Git storage architecture</a></h3>
+<p>Inside GitHub’s new Git storage architecture
+ㅤ</p>
+<h3><a href="https://x.com/opencode/status/2118895128152621153">OpenCode Browse lets an AI agent control your real browser with your tabs, logins and extensions</a></h3>
+<p>OpenCode Browse lets an AI agent control your real browser with your tabs, logins and extensions
+ㅤ</p>
+<h3><a href="https://www.journaldugeek.com/2026/11/06/ia-failles-linux-openai-gpt-6-cyber/">Cette puissante IA a généré 948 correctifs de failles Linux d’un coup : OpenAI lance GPT-6 Cyber, son nouveau modèle exp</a></h3>
+<p>Cette puissante IA a généré 948 correctifs de failles Linux d’un coup : OpenAI lance GPT-6 Cyber, son nouveau modèle exp
+ㅤ</p>
+<h3><a href="https://intelligence-artificielle.developpez.com/actu/388815/La-societe-de-cybersecurite-CrowdStrike-a-lance-un-kill-switch-d-urgence-concu-pour-desactiver-instantanement-les-agents-d-IA-malveillants-operant-au-sein-des-reseaux-d-entreprise/">La sociï¿½tï¿½ de cybersï¿½curitï¿½ CrowdStrike a lancï¿½ un ï¿½ kill switch ï¿½ d’urgence conï¿½u pour dï¿½sactiver ins</a></h3>
+<p>La sociï¿½tï¿½ de cybersï¿½curitï¿½ CrowdStrike a lancï¿½ un ï¿½ kill switch ï¿½ d’urgence conï¿½u pour dï¿½sactiver ins</p>
+c:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$2","c",{"children":[["$","article",null,{"children":[["$","header",null,{"className":"post-heading","children":[["$","div",null,{"className":"eyebrow accent","children":["$","time",null,{"dateTime":"2026-11-02T21:41:51Z","children":"November\t2, 2026"}]}],["$","h1",null,{"className":"page-title","children":"Digest - Week 2026/45"}]]}],["$","$Le",null,{"content":"$f"}]]}],["$L10","$L11"],"$L12"]}],"p":"$@13","v":null,"s":"$9"}}]]
+a:[["children",{"s":{"n":"slug","t":"d","k":"digest-week-202645","s":[]},"h":96,"d":{"r":["$","$2","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@b","v":"$8","s":"$9"},"c":"$Qc"}]]
+1:[["children",{"s":"digest","h":64,"d":{"r":["$","$2","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@7","v":"$8","s":"$9"},"c":"$Qa"}]]
+0:{"t":{"t":{"s":"","h":16,"c":"$Q1"},"h":{"r":["$","$2","h",{"children":[null,["$","$L15",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L17",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$18",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Digest - Week 2026/45 | Médédé Raymond KPATCHAA, a learner's blog"}],["$","meta","1",{"name":"description","content":"Médédé Raymond KPATCHAA, a learner's blog"}],["$","link","2",{"rel":"author","href":"https://github.com/mrkpatchaa"}],["$","meta","3",{"name":"author","content":"mrkpatchaa"}],["$","meta","4",{"name":"keywords","content":"mrkpatchaa,Médédé Raymond KPATCHAA"}],["$","meta","5",{"name":"creator","content":"mrkpatchaa"}],["$","link","6",{"rel":"canonical","href":"undefined/digest/digest-week-202645"}],["$","meta","7",{"property":"og:title","content":"Digest - Week 2026/45"}],["$","meta","8",{"property":"og:description","content":"Médédé Raymond KPATCHAA, a learner's blog"}],["$","meta","9",{"property":"og:site_name","content":"Médédé Raymond KPATCHAA, a learner's blog"}],["$","meta","10",{"property":"og:locale","content":"en_US"}],["$","meta","11",{"property":"og:type","content":"website"}],["$","meta","12",{"name":"twitter:card","content":"summary"}],["$","meta","13",{"name":"twitter:title","content":"Digest - Week 2026/45"}],["$","meta","14",{"name":"twitter:description","content":"Médédé Raymond KPATCHAA, a learner's blog"}],["$","link","15",{"rel":"icon","href":"/icon.png"}],["$","$L19","16",{}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@1a","v":null,"s":"$9"}},"a":"$@1b","u":"$@1c","b":"PX6AjVMJgnXFZocVHWlwb"}
+1d:I[67318,["$3","$4"],"OutletBoundary"]
+:HL["https://mrkpatchaa.com/_next/static/chunks/37mx4dkfnr-gn.css","style"]
+10:["$","link","0",{"rel":"stylesheet","href":"https://mrkpatchaa.com/_next/static/chunks/37mx4dkfnr-gn.css","precedence":"next"}]
+11:["$","script","script-0",{"src":"https://mrkpatchaa.com/_next/static/chunks/0c_d8vwarnlr7.js","async":true}]
+12:["$","$L1d",null,{"children":["$","$18",null,{"name":"Next.MetadataOutlet","children":"$@1e"}]}]
+1c:true
+9:300
+1e:null
+9:C
+1b:0
+b:"$undefined"
+7:"$undefined"
+1a:"$undefined"
+13:"$undefined"
