@@ -1,0 +1,79 @@
+2:"$Sreact.fragment"
+3:"https://mrkpatchaa.com/_next/static/chunks/3zkqkpfgc_zwu.js"
+4:"https://mrkpatchaa.com/_next/static/chunks/2wzjth3l72_q0.js"
+5:I[43307,["$3","$4"],"default"]
+6:I[77551,["$3","$4"],"default"]
+d:"https://mrkpatchaa.com/_next/static/chunks/0c_d8vwarnlr7.js"
+e:I[82309,["$3","$4","$d"],"default"]
+14:"ViewportBoundary"
+15:I[67318,["$3","$4"],"$14"]
+16:"MetadataBoundary"
+17:I[67318,["$3","$4"],"$16"]
+18:"$Sreact.suspense"
+19:I[49783,["$3","$4"],"IconMark"]
+8:X
+8:C
+9:X
+f:Tf3e,<p>ㅤ</p>
+<h3><a href="https://intelligence-artificielle.developpez.com/actu/388924/Un-an-apres-avoir-decide-de-generer-100-pourcent-de-son-code-source-avec-l-IA-une-entreprise-se-retrouve-face-a-un-labyrinthe-opaque-personne-ne-peut-expliquer-comment-la-majeure-partie-fonctionne/">Un an aprï¿½s avoir dï¿½cidï¿½ de gï¿½nï¿½rer 100 % de son code source avec l’IA, une entreprise se retrouve face ï¿½ un</a></h3>
+<p>Un an aprï¿½s avoir dï¿½cidï¿½ de gï¿½nï¿½rer 100 % de son code source avec l’IA, une entreprise se retrouve face ï¿½ un
+ㅤ</p>
+<h3><a href="https://www.numerama.com/tech/2371159-1-000-agents-ia-et-30-heures-pour-verifier-un-theoreme-qui-a-resiste-350-ans-le-coup-declat-danthropic-pour-lancer-claude-fable-5-2.html">1 000 agents IA et 30 heures pour vérifier un théorème qui a résisté 350 ans : le coup d’éclat d’Anthropic pour lancer C</a></h3>
+<p>1 000 agents IA et 30 heures pour vérifier un théorème qui a résisté 350 ans : le coup d’éclat d’Anthropic pour lancer C
+ㅤ</p>
+<h3><a href="https://openai.com/index/control-room">Control Room: A central system to track and stop model workloads across our research infrastructure</a></h3>
+<p>Control Room: A central system to track and stop model workloads across our research infrastructure
+ㅤ</p>
+<h3><a href="https://simonwillison.net/2026/Nov/9/llm-anthropic/">Release: llm-anthropic 0.31</a></h3>
+<p>Release: llm-anthropic 0.31
+ㅤ</p>
+<h3><a href="https://simonwillison.net/2026/Nov/9/mysterious-beeps/">Locating the source of a mysterious beep with Claude</a></h3>
+<p>Locating the source of a mysterious beep with Claude
+ㅤ</p>
+<h3><a href="https://simonwillison.net/2026/Nov/10/muse-ember/">Introducing Our Smallest, Most Efficient Model: Muse Ember</a></h3>
+<p>Introducing Our Smallest, Most Efficient Model: Muse Ember
+ㅤ</p>
+<h3><a href="https://www.lennysnewsletter.com/p/claude-fable-52-review-fast-creative">Claude Fable 5.2 review: fast, creative, and finally not annoying</a></h3>
+<p>Claude Fable 5.2 review: fast, creative, and finally not annoying
+ㅤ</p>
+<h3><a href="https://simonwillison.net/2026/Nov/11/aws-emulator/">aws-emulator</a></h3>
+<p>aws-emulator
+ㅤ</p>
+<h3><a href="https://medium.com/airbnb-engineering/skipper-airbnbs-embedded-workflow-engine-is-now-open-source-78dd354f472b?source=rss----53c7c27702d5---4">Skipper, Airbnb’s embedded workflow engine, is now open source</a></h3>
+<p>Skipper, Airbnb’s embedded workflow engine, is now open source
+ㅤ</p>
+<h3><a href="https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/">Gemini Decisions API: Fast, calibrated multimodal decisions</a></h3>
+<p>Gemini Decisions API: Fast, calibrated multimodal decisions
+ㅤ</p>
+<h3><a href="https://www.revenuecat.com/blog/engineering/apple-subscription-bundles-and-suites">Apple’s Bundles and Suites: which is right for your app? RevenueCat</a></h3>
+<p>Apple’s Bundles and Suites: which is right for your app? RevenueCat
+ㅤ</p>
+<h3><a href="https://r.mail.infoq.com/mk/cl/f/sh/WCPzyXJTZ73AtvibybPRp3NcAPkn8W9x/hMifGE6rGlhO">Cloudflare Reclaims 100 TB of RAM by Optimizing Consistent Hashing</a></h3>
+<p>Cloudflare Reclaims 100 TB of RAM by Optimizing Consistent Hashing
+ㅤ</p>
+<h3><a href="https://blog.cloudflare.com/spend-management/">Introducing Spend Management: Spending limits and alerts for Cloudflare</a></h3>
+<p>Introducing Spend Management: Spending limits and alerts for Cloudflare
+ㅤ</p>
+<h3><a href="https://korben.info/stela-macos-pc-x86-hackintosh.html">Stela - Le retour du Hackintosh ? - Korben</a></h3>
+<p>Stela - Le retour du Hackintosh ? - Korben
+ㅤ</p>
+<h3><a href="https://www.revenuecat.com/blog/engineering/apple-in-app-purchase-metadata-api-changes">Apple’s metadata API changes and RevenueCat RevenueCat</a></h3>
+<p>Apple’s metadata API changes and RevenueCat RevenueCat</p>
+c:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$2","c",{"children":[["$","article",null,{"children":[["$","header",null,{"className":"post-heading","children":[["$","div",null,{"className":"eyebrow accent","children":["$","time",null,{"dateTime":"2026-11-10T21:42:08Z","children":"November\t10, 2026"}]}],["$","h1",null,{"className":"page-title","children":"Digest - Week 2026/46"}]]}],["$","$Le",null,{"content":"$f"}]]}],["$L10","$L11"],"$L12"]}],"p":"$@13","v":null,"s":"$9"}}]]
+a:[["children",{"s":{"n":"slug","t":"d","k":"digest-week-202646","s":[]},"h":96,"d":{"r":["$","$2","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@b","v":"$8","s":"$9"},"c":"$Qc"}]]
+1:[["children",{"s":"digest","h":64,"d":{"r":["$","$2","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@7","v":"$8","s":"$9"},"c":"$Qa"}]]
+0:{"t":{"t":{"s":"","h":16,"c":"$Q1"},"h":{"r":["$","$2","h",{"children":[null,["$","$L15",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L17",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$18",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Digest - Week 2026/46 | Médédé Raymond KPATCHAA, a learner's blog"}],["$","meta","1",{"name":"description","content":"Médédé Raymond KPATCHAA, a learner's blog"}],["$","link","2",{"rel":"author","href":"https://github.com/mrkpatchaa"}],["$","meta","3",{"name":"author","content":"mrkpatchaa"}],["$","meta","4",{"name":"keywords","content":"mrkpatchaa,Médédé Raymond KPATCHAA"}],["$","meta","5",{"name":"creator","content":"mrkpatchaa"}],["$","link","6",{"rel":"canonical","href":"undefined/digest/digest-week-202646"}],["$","meta","7",{"property":"og:title","content":"Digest - Week 2026/46"}],["$","meta","8",{"property":"og:description","content":"Médédé Raymond KPATCHAA, a learner's blog"}],["$","meta","9",{"property":"og:site_name","content":"Médédé Raymond KPATCHAA, a learner's blog"}],["$","meta","10",{"property":"og:locale","content":"en_US"}],["$","meta","11",{"property":"og:type","content":"website"}],["$","meta","12",{"name":"twitter:card","content":"summary"}],["$","meta","13",{"name":"twitter:title","content":"Digest - Week 2026/46"}],["$","meta","14",{"name":"twitter:description","content":"Médédé Raymond KPATCHAA, a learner's blog"}],["$","link","15",{"rel":"icon","href":"/icon.png"}],["$","$L19","16",{}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@1a","v":null,"s":"$9"}},"a":"$@1b","u":"$@1c","b":"ePt4AeudbuKuTH_xVvg_h"}
+1d:I[67318,["$3","$4"],"OutletBoundary"]
+:HL["https://mrkpatchaa.com/_next/static/chunks/37mx4dkfnr-gn.css","style"]
+10:["$","link","0",{"rel":"stylesheet","href":"https://mrkpatchaa.com/_next/static/chunks/37mx4dkfnr-gn.css","precedence":"next"}]
+11:["$","script","script-0",{"src":"https://mrkpatchaa.com/_next/static/chunks/0c_d8vwarnlr7.js","async":true}]
+12:["$","$L1d",null,{"children":["$","$18",null,{"name":"Next.MetadataOutlet","children":"$@1e"}]}]
+1c:true
+9:300
+1e:null
+9:C
+1b:0
+b:"$undefined"
+7:"$undefined"
+1a:"$undefined"
+13:"$undefined"
